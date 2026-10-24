@@ -66,28 +66,32 @@ while read groupName; do
 done < "${groupsTemp}"
 
 # Get Available Locales
-sheet="locals";
-/bin/echo "Terminal Supported Localess" >> ${baselineFiles}_${sheet}.csv;
+sheet="locales";
+/bin/echo "Terminal Supported Locales" >> ${baselineFiles}_${sheet}.csv;
+/bin/echo "Locale" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/locale -a | /usr/bin/sort >> ${baselineFiles}_${sheet}.csv;
 
 # Get Supported Character Sets
 sheet="charactersets";
 /bin/echo "Terminal Supported Character Sets" >> ${baselineFiles}_${sheet}.csv;
+/bin/echo "Character Set" >> ${baselineFiles}_${sheet}.csv;
 /usr/libexec/PlistBuddy -c "Print :en:" /System/Library/Frameworks/Foundation.framework/Versions/C/Resources/EncodingNames.loctable | /usr/bin/awk -F " = " '{gsub("^  +","");  print $1 }' | /usr/bin/grep "(" | /usr/bin/sort >> ${baselineFiles}_${sheet}.csv;
 
 # Get Supported Code Sets
 sheet="codesets";
 /bin/echo "Terminal Supported Code Sets" >> ${baselineFiles}_${sheet}.csv;
+/bin/echo "Code Set" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/locale -m | /usr/bin/sort >> ${baselineFiles}_${sheet}.csv;
 
 # Get Supported Keyboards
 sheet="keyboards";
 /bin/echo "Terminal Supported Keyboards" >> ${baselineFiles}_${sheet}.csv;
-/usr/libexec/PlistBuddy -c "Print en" /System/Library/Keyboard Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/InfoPlist.loctable | /usr/bin/awk -F ' = ' '{ print $NF }' | /usr/bin/sort >> ${baselineFiles}_${sheet}.csv;
+/usr/libexec/PlistBuddy -c "Print en" /System/Library/Keyboard\ Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/InfoPlist.loctable | /usr/bin/awk -F ' = ' '{ print $NF }' | /usr/bin/sort >> ${baselineFiles}_${sheet}.csv;
 
 # Get Default Registered UTIs
 sheet="utis";
 /bin/echo "Universal Type Identifiers" >> ${baselineFiles}_${sheet}.csv;
+/bin/echo "UTI" >> ${baselineFiles}_${sheet}.csv;
 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -dump -apps -domain system,local,users | /usr/bin/awk -F ":               " '/claimed UTIs:/ { gsub(", ","\n"); print $NF }' | sort -u | grep -v "^dyn" >> ${baselineFiles}_${sheet}.csv;
 
 # Get Spotlight Metadata Attributes
@@ -95,7 +99,7 @@ sheet="metadata";
 /bin/echo "Spotlight Metadata Attributes" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\n' "Attribute" "Description" "Attribute Key" "Data Type" >> ${baselineFiles}_${sheet}.csv;
 metadataTemp=$(/usr/bin/mktemp -t tmp);
-/usr/bin/mdimport -X | /usr/bin/awk '/name = kMDItem|name = \"_kMDItem/{ gsub(";",""); print $NF}' | /usr/bin/sort -u >> "${metadataTemp}";
+/usr/bin/mdimport -X | /usr/bin/awk '/name = kMDItem|name = \"_kMDItem/{ gsub(";",""); print $NF}' | /usr/bin/tr -d "\042" | /usr/bin/sort -u >> "${metadataTemp}";
 while read metadataAttribute; do
 	declare -a metadata;
 	metadata=(${(s:|:)$(/usr/bin/sqlite3 reference_data.db "SELECT * FROM spotlight WHERE attribute_key = \"${metadataAttribute}\";")});
@@ -106,12 +110,16 @@ done < "${metadataTemp}"
 # Get ShareKit Extensions
 sheet="sharekit";
 /bin/echo "ShareKit Extensions"  >> ${baselineFiles}_${sheet}.csv;
+/bin/echo "Extension"  >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/defaults read /System/Library/PrivateFrameworks/ShareKit.framework/Versions/A/Resources/SHKServicesOrder.plist displayOrder | /usr/bin/awk -F '\042' '{ print $2 }' >> ${baselineFiles}_${sheet}.csv;
 
 # Get System Settings AppleScript Anchors
+# Requires Terminal automatin for System Settings.
+# tccutil list -s Automation -b com.apple.Terminal 
 sheet="applescript_anchors";
 /bin/echo "System Settings AppleScript Anchors" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/osascript -e 'tell application "System Settings" to get every anchor of every pane' 2>&1 | /usr/bin/tr '\054' '\012' | /usr/bin/tee | /usr/bin/sed 's/^ //' >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/printf '%s\t%s\n' "Pane" "Anchor" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/osascript -e 'tell application "System Settings" to get every anchor of every pane' 2>&1 | /usr/bin/sed 's/, /\n/g' | /usr/bin/sed 's/^anchor //g' | /usr/bin/awk -F " of pane id " '{ printf "%s\t%s\n", $2, $1 }' | /usr/bin/sort -u >> ${baselineFiles}_${sheet}.csv;
 
 # Get Feature Flags
 # To set Feature Flags: sudo defaults write "${appDomainPath}" "${appDomainKey}" -dict-add Enabled -bool ${keyValue};
@@ -148,6 +156,7 @@ done
 
 # Get Installed apps
 sheet="applications";
+/bin/echo "Applications" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\n' "Application" "Version" "BundleIdentifier" "Path" >> ${baselineFiles}_${sheet}.csv;
 for applicationsPaths in /System/Applications /System/Library/CoreServices/Applications /System/Volumes/Preboot/Cryptexes/App/System/Applications; do
 appsTemp=$(/usr/bin/mktemp -t tmp);
@@ -368,10 +377,17 @@ sheet="openports";
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\n' "Protocol" "Sent" "Received" "Local Address" "Foreign Address" "State" >> ${baselineFiles}_${sheet}.csv;
 /usr/sbin/netstat -an | /usr/bin/egrep "LISTEN|ESTABLISHED" | /usr/bin/awk -v OFS='\t' '{$1=$1}1' >> ${baselineFiles}_${sheet}.csv;
 
-# Get Host Info
+# Get Hostinfo
 sheet="hostinfo";
+/bin/echo "Hostinfo" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\n' "Service" "Port" >> ${baselineFiles}_${sheet}.csv;
 /bin/launchctl hostinfo | /usr/bin/sed -e 's/ port//g' -e 's/ unknown//g' | /usr/bin/awk '{ gsub(" = ","\t"); print $0 }' >> ${baselineFiles}_${sheet}.csv;
+
+# Get Network Services
+sheet="services";
+/bin/echo "Network Services" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/printf '%s\t%s\t%s\n' "Name" "Protocol" "Port" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/grep -Ev '^#' /private/etc/services | /usr/bin/awk '{ gsub("/"," "); printf "%s\t%s\t%s\n", $1, $3, $2 }' >> ${baselineFiles}_${sheet}.csv;
 
 # Security
 
@@ -389,8 +405,11 @@ done
 sheet="sip";
 bin/echo "System Integrity Protection" >> ${baselineFiles}_${sheet}.csv;
 /bin/echo "Protected items" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/printf '%s\t%s\n' "Note" "Path";
 /bin/cat /System/Library/Sandbox/rootless.conf | /usr/bin/awk 'sub("\t+","\t")' >> ${baselineFiles}_${sheet}.csv;
 /bin/echo "" >> ${baselineFiles}_${sheet}.csv;
+
+sheet="exceptions";
 /bin/echo "Hardening Exceptions" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/defaults read /System/Library/Security/HardeningExceptions.plist | /usr/bin/plutil -convert json -r -o - -- - | /usr/bin/jq -r '.|keys[]' >> ${baselineFiles}_${sheet}.csv;
 
@@ -492,7 +511,7 @@ done < "${certTemp}"
 # Get Privacy Settings
 sheet="tcc_status";
 /bin/echo "Transparency, Consent, and Control" >> ${baselineFiles}_${sheet}.csv;
-
+/usr/bin/printf '%s\t%s\t%s\t%s\n' "Service" "Description" "macOS Support" "Interface" >> ${baselineFiles}_${sheet}.csv;
 for service in $(/Volumes/Baseline/strings /System/Library/PrivateFrameworks/TCC.framework/Support/tccd | /usr/bin/grep -iEo "^kTCCService.*" | /usr/bin/sed 's/kTCCService//' | /usr/bin/grep -v "All" | /usr/bin/sort -u | /usr/bin/tr "\012" "\040"); do
 	declare -a applicationBundleIDs=("${(f)$(/usr/bin/tccutil list -s ${service} 2>/dev/null | /usr/bin/sort)}");
 	if [ "${#applicationBundleIDs[@]}"-gt 1 ]; then

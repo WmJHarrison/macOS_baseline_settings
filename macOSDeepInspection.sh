@@ -24,7 +24,7 @@ bittest() {
 				eval $(/usr/bin/stat -s "${THIS_FILE}");
 				ID_VALUE=$(eval ${ID_COMMAND});
 				CHK=$(/usr/bin/shasum -a 256 ${THIS_FILE} 2>/dev/null | /usr/bin/awk '{ print $1 }');
-				reason=$(/usr/bin/whatis "${THIS_FILE}" 2>&1 | /usr/bin/awk  -F " - " -v command="${THIS_FILE}" '$0 ~ "^" command { print $NF; exit }')
+				reason=$(/usr/bin/whatis "$(/usr/bin/basename ${THIS_FILE})" 2>&1 | /usr/bin/grep -v "nothing appropriate" | /usr/bin/awk  -F " - " -v command="$(/usr/bin/basename ${THIS_FILE})" '$0 ~ "^" command { print $NF; exit }')
 				/usr/bin/sqlite3 /Volumes/Source/security.db "INSERT OR REPLACE INTO ${TYPE} ('file','chk',\"${ID}\",'reason') VALUES (\"${THIS_FILE}\",\"${CHK}\",\"${ID_VALUE}\",\"${reason}\");";
 			fi
 		fi
@@ -76,44 +76,45 @@ typeFromSuffix() {
 				;;
 		".d") UTI="public.dtrace-script" ;; # RXT
 		".ddx") UTI="com.apple.xml-property-list" ;; # RxT
+		".dict") UTI="public.data" ;; # Rxt
 		".dll") UTI="com.microsoft.windows-dynamic-link-library" ;; # RxT
 		".groovy") UTI="public.groovy-script" ;; # RXT
+		".hook") UTI="public.shell-script" ;; # RXT
 		".jar") UTI="com.sun.java-archive" ;; # RxT
 		".jnlp") UTI="com.sun.java-web-start" ;; # RxT
 		".js") UTI="com.netscape.javascript-source" ;; # RxT
 		".keylayout") UTI="public.xml" ;; # RxT
 		".manifest") UTI="public.xml" ;; # RxT
 		".moduleLayout") UTI="public.xml" ;; # RxT
+		".mp3") UTI="public.mp3" ;; # Rxt
 		".pblangspec") UTI="public.utf8-plain-text " ;; # RxT
 		".phar") UTI="public.php-script" ;; # rxT
 		".php") UTI="public.php-script" ;; # rxT
 		".pl") UTI="public.perl-script" ;; # RXT
 		".pm") UTI="public.perl-script" ;; # RXT
+		".png") UTI="public.png" ;; # Rxt
+		".pod") UTI="" ;; # rxt
 		".py") UTI="public.python-script" ;; # rxT
 		".pyc") UTI="public.python-script" ;; # rxT # Python compiled script
 		".pyo") UTI="public.python-script" ;; # rxT # Python optimized script
 		".pyw") UTI="public.source-code" ;; # rxT # Python window file
 		".qtz") UTI="com.apple.quartz-composer-composition" ;; # RxT
-		".scpt") UTI="com.apple.applescript.script" ;; # RxT
-		".sed") UTI="public.source-code" ;; # RxT
-		".sh") UTI="public.shell-script" ;; # RXT
-		".hook") UTI="public.shell-script" ;; # RXT
-		".shook") UTI="public.shell-script" ;; # RXT
-		".xotcl") UTI="public.script" ;; # RxT # Extended Object TCL
-		".yp") UTI="public.source-code" ;; # RxT
-		".dict") UTI="public.data" ;; # Rxt
-		".mp3") UTI="public.mp3" ;; # Rxt
-		".png") UTI="public.png" ;; # Rxt
-		".pod") UTI="" ;; # rxt
 		".ru") UTI="public.ruby-rails-config" ;; # rxt # Rails configuration
+		".scpt") UTI="com.apple.applescript.script" ;; # RxT
 		".scriptSuite") UTI="com.apple.applescript.scriptsuite" ;; # rxt
 		".scriptTerminology") UTI="com.apple.xml-property-list" ;; # Rxt
 		".searchTerms") UTI="com.apple.xml-property-list" ;; # Rxt
+		".sed") UTI="public.source-code" ;; # RxT
+		".sh") UTI="public.shell-script" ;; # RXT
+		".shook") UTI="public.shell-script" ;; # RXT
 		".sis") UTI="" ;; # rxt # Symbian installation file
 		".sl") UTI="" ;; # rxT # PA-RISC2.0 shared library (HP-UNIX)
 		".slideSaver") UTI="com.apple.systempreference.screen-saver" ;; # rxt
+		".so") UTI="public.shared-library" ;;
 		".srz") UTI="public.plain-text" ;; #Rxt
-		".swift") UTI="public.swift-script" ;; 
+		".swift") UTI="public.swift-script" ;;
+		".xotcl") UTI="public.script" ;; # RxT # Extended Object TCL
+		".yp") UTI="public.source-code" ;; # RxT
 		*) typeFromSheBang ;;
 	esac
 	# R = , r =
@@ -867,6 +868,7 @@ case $(/usr/bin/sw_vers -productVersion | /usr/bin/awk -F . '{ print $1"."$2 }')
 	14.[0-7]) COLLECTION="'sonoma_base'" ;;
 	15.[0-7]) COLLECTION="'sequoia_base'" ;;
 	26.[0-7]) COLLECTION="'tahoe_base'" ;;
+	27.[0-7]) COLLECTION="'golden_gate_base'" ;;
 	*) COLLECTION="$(/bin/echo -n ${codeName} | /usr/bin/tr "[:upper:]" "[:lower:]" | /usr/bin/tr "\040" "\137")_base" ;;
 esac
 PRIORITY="0";
@@ -1094,14 +1096,23 @@ if [ -s "$APP_TEMP" ]; then
 			set -x;
 			if [ -z "$UTI" ] || [[ "$UTI" =~ ^"dyn" ]] || [ "$UTI" = "(null)" ] || [ "$UTI" = "public.folder" ]; then
 				case ${FILE_TYPE} in
+					"a /usr/bin/perl script text executable") UTI="public.perl-script" ;;
+					"a /usr/local/bin/python script text executable") UTI="public.python-script" ;;
+					"a ruby script text executable") UTI="public.ruby-script" ;;
+					"Bourne-Again shell script text executable") UTI="public.bash-script" ;;
+					"C shell script text executable") UTI="public.csh-script" ;;
 					"header for PowerPC PEF executable") UTI="com.apple.application-file" ;;
 					"Mach-O 64-bit bundle arm64") UTI="public.unix-executable" ;;
+					"Mach-O 64-bit bundle arm64e.x1") UTI="public.unix-executable" ;;
 					"Mach-O 64-bit bundle arm64e") UTI="public.unix-executable" ;;
 					"Mach-O 64-bit bundle x86_64") UTI="public.unix-executable" ;;
 					"Mach-O 64-bit dynamically linked shared library arm64") UTI="com.apple.mach-o-dylib" ;;
+					"Mach-O 64-bit dynamically linked shared library arm64e.x1") UTI="com.apple.mach-o-dylib" ;;
 					"Mach-O 64-bit dynamically linked shared library arm64e") UTI="com.apple.mach-o-dylib" ;;
 					"Mach-O 64-bit dynamically linked shared library ppc64") UTI="com.apple.mach-o-dylib" ;;
 					"Mach-O 64-bit dynamically linked shared library x86_64") UTI="com.apple.mach-o-dylib" ;;
+					"Mach-O 64-bit executable arm64") UTI="public.unix-executable" ;;
+					"Mach-O 64-bit executable arm64e.x1") UTI="public.unix-executable" ;;
 					"Mach-O 64-bit executable arm64e") UTI="public.unix-executable" ;;
 					"Mach-O 64-bit executable x86_64") UTI="public.unix-executable" ;;
 					"Mach-O 64-bit kext bundle x86_64") UTI="com.apple.mach-o-object" ;;
@@ -1111,15 +1122,10 @@ if [ -s "$APP_TEMP" ]; then
 					"Mach-O dynamically linked shared library ppc") UTI="com.apple.mach-o-dylib" ;;
 					"Mach-O executable i386") UTI="public.unix-executable" ;;
 					"Mach-O object i386") UTI="com.apple.mach-o-object" ;;
-					"POSIX shell script text executable") UTI="public.shell-script" ;;
-					"Bourne-Again shell script text executable") UTI="public.bash-script" ;;
-					"C shell script text executable") UTI="public.csh-script" ;;
 					"Paul Falstad's zsh script text executable") UTI="public.zsh-script" ;;
-					"a /usr/bin/perl script text executable") UTI="public.perl-script" ;;
-					"a /usr/local/bin/python script text executable") UTI="public.python-script" ;;
-					"python script text executable") UTI="public.python-script" ;;
-					"a ruby script text executable") UTI="public.ruby-script" ;;
 					"POSIX shell script text executable") typeFromSuffix ;;
+					"POSIX shell script text executable") UTI="public.shell-script" ;;
+					"python script text executable") UTI="public.python-script" ;;
 					*) typeFromSuffix ;;
 				esac
 			fi
@@ -1127,12 +1133,14 @@ if [ -s "$APP_TEMP" ]; then
 				getLibInfo "${FILE_PATH}";
 			fi
 			# Get Man pages
-			manualPage=$(/usr/bin/whatis "${FILE_NAME}" 2>&1 | /usr/bin/awk -v command="${FILE_NAME}" '$0 ~ "^" command { print $1; exit }');
+			manualPage=$(/usr/bin/whatis "${FILE_NAME}" 2>&1 | /usr/bin/awk -v command="${FILE_NAME}" '$0 ~ "^" command { print $1; exit }' | /usr/bin/sed 's/,//g' | /usr/bin/grep -v ":");
 			# Get Source
 			executableCommand=$(/usr/bin/basename "${FILE_PATH}");
-			source="https://github.com/apple-oss-distributions/$(/usr/bin/sqlite3 /Volumes/Source/reference_data.db "SELECT project FROM cmds_src WHERE command = \"${executableCommand}\";")";
+			source=$(/usr/bin/sqlite3 /Volumes/Source/reference_data.db "SELECT project FROM cmds_src WHERE command = \"${executableCommand}\";")
 			if [ -z "${source}" ]; then
 				source="NULL";
+			else
+				source="https://github.com/apple-oss-distributions/${source}";
 			fi
 			/usr/bin/sqlite3 /Volumes/Source/security.db "INSERT OR REPLACE INTO executables VALUES ('${FILE_PATH}','${FILE_MODE}','${FILE_OWNER}','${FILE_GROUP}','${CRC32}','${INSTALL_DATE}','${UTI}','${VERSION}','${manualPage}', '${source}');";
 		fi

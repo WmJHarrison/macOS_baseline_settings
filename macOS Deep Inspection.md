@@ -29,6 +29,8 @@
 
 - In Terminal enter: `/usr/bin/osascript -e 'tell application "System Settings"' -e 'activate' -e 'reveal pane id "com.apple.settings.PrivacySecurity.extension"' -e 'get anchor of pane "Privacy & Security"' -e 'end tell' 2>/dev/null`
 - Click the Allow button in the "Terminal" wants access to control "System Settings" window.
+- In Terminal enter: `/usr/bin/osascript -e 'tell application "System Events"' -e 'set prefPath to (path to preferences from user domain as text) & ".GlobalPreferences.plist"' -e 'tell property list file prefPath to set Language to value of property list item "AppleLanguages"' -e 'end tell' `
+- Click the Allow button in the "Terminal" wants access to control "System Events" window.
 
 7. Add Terminal to the Full Disk Access
 
