@@ -1,0 +1,99 @@
+CacheDelete purgable space
+CACHE_DELETE_ID	CACHE_DELETE_SERVICES	CACHE_DELETE_NOTIFICATIONS	CACHE_DELETE_USER_AGENT	CACHE_DELETE_DO_NOT_QUERY
+com.apple.revisiond.cache-delete	(
+    PURGE,
+    PERIODIC
+)		1	1
+com.apple.geod.cachedelete	(
+    PURGE
+)	(
+    "CACHE_DELETE_CACHE_ENABLED"
+)	1	
+com.apple.cache_delete_orphan_dir_handler	(
+    PURGEABLE,
+    PURGE
+)			
+com.apple.installd.CacheDelete	(
+    PURGE
+)			
+com.apple.spotlightknowledged.updater.cachedelete	(
+    PURGE
+)			
+com.apple.quicklook.ThumbnailsAgent.CacheDelete	(
+    PURGE,
+    PERIODIC
+)		1	
+com.apple.abm.cache-delete	(
+    PERIODIC
+)			
+com.apple.deleted_helper	(
+    PURGE,
+    PERIODIC
+)			
+com.apple.TMCacheDelete				
+com.apple.metadata.mds.cachedelete	(
+    PURGE,
+    PERIODIC
+)			
+com.apple.logd.cachedelete	(
+    PURGE,
+    PERIODIC
+)			
+com.apple.mobileassetd.cache-delete	(
+    PURGE
+)			
+com.apple.osanalytics.user.cachedelete	(
+    PURGEABLE,
+    PURGE,
+    PERIODIC
+)		1	
+com.apple.triald.cache-delete	(
+    PURGE
+)			
+com.apple.system_installd.CacheDelete	(
+    PURGE
+)			
+com.apple.photolibraryd.cacheDelete		(
+    "CACHE_DELETE_PURGE_NOTIFICATION"
+)		
+com.apple.corespotlightd.cachedelete	(
+    PURGE
+)			
+com.apple.cloudd.system.cache-delete	(
+    PURGE,
+    PERIODIC
+)		0	
+com.apple.deleted_helper.purge_specific_apps	(
+    PURGEABLE,
+    PURGE
+)			
+com.apple.appstoreagent.CacheDelete	(
+    PURGE
+)		1	
+com.apple.replayd-cache-delete	(
+    PURGE,
+    PERIODIC
+)		1	
+com.apple.cloudd.cache-delete	(
+    PURGE,
+    PERIODIC
+)		1	
+com.apple.symptomsd-diag.CacheDelete	(
+    PERIODIC
+)			
+com.apple.FileProvider.cache-delete		(
+    "CACHE_DELETE_CACHE_ENABLED"
+)	1	0
+com.apple.diskimagesiod.cachedelete	(
+    PERIODIC
+)			
+com.apple.sysdiagnose.CacheDelete	(
+    PERIODIC
+)			
+com.apple.AssetCache.builtin.CacheDelete	(
+    PURGE,
+    PERIODIC
+)			
+com.apple.triald.system.cache-delete	(
+    PURGE
+)			

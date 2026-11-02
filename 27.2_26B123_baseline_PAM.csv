@@ -1,0 +1,152 @@
+Pluggable Authentication Modules
+authorization
+Function Class	Control Flags	Module Arguments
+auth	optional	pam_krb5.so use_first_pass use_kcminit no_auth_ccache
+auth	optional	pam_ntlm.so use_first_pass
+auth	required	pam_opendirectory.so use_first_pass nullok
+account	required	pam_opendirectory.so
+authorization_aks
+Function Class	Control Flags	Module Arguments
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+authorization_ctk
+Function Class	Control Flags	Module Arguments
+auth	required	pam_smartcard.so 		use_first_pass pkinit
+account	required	pam_opendirectory.so	non_password_auth
+authorization_la
+Function Class	Control Flags	Module Arguments
+auth	required	pam_localauthentication.so
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+authorization_lacont
+Function Class	Control Flags	Module Arguments
+auth	required	pam_localauthentication.so continuityunlock
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+checkpw
+Function Class	Control Flags	Module Arguments
+auth	required	pam_opendirectory.so use_first_pass nullok
+account	required	pam_opendirectory.so no_check_home no_check_shell
+chkpasswd
+Function Class	Control Flags	Module Arguments
+auth	required	pam_opendirectory.so
+account	required	pam_opendirectory.so
+password	required	pam_permit.so
+session	required	pam_permit.so
+cups
+Function Class	Control Flags	Module Arguments
+auth	required	pam_opendirectory.so
+account	required	pam_permit.so
+password	required	pam_deny.so
+session	required	pam_permit.so
+login
+Function Class	Control Flags	Module Arguments
+auth	optional	pam_krb5.so use_kcminit
+auth	optional	pam_ntlm.so try_first_pass
+auth	optional	pam_mount.so try_first_pass
+auth	required	pam_opendirectory.so try_first_pass
+account	required	pam_nologin.so
+account	required	pam_opendirectory.so
+password	required	pam_opendirectory.so
+session	required	pam_launchd.so
+session	required	pam_uwtmp.so
+session	optional	pam_mount.so
+login.term
+Function Class	Control Flags	Module Arguments
+account	required	pam_nologin.so
+account	required	pam_opendirectory.so
+session	required	pam_uwtmp.so
+other
+Function Class	Control Flags	Module Arguments
+auth	required	pam_deny.so
+account	required	pam_deny.so
+password	required	pam_deny.so
+session	required	pam_deny.so
+passwd
+Function Class	Control Flags	Module Arguments
+auth	required	pam_permit.so
+account	required	pam_opendirectory.so
+password	required	pam_opendirectory.so
+session	required	pam_permit.so
+screensaver
+Function Class	Control Flags	Module Arguments
+auth	optional	pam_krb5.so use_first_pass use_kcminit
+auth	required	pam_opendirectory.so use_first_pass nullok
+account	required	pam_opendirectory.so
+account	sufficient	pam_self.so
+account	required	pam_group.so no_warn group=admin,wheel fail_safe
+account	required	pam_group.so no_warn deny group=admin,wheel ruser fail_safe
+screensaver_aks
+Function Class	Control Flags	Module Arguments
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+account	sufficient	pam_self.so
+account	required	pam_group.so no_warn group=admin,wheel fail_safe
+account	required	pam_group.so no_warn deny group=admin,wheel ruser fail_safe
+screensaver_ctk
+Function Class	Control Flags	Module Arguments
+auth	required	pam_smartcard.so			use_first_pass
+account	required	pam_opendirectory.so	non_password_auth
+account	sufficient	pam_self.so
+account	required	pam_group.so no_warn group=admin,wheel fail_safe
+account	required	pam_group.so no_warn deny group=admin,wheel ruser fail_safe
+screensaver_la
+Function Class	Control Flags	Module Arguments
+auth	required	pam_localauthentication.so
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+account	sufficient	pam_self.so
+account	required	pam_group.so no_warn group=admin,wheel fail_safe
+account	required	pam_group.so no_warn deny group=admin,wheel ruser fail_safe
+screensaver_new
+Function Class	Control Flags	Module Arguments
+auth	optional	pam_krb5.so use_first_pass use_kcminit no_auth_ccache
+auth	optional	pam_ntlm.so use_first_pass
+auth	required	pam_opendirectory.so use_first_pass nullok
+account	required	pam_opendirectory.so
+screensaver_new_aks
+Function Class	Control Flags	Module Arguments
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+screensaver_new_ctk
+Function Class	Control Flags	Module Arguments
+auth	required	pam_smartcard.so 		use_first_pass pkinit
+account	required	pam_opendirectory.so	non_password_auth
+screensaver_new_la
+Function Class	Control Flags	Module Arguments
+auth	required	pam_localauthentication.so
+auth	required	pam_aks.so
+account	required	pam_opendirectory.so
+smbd
+Function Class	Control Flags	Module Arguments
+sshd
+Function Class	Control Flags	Module Arguments
+auth	optional	pam_krb5.so use_kcminit
+auth	optional	pam_ntlm.so try_first_pass
+auth	optional	pam_mount.so try_first_pass
+auth	required	pam_opendirectory.so try_first_pass
+account	required	pam_nologin.so
+account	required	pam_sacl.so sacl_service=ssh
+account	required	pam_opendirectory.so
+password	required	pam_opendirectory.so
+session	required	pam_launchd.so
+session	optional	pam_mount.so
+su
+Function Class	Control Flags	Module Arguments
+auth	sufficient	pam_rootok.so 
+auth	required	pam_opendirectory.so
+account	required	pam_group.so no_warn group=admin,wheel ruser root_only fail_safe
+account	required	pam_opendirectory.so no_check_shell
+password	required	pam_opendirectory.so
+session	required	pam_launchd.so
+sudo
+Function Class	Control Flags	Module Arguments
+auth	include	sudo_local
+auth	sufficient	pam_smartcard.so
+auth	required	pam_opendirectory.so
+account	required	pam_permit.so
+password	required	pam_deny.so
+session	required	pam_permit.so
+sudo_local.template
+Function Class	Control Flags	Module Arguments
+#auth	sufficient	pam_tid.so

@@ -1,0 +1,222 @@
+Endpoint Security Events
+Event	Constant	Category	Introduced In	Description
+access	ES_EVENT_TYPE_NOTIFY_ACCESS	File-System Events	10.15.1	An identifier for a process that notifies endpoint security that it is checking a file’s access permission
+authentication	ES_EVENT_TYPE_NOTIFY_AUTHENTICATION	Authentication Events	13.0	An identifier for a process that has requested permission to perform an action that requires authentication
+authorization_judgement	ES_EVENT_TYPE_NOTIFY_AUTHORIZATION_JUDGEMENT	Authorization Events	14.0	An identifier for a process that has had it’s right petition judged.
+authorization_petition	ES_EVENT_TYPE_NOTIFY_AUTHORIZATION_PETITION	Authorization Events	14.0	An identifier for a process that has requested a set of authorization rights
+btm_launch_item_add	ES_EVENT_TYPE_NOTIFY_BTM_LAUNCH_ITEM_ADD	BTM Events	13.0	An identifier for a process that has added a new item to the Background Task Management (BTM) database.
+btm_launch_item_remove	ES_EVENT_TYPE_NOTIFY_BTM_LAUNCH_ITEM_REMOVE	BTM Events	13.0	An identifier for a process that has removed a new item to the Background Task Management (BTM) database.
+chdir	ES_EVENT_TYPE_NOTIFY_CHDIR	Process Events	10.15.1	An identifier for a process that notifies endpoint security that it is changing the working directory for the process.
+chroot	ES_EVENT_TYPE_NOTIFY_CHROOT	Process Events	10.15.1	An identifier for a process that notifies endpoint security that it is changing the root directory for the process.
+clone	ES_EVENT_TYPE_NOTIFY_CLONE	File-System Events	10.15.1	An identifier for a process that notifies endpoint security that it is cloning a file.
+close	ES_EVENT_TYPE_NOTIFY_CLOSE	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is closing a file.
+copyfile	ES_EVENT_TYPE_NOTIFY_COPYFILE	File-System Events	12.0	An identifier for a process that notifies endpoint security that it is copying a file.
+create	ES_EVENT_TYPE_NOTIFY_CREATE	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is creating a file.
+cs_invalidated	ES_EVENT_TYPE_NOTIFY_CS_INVALIDATED	Code Signing Events	11.0	An identifier for a process that notifies endpoint security that its code signing status is now invalid.
+deleteextattr	ES_EVENT_TYPE_NOTIFY_DELETEEXTATTR	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is deleting an extended attribute from a file.
+dup	ES_EVENT_TYPE_NOTIFY_DUP	File-System Events	10.15.1	An identifier for a process that notifies endpoint security that it is duplicating a file descriptor.
+exchangedata	ES_EVENT_TYPE_NOTIFY_EXCHANGEDATA	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is exchanging data between two files.
+exec	ES_EVENT_TYPE_NOTIFY_EXEC	Process Events	10.15	An identifier for a process that notifies endpoint security that it is executing an image.
+exit	ES_EVENT_TYPE_NOTIFY_EXIT	Process Events	10.15	An identifier for a process that notifies endpoint security that it is exiting.
+fcntl	ES_EVENT_TYPE_NOTIFY_FCNTL	File-System Events	10.15.1	An identifier for a process that notifies endpoint security that it is manipulating a file descriptor.
+file_provider_materialize	ES_EVENT_TYPE_NOTIFY_FILE_PROVIDER_MATERIALIZE	File Provider Events	10.15	An identifier for a process that notifies endpoint security that a file provider returned a reference to a file.
+file_provider_update	ES_EVENT_TYPE_NOTIFY_FILE_PROVIDER_UPDATE	File Provider Events	10.15	An identifier for a process that notifies endpoint security that it is updating a file.
+fork	ES_EVENT_TYPE_NOTIFY_FORK	Process Events	10.15	An identifier for a process that notifies endpoint security that it is forking another process.
+fsgetpath	ES_EVENT_TYPE_NOTIFY_FSGETPATH	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is retrieving a file system path.
+gatekeeper_user_override	ES_EVENT_TYPE_NOTIFY_GATEKEEPER_USER_OVERRIDE	Gatekeeper Override Events	15.0	An identifier for a process that has been given explicit override of a Gatekeeper policy by a user.
+get_task	ES_EVENT_TYPE_NOTIFY_GET_TASK	Task Port Events	10.15	An identifier for a process that notifies endpoint security that it is retrieving the task control port for another process.
+get_task_inspect	ES_EVENT_TYPE_NOTIFY_GET_TASK_INSPECT	Task Port Events	11.3	An identifier for a process that notifies endpoint security that it is retrieving the task inspect port for another process.
+get_task_name	ES_EVENT_TYPE_NOTIFY_GET_TASK_NAME	Task Port Events	11.0	An identifier for a process that notifies endpoint security that it is retrieving the task name port for another process.
+get_task_read	ES_EVENT_TYPE_NOTIFY_GET_TASK_READ	Task Port Events	11.3	An identifier for a process that notifies endpoint security that it is retrieving the task read port for another process.
+getattrlist	ES_EVENT_TYPE_NOTIFY_GETATTRLIST	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is retrieving attributes from a file.
+getextattr	ES_EVENT_TYPE_NOTIFY_GETEXTATTR	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is retrieving an extended attribute from a file.
+iokit_open	ES_EVENT_TYPE_NOTIFY_IOKIT_OPEN	Kernel Events	10.15	An identifier for a process that notifies endpoint security that it is opening an IOKit device.
+kextload	ES_EVENT_TYPE_NOTIFY_KEXTLOAD	Kernel Events	10.15	An identifier for a process that notifies endpoint security that it is loading a kernel extension (KEXT).
+kextunload	ES_EVENT_TYPE_NOTIFY_KEXTUNLOAD	Kernel Events	10.15	An identifier for a process that notifies endpoint security that it is unloading a kernel extension (KEXT).
+link	ES_EVENT_TYPE_NOTIFY_LINK	Symbolic Link Events	10.15	An identifier for a process that notifies endpoint security that it is creating a hard link.
+listextattr	ES_EVENT_TYPE_NOTIFY_LISTEXTATTR	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is retrieving multiple extended attributes from a file.
+login_login	ES_EVENT_TYPE_NOTIFY_LOGIN_LOGIN	Login Events	13.0	An identifier for a successful authenticated login event from a /usr/bin/login process.
+login_logout	ES_EVENT_TYPE_NOTIFY_LOGIN_LOGOUT	Login Events	13.0	An identifier for a successful authenticated logout event from a /usr/bin/login process.
+lookup	ES_EVENT_TYPE_NOTIFY_LOOKUP	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is looking up a file’s path.
+lw_session_lock	ES_EVENT_TYPE_NOTIFY_LW_SESSION_LOCK	LoginWindow Events	13.0	An identifier for the LoginWindow process successfully locked the screen of a session.
+lw_session_login	ES_EVENT_TYPE_NOTIFY_LW_SESSION_LOGIN	LoginWindow Events	13.0	An identifier for the LoginWindow process successfully logged in a user.
+lw_session_logout	ES_EVENT_TYPE_NOTIFY_LW_SESSION_LOGOUT	LoginWindow Events	13.0	An identifier for the LoginWindow process successfully logged out a user.
+lw_session_unlock	ES_EVENT_TYPE_NOTIFY_LW_SESSION_UNLOCK	LoginWindow Events	13.0	An identifier for the LoginWindow process successfully unlocked the screen of a session.
+mmap	ES_EVENT_TYPE_NOTIFY_MMAP	Memory Mapping Events	10.15	An identifier for a process that notifies endpoint security that it is mapping a file into memory.
+mount	ES_EVENT_TYPE_NOTIFY_MOUNT	File System Mounting Events	10.15	An identifier for a process that notifies endpoint security that it is mounting a file system.
+mprotect	ES_EVENT_TYPE_NOTIFY_MPROTECT	Memory Mapping Events	10.15	An identifier for a process that notifies endpoint security that it is changing the protection of memory-mapped pages.
+od_attribute_set	ES_EVENT_TYPE_NOTIFY_OD_ATTRIBUTE_SET	OpenDirectory Events	14.0	Notification that an OpenDirectory attribute is being set.
+od_attribute_value_add	ES_EVENT_TYPE_NOTIFY_OD_ATTRIBUTE_VALUE_ADD	OpenDirectory Events	14.0	Notification that an OpenDirectory attribute has been added
+od_attribute_value_remove	ES_EVENT_TYPE_NOTIFY_OD_ATTRIBUTE_VALUE_REMOVE	OpenDirectory Events	14.0	Notification that an OpenDirectory attribute has been removed
+od_create_group	ES_EVENT_TYPE_NOTIFY_OD_CREATE_GROUP	OpenDirectory Events	14.0	Notification that an OpenDirectory group has been created
+od_create_user	ES_EVENT_TYPE_NOTIFY_OD_CREATE_USER	OpenDirectory Events	14.0	Notification that an OpenDirectory user has been created
+od_delete_group	ES_EVENT_TYPE_NOTIFY_OD_DELETE_GROUP	OpenDirectory Events	14.0	Notification that an OpenDirectory group has been deleted
+od_delete_user	ES_EVENT_TYPE_NOTIFY_OD_DELETE_USER	OpenDirectory Events	14.0	Notification that an OpenDirectory user has been deleted
+od_disable_user	ES_EVENT_TYPE_NOTIFY_OD_DISABLE_USER	OpenDirectory Events	14.0	Notification that an OpenDirectory user has been disabled
+od_enable_user	ES_EVENT_TYPE_NOTIFY_OD_ENABLE_USER	OpenDirectory Events	14.0	Notification that an OpenDirectory user has been enabled
+od_group_add	ES_EVENT_TYPE_NOTIFY_OD_GROUP_ADD	OpenDirectory Events	14.0	Notification that an member has been added to an OpenDirectory group
+od_group_remove	ES_EVENT_TYPE_NOTIFY_OD_GROUP_REMOVE	OpenDirectory Events	14.0	Notification that an member has been removed to an OpenDirectory group
+od_group_set	ES_EVENT_TYPE_NOTIFY_OD_GROUP_SET	OpenDirectory Events	14.0	Notification that an member has been added to an OpenDirectory group
+od_modify_password	ES_EVENT_TYPE_NOTIFY_OD_MODIFY_PASSWORD	OpenDirectory Events	14.0	Notification that an OpenDirectory password has been modified
+open	ES_EVENT_TYPE_NOTIFY_OPEN	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is opening a file.
+openssh_login	ES_EVENT_TYPE_NOTIFY_OPENSSH_LOGIN	OpenSSH Events	13.0	Notification that an OpenSSH login occured
+openssh_logout	ES_EVENT_TYPE_NOTIFY_OPENSSH_LOGOUT	OpenSSH Events	13.0	Notification that an OpenSSH logout occured
+proc_check	ES_EVENT_TYPE_NOTIFY_PROC_CHECK	Process Events	10.15.4	An identifier for a process that notifies endpoint security that it is checking information about another process.
+proc_suspend_resume	ES_EVENT_TYPE_NOTIFY_PROC_SUSPEND_RESUME	Interprocess Events	11.0	An identifier for a process that notifies endpoint security that it is suspending, resuming, or shutting down sockets for another process.
+profile_add	ES_EVENT_TYPE_NOTIFY_PROFILE_ADD	Device Management Events	14.0	Notification that an Management Profile has been added
+profile_remove	ES_EVENT_TYPE_NOTIFY_PROFILE_REMOVE	Device Management Events	14.0	Notification that an Management Profile has been removed
+pty_close	ES_EVENT_TYPE_NOTIFY_PTY_CLOSE	Pseudoterminal Events	10.15.4	An identifier for a process that notifies endpoint security that it is closing a pseudoterminal device.
+pty_grant	ES_EVENT_TYPE_NOTIFY_PTY_GRANT	Pseudoterminal Events	10.15.4	An identifier for a process that notifies endpoint security that it is granting a pseudoterminal device to a user.
+readdir	ES_EVENT_TYPE_NOTIFY_READDIR	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is reading a file system directory.
+readlink	ES_EVENT_TYPE_NOTIFY_READLINK	Symbolic Link Events	10.15	An identifier for a process that notifies endpoint security that it is reading a symbolic link.
+remote_thread_create	ES_EVENT_TYPE_NOTIFY_REMOTE_THREAD_CREATE	Interprocess Events	11.0	An identifier for a process that notifies endpoint security that it is spawning a thread in another process.
+remount	ES_EVENT_TYPE_NOTIFY_REMOUNT	File System Mounting Events	11.0	An identifier for a process that notifies endpoint security that it is remounting a file system.
+rename	ES_EVENT_TYPE_NOTIFY_RENAME	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is renaming a file.
+screensharing_attach	ES_EVENT_TYPE_NOTIFY_SCREENSHARING_ATTACH	ScreenSharing Events	13.0	Notification that a ScreenSharing session has been initiated
+screensharing_detach	ES_EVENT_TYPE_NOTIFY_SCREENSHARING_DETACH	ScreenSharing Events	13.0	Notification that a ScreenSharing session has been ended
+searchfs	ES_EVENT_TYPE_NOTIFY_SEARCHFS	File-System Events	11.0	An identifier for a process that notifies endpoint security that it is searching a volume or mounted file system.
+setacl	ES_EVENT_TYPE_NOTIFY_SETACL	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is setting a file’s access control list.
+setattrlist	ES_EVENT_TYPE_NOTIFY_SETATTRLIST	File Metadata Events	10.15	An identifier for a process that notifies endpoint security that it is setting attributes of a file.
+setegid	ES_EVENT_TYPE_NOTIFY_SETEGID	User and Group ID Events	12.0	An identifier for a process that notifies endpoint security that it is setting its effective group ID.
+seteuid	ES_EVENT_TYPE_NOTIFY_SETEUID	User and Group ID Events	12.0	An identifier for a process that notifies endpoint security that it is setting its effective user ID.
+setextattr	ES_EVENT_TYPE_NOTIFY_SETEXTATTR	File Metadata Events	10.15	An identifier for a process that notifies endpoint security that it is setting an extended attribute of a file.
+setflags	ES_EVENT_TYPE_NOTIFY_SETFLAGS	File Metadata Events	10.15	An identifier for a process that notifies endpoint security that it is setting a file’s flags.
+setgid	ES_EVENT_TYPE_NOTIFY_SETGID	User and Group ID Events	12.0	An identifier for a process that notifies endpoint security that it is setting its group ID.
+setmode	ES_EVENT_TYPE_NOTIFY_SETMODE	File Metadata Events	10.15	An identifier for a process that notifies endpoint security that it is setting a file’s mode.
+setowner	ES_EVENT_TYPE_NOTIFY_SETOWNER	File Metadata Events	10.15	An identifier for a process that notifies endpoint security that it is setting a file’s owner.
+setregid	ES_EVENT_TYPE_NOTIFY_SETREGID	User and Group ID Events	12.0	An identifier for a process that notifies endpoint security that it is setting its real and effective group IDs.
+setreuid	ES_EVENT_TYPE_NOTIFY_SETREUID	User and Group ID Events	12.0	An identifier for a process that notifies endpoint security that it is setting its real and effective user IDs.
+settime	ES_EVENT_TYPE_NOTIFY_SETTIME	Clock Events	10.15.1	An identifier for a process that notifies endpoint security that it is modifying the system time.
+setuid	ES_EVENT_TYPE_NOTIFY_SETUID	User and Group ID Events	12.0	An identifier for a process that notifies endpoint security that it is setting its user ID.
+signal	ES_EVENT_TYPE_NOTIFY_SIGNAL	Process Events	10.15	An identifier for a process that notifies endpoint security that it is sending a signal to another process.
+stat	ES_EVENT_TYPE_NOTIFY_STAT	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is retrieving a file’s status.
+su	ES_EVENT_TYPE_NOTIFY_SU	User Substitution Events	14.0	Notification that substitute user identity
+sudo	ES_EVENT_TYPE_NOTIFY_SUDO	User Substitution Events	14.0	Notification that execute a command as a substitute user
+tcc_modify	ES_EVENT_TYPE_NOTIFY_TCC_MODIFY	Privacy Controls Events	15.4	An identifier for a process that notifies endpoint security that it is modifying the TCC database.
+trace	ES_EVENT_TYPE_NOTIFY_TRACE	Interprocess Events	11.0	An identifier for a process that notifies endpoint security that it is attaching to another process.
+truncate	ES_EVENT_TYPE_NOTIFY_TRUNCATE	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is truncating a file.
+uipc_bind	ES_EVENT_TYPE_NOTIFY_UIPC_BIND	Socket Events	10.15.1	An identifier for a process that notifies endpoint security that it is binding a UNIX domain socket.
+uipc_connect	ES_EVENT_TYPE_NOTIFY_UIPC_CONNECT	Socket Events	10.15.1	An identifier for a process that notifies endpoint security that it is connecting to a UNIX domain socket.
+unlink	ES_EVENT_TYPE_NOTIFY_UNLINK	Symbolic Link Events	10.15	An identifier for a process that notifies endpoint security that it is deleting a file.
+unmount	ES_EVENT_TYPE_NOTIFY_UNMOUNT	File System Mounting Events	10.15	An identifier for a process that notifies endpoint security that it is unmounting a file system.
+utimes	ES_EVENT_TYPE_NOTIFY_UTIMES	File Metadata Events	10.15.1	An identifier for a process that notifies endpoint security that it is changing a file’s access or modification time.
+write	ES_EVENT_TYPE_NOTIFY_WRITE	File-System Events	10.15	An identifier for a process that notifies endpoint security that it is writing data to a file.
+xp_malware_detected	ES_EVENT_TYPE_NOTIFY_XP_MALWARE_DETECTED	XProtect Events	13.0	XProtect has detected Malware
+xp_malware_remediated	ES_EVENT_TYPE_NOTIFY_XP_MALWARE_REMEDIATED	XProtect Events	13.0	XProtect Remediate has remediated Malware
+xpc_connect	ES_EVENT_TYPE_NOTIFY_XPC_CONNECT	XPC Events	14.0	An XPC connection has been initieated
+access
+authentication
+authorization_judgement
+authorization_petition
+bootstrap_check_in
+bootstrap_look_up
+btm_launch_item_add
+btm_launch_item_remove
+chdir
+chroot
+clone
+close
+copyfile
+create
+cs_invalidated
+deleteextattr
+dup
+exception_deliver
+exchangedata
+exec
+exit
+fcntl
+file_provider_materialize
+file_provider_update
+fork
+fsgetpath
+gatekeeper_user_override
+get_task
+get_task_inspect
+get_task_name
+get_task_read
+getattrlist
+getextattr
+iokit_open
+kextload
+kextunload
+link
+listextattr
+login_login
+login_logout
+lookup
+lw_session_lock
+lw_session_login
+lw_session_logout
+lw_session_unlock
+map_anon
+mmap
+mount
+mprotect
+od_attribute_set
+od_attribute_value_add
+od_attribute_value_remove
+od_create_group
+od_create_user
+od_delete_group
+od_delete_user
+od_disable_user
+od_enable_user
+od_group_add
+od_group_remove
+od_group_set
+od_modify_password
+open
+openssh_login
+openssh_logout
+proc_check
+proc_suspend_resume
+profile_add
+profile_remove
+pty_close
+pty_grant
+readdir
+readlink
+remote_thread_create
+remount
+rename
+screensharing_attach
+screensharing_detach
+searchfs
+set_cs_info
+set_host_exception_port
+set_host_special_port
+set_task_exception_port
+set_task_special_port
+set_thread_exception_port
+setacl
+setattrlist
+setegid
+seteuid
+setextattr
+setflags
+setgid
+setmode
+setowner
+setregid
+setreuid
+settime
+setuid
+sigaction
+signal
+stat
+su
+sudo
+tcc_modify
+thread_set_state
+trace
+truncate
+uipc_bind
+uipc_connect
+unlink
+unmount
+utimes
+write
+xp_malware_detected
+xp_malware_remediated
+xpc_connect

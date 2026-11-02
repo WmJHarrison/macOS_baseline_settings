@@ -1,0 +1,3 @@
+Socket Listeners
+Service	Service Name	LaunchDaemon
+/usr/sbin/cupsd	SockPathName = /private/var/run/cupsd	cupsd

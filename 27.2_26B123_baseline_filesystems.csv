@@ -1,0 +1,9 @@
+Supported File Systems
+Format	MS-DOS (FAT12)	MS-DOS (FAT)	MS-DOS (FAT16)	MS-DOS (FAT32)	Mac OS Extended	Mac OS Extended (Case-sensitive)	Mac OS Extended (Case-sensitive, Journaled)	Mac OS Extended (Journaled)	ExFAT	APFS (Case-sensitive)	APFS	Free Space	Linux Swap	Linux Native	
+MinimumSize	32768	32768	4299161	34603008	524288	4194304	9437184	9437184	1048576	8388608	8388608	0	0	0	
+MaximumSize	133169152	8796093022208	2147483648	8796093022208	9223372034707292160	9223372034707292160	9223372034707292160	9223372034707292160	144115188075855872	9223372034707292160	9223372034707292160	0	0	0	
+Resizable	false	false	false	false	false	false	true	true	false	false	false	false	false	false	
+Single Volume	true	true	true	true	false	false	false	false	false	false	false	false	false	false	
+Bootable	false	false	false	false	true	true	true	true	false	true	true	false	false	false	
+Required Driver	true	true	true	true	false	true	true	false	true	true	true	true	true	true	
+Driver	/System/Library/Filesystems/msdos.fs	/System/Library/Filesystems/msdos.fs	/System/Library/Filesystems/msdos.fs	/System/Library/Filesystems/msdos.fs	/System/Library/Filesystems/hfs.fs	/System/Library/Filesystems/hfs.fs	/System/Library/Filesystems/hfs.fs	/System/Library/Filesystems/hfs.fs	/System/Library/Filesystems/exfat.fs	/System/Library/Filesystems/apfs.fs	/System/Library/Filesystems/apfs.fs				

@@ -1,0 +1,83 @@
+Applications
+Application	Version	BundleIdentifier	Path
+Siri	1.0	com.apple.siri.launcher	/System/Applications/Siri.app
+Music	1.7.2	com.apple.Music	/System/Applications/Music.app
+FindMy	5.0	com.apple.findmy	/System/Applications/FindMy.app
+QuickTime Player	10.5	com.apple.QuickTimePlayerX	/System/Applications/QuickTime Player.app
+Chess	3.18	com.apple.Chess	/System/Applications/Chess.app
+Games	1.0	com.apple.games	/System/Applications/Games.app
+Photo Booth	13.1	com.apple.PhotoBooth	/System/Applications/Photo Booth.app
+Books	9.0	com.apple.iBooksX	/System/Applications/Books.app
+Weather	6.0	com.apple.weather	/System/Applications/Weather.app
+WeatherMenu	6.0	com.apple.weather.menu	/System/Applications/Weather.app/Contents/Library/LoginItems/WeatherMenu.app
+Notes	4.13	com.apple.Notes	/System/Applications/Notes.app
+Image Capture	8.0	com.apple.Image_Capture	/System/Applications/Image Capture.app
+Home	11.0	com.apple.Home	/System/Applications/Home.app
+Freeform	5.1	com.apple.freeform	/System/Applications/Freeform.app
+Siri AI	1.0	com.apple.campo	/System/Applications/Siri AI.app
+Passwords	3.2	com.apple.Passwords	/System/Applications/Passwords.app
+PasswordsMenuBarExtra	27.2	com.apple.Passwords.MenuBarExtra	/System/Applications/Passwords.app/Contents/Library/LoginItems/PasswordsMenuBarExtra.app
+Preview	11.0	com.apple.Preview	/System/Applications/Preview.app
+News	12.1	com.apple.news	/System/Applications/News.app
+TextEdit	1.21	com.apple.TextEdit	/System/Applications/TextEdit.app
+Podcasts	1.1.0	com.apple.podcasts	/System/Applications/Podcasts.app
+System Settings	1.0	com.apple.systempreferences	/System/Applications/System Settings.app
+TV	1.7.2	com.apple.TV	/System/Applications/TV.app
+Apps	1.0	com.apple.apps.launcher	/System/Applications/Apps.app
+Stocks	8.0	com.apple.stocks	/System/Applications/Stocks.app
+Mail	16.0	com.apple.mail	/System/Applications/Mail.app
+Dictionary	2.3.0	com.apple.Dictionary	/System/Applications/Dictionary.app
+Contacts	14.0	com.apple.AddressBook	/System/Applications/Contacts.app
+Time Machine	1.3	com.apple.backup.launcher	/System/Applications/Time Machine.app
+AirPort Utility	6.3.9	com.apple.airport.airportutility	/System/Applications/Utilities/AirPort Utility.app
+VoiceOver Utility	10	com.apple.VoiceOverUtility	/System/Applications/Utilities/VoiceOver Utility.app
+VoiceOver Utility	10	com.apple.VoiceOverUtilityCacheBuilder	/System/Applications/Utilities/VoiceOver Utility.app/Contents/OtherBinaries/VoiceOverUtilityCacheBuilder.app
+Terminal	2.15	com.apple.Terminal	/System/Applications/Utilities/Terminal.app
+Activity Monitor	10.14	com.apple.ActivityMonitor	/System/Applications/Utilities/Activity Monitor.app
+Screenshot	1.0	com.apple.screenshot.launcher	/System/Applications/Utilities/Screenshot.app
+Grapher	2.8	com.apple.grapher	/System/Applications/Utilities/Grapher.app
+Audio MIDI Setup	3.9	com.apple.audio.AudioMIDISetup	/System/Applications/Utilities/Audio MIDI Setup.app
+Screen Sharing	7.1	com.apple.ScreenSharing	/System/Applications/Utilities/Screen Sharing.app
+System Information	11.0	com.apple.SystemProfiler	/System/Applications/Utilities/System Information.app
+Print Center	1.0	com.apple.printcenter	/System/Applications/Utilities/Print Center.app
+Migration Assistant	27.2	com.apple.MigrateAssistant	/System/Applications/Utilities/Migration Assistant.app
+Script Editor	2.11	com.apple.ScriptEditor2	/System/Applications/Utilities/Script Editor.app
+ColorSync Utility	12.2.0	com.apple.ColorSyncUtility	/System/Applications/Utilities/ColorSync Utility.app
+Console	1.1	com.apple.Console	/System/Applications/Utilities/Console.app
+Disk Utility	22.7	com.apple.DiskUtility	/System/Applications/Utilities/Disk Utility.app
+Bluetooth File Exchange	9.0	com.apple.BluetoothFileExchange	/System/Applications/Utilities/Bluetooth File Exchange.app
+Digital Color Meter	6.12	com.apple.DigitalColorMeter	/System/Applications/Utilities/Digital Color Meter.app
+Magnifier	1.0	com.apple.Magnifier	/System/Applications/Utilities/Magnifier.app
+Font Book	11.0	com.apple.FontBook	/System/Applications/Font Book.app
+FaceTime	36	com.apple.FaceTime	/System/Applications/FaceTime.app
+Shortcuts	10.0	com.apple.shortcuts	/System/Applications/Shortcuts.app
+Maps	3.0	com.apple.Maps	/System/Applications/Maps.app
+Mission Control	1.2	com.apple.exposelauncher	/System/Applications/Mission Control.app
+Stickies	10.3	com.apple.Stickies	/System/Applications/Stickies.app
+Photos	12.0	com.apple.Photos	/System/Applications/Photos.app
+Messages	26.0	com.apple.MobileSMS	/System/Applications/Messages.app
+iPhone Mirroring	2.1	com.apple.ScreenContinuity	/System/Applications/iPhone Mirroring.app
+Calculator	12.0	com.apple.calculator	/System/Applications/Calculator.app
+VoiceMemos	4.0	com.apple.VoiceMemos	/System/Applications/VoiceMemos.app
+Journal	3.0	com.apple.journal	/System/Applications/Journal.app
+Image Playground	1.0	com.apple.GenerativePlaygroundApp	/System/Applications/Image Playground.app
+Reminders	7.0	com.apple.reminders	/System/Applications/Reminders.app
+App Store	3.0	com.apple.AppStore	/System/Applications/App Store.app
+Phone	1.0	com.apple.mobilephone	/System/Applications/Phone.app
+Clock	1.1	com.apple.clock	/System/Applications/Clock.app
+Automator	2.10	com.apple.Automator	/System/Applications/Automator.app
+Tips	27.2	com.apple.helpviewer	/System/Applications/Tips.app
+Calendar	27.0	com.apple.iCal	/System/Applications/Calendar.app
+DVD Player	6.0	com.apple.DVDPlayer	/System/Library/CoreServices/Applications/DVD Player.app
+Feedback Assistant	5.1	com.apple.appleseed.FeedbackAssistant	/System/Library/CoreServices/Applications/Feedback Assistant.app
+Desk View	2.0	com.apple.DeskCam	/System/Library/CoreServices/Applications/Desk View.app
+Expansion Slot Utility	2.0	com.apple.ExpansionSlotUtility	/System/Library/CoreServices/Applications/Expansion Slot Utility.app
+Keychain Access	11.0	com.apple.keychainaccess	/System/Library/CoreServices/Applications/Keychain Access.app
+Ticket Viewer	4.1	com.apple.Ticket-Viewer	/System/Library/CoreServices/Applications/Ticket Viewer.app
+Directory Utility	7.0	com.apple.DirectoryUtility	/System/Library/CoreServices/Applications/Directory Utility.app
+Wireless Diagnostics	11.0	com.apple.wifi.diagnostics	/System/Library/CoreServices/Applications/Wireless Diagnostics.app
+iOS App Installer	1.0	com.apple.IPAInstaller	/System/Library/CoreServices/Applications/iOS App Installer.app
+About This Mac	1.0	com.apple.AboutThisMacLauncher	/System/Library/CoreServices/Applications/About This Mac.app
+Folder Actions Setup	1.2	com.apple.FolderActionsSetup	/System/Library/CoreServices/Applications/Folder Actions Setup.app
+Archive Utility	10.15	com.apple.archiveutility	/System/Library/CoreServices/Applications/Archive Utility.app
+Safari	27.2	com.apple.Safari	/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app
