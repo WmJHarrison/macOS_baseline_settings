@@ -1,0 +1,2 @@
+Authorization Services
+type	name	allow-root	authenticate-user	class	comment	created	default-button	default-prompt	entitled	entitled-group	extract-password	group	identifier	k-of-n	mechanisms	modified	password-only	require-apple-signed	requirement	rule	session-owner	shared	timeout	tries	version	vpn-entitled-group
