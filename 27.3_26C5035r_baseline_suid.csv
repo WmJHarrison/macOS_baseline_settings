@@ -1,0 +1,19 @@
+Set User ID on Execute
+File	Hash	Owner	Description	
+/usr/bin/top	4621de9a435d0526ac008a5e5f4da00c405eda87c76763c41b9092d0fe37838d	0	display sorted information about processes
+/usr/bin/atq	ee2536e0b94f3c7ddf1d8021e4e7f3821cf773138a71a93d26e8ad92cb74f949	0	
+/usr/bin/crontab	1c16a31642cf70294b3b0e6297f4ca1d3b8060e06ef960ea6b355253f632ba72	0	maintain crontab files for individual users (V3)
+/usr/bin/atrm	0342f0201e21adf46f55e37baba113d6bc20813e01a8f67f0bf96df55f49a5ad	0	
+/usr/bin/newgrp	dbbdc5e47ecfd2ae6ad9c40bf6f31034ae44ea1d4c149764e8772dbfe7712e36	0	change to a new group
+/usr/bin/su	b121dee46fed7c89ebb06361dafda00785e01bf4abf856ea4f67414b3cb38b14	0	substitute user identity
+/usr/bin/batch	ee2536e0b94f3c7ddf1d8021e4e7f3821cf773138a71a93d26e8ad92cb74f949	0	
+/usr/bin/at	0342f0201e21adf46f55e37baba113d6bc20813e01a8f67f0bf96df55f49a5ad	0	queue, examine or delete jobs for later execution
+/usr/bin/quota	1ffa2a0343f0775bd89db077aaf079dd042f5c89aba1cf20bd743ebb91582bb1	0	display disk usage and limits
+/usr/bin/sudo	66d3d711aacf350d038f0d05a05181f2686744d046a94422da504538b1e0b8aa	0	execute a command as another user
+/usr/bin/login	a5d1420a2ccd658e929beeaf9aa93dd9c638d4ccf9175477c1b98463087d3b32	0	log into the computer
+/usr/libexec/security_authtrampoline	75a83fa367689fd5f0b7065c7d12fde3a27a0606b1a3f488df185385d30a6b41	0	Trampoline used by AuthorizationExecuteWithPrivileges from Security.framework
+/usr/libexec/authopen	370d6f35157f34ecf136f374e66e0348afe96caa6300e2d6f215416bf94dd869	0	open file with authorization
+/usr/sbin/traceroute6	de6fce629efbaea68a4706ac65dfe65cc09115c5f92c67de46699599f5df8fea	0	print the route IPv6 packets will take to a network node
+/usr/sbin/traceroute	49791e6c3a21d25a560b70cb1fbf180304f2647467a4a6641b8a3ad76ecc3c2d	0	print the route packets take to network host
+/bin/ps	7eba8b4255ff9f95ddaa3f5a43b08593735bfde008a24f5ad635bf4653673fc1	0	process status
+/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/MacOS/ARDAgent	5296319e505dad05395486a29228e733020c5184ec732fe2022a851bfe3f73a8	0	Apple Remote Desktop Agent

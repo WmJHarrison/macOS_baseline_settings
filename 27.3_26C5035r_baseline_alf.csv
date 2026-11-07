@@ -1,0 +1,9 @@
+Application Firewall
+Application	Alias	BundleIdentifier	State
+remoted	/usr/libexec/remoted	com.apple.remoted	1
+python3	/usr/bin/python3	com.apple.dt.xcode_select.tool-shim-public	1
+ruby	/usr/bin/ruby	com.apple.ruby	1
+cupsd	/usr/sbin/cupsd	com.apple.cupsd	1
+sharingd	/usr/libexec/sharingd	com.apple.sharingd	1
+sshd-keygen-wrapper	/usr/libexec/sshd-keygen-wrapper	com.apple.sshd-keygen-wrapper	1
+smbd	/usr/sbin/smbd	com.apple.smbd	0

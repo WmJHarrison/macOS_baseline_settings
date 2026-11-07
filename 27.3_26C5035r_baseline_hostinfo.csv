@@ -1,0 +1,42 @@
+Hostinfo
+Service	Port
+host-host (restricted)	0x1c03
+host-host private (restricted)	0xe0b host
+host-I/O main (restricted)	0xf03
+host-user notification	0x1003
+host-automounter	0x1903
+host-lockd	0x1803
+host-ktrace background notification	0x1103
+host-seatbelt	0x1703
+host-kextd	0x1203
+host-fairplay	0x1303
+host-amfi	0x1403
+host-gssd	0x1503
+host-telemetry	0x1603
+host-coalition notification	0x2003
+host-sysdiagnose notification	0x2103
+host-resource notify	0x2203
+host-syspolicyd	0x2303
+host-filecoordinationd	0x2903
+host-fairplayd	0x2803
+host-memory error stats	0x2403
+host-doubleagentd	0x2503
+exception	0x2603 (unknown)
+	EXC_BAD_ACCESS
+	EXC_BAD_INSTRUCTION
+	EXC_ARITHMETIC
+	EXC_EMULATION
+	EXC_SOFTWARE
+	EXC_BREAKPOINT
+	EXC_SYSCALL
+	EXC_MACH_SYSCALL
+exception	0x2703 (unknown)
+	EXC_RESOURCE
+	EXC_CORPSE_NOTIFY
+
+allows untrusted kernel extensions	0
+allows unrestricted filesystem access	0
+allows task_for_pid()	0
+allows kernel debugging	0
+allows apple-internal	0
+allows destructive dtrace	0

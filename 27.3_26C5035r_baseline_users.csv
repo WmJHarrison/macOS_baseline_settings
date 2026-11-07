@@ -1,0 +1,134 @@
+Local Users
+User Name	Unique ID	Real Name	Generated UID	Shell	Home Directory
+_accessoryupdater	278	Accessory Update Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000116	/usr/bin/false	/var/db/accessoryupdater
+_amavisd	83	AMaViS Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000053	/usr/bin/false	/var/virusmails
+_analyticsd	263	Analytics Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000107	/usr/bin/false	/var/db/analyticsd
+_aonsensed	300	Always On Sense Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012C	/usr/bin/false	/var/db/aonsensed
+_appinstalld	273	App Install Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000111	/usr/bin/false	/var/db/appinstalld
+_appleevents	55	AppleEvents Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000037	/usr/bin/false	/var/empty
+_applepay	260	applepay Account	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000104	/usr/bin/false	/var/db/applepay
+_appowner	87	Application Owner	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000057	/usr/bin/false	/var/empty
+_appserver	79	Application Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004F	/usr/bin/false	/var/empty
+_appstore	33	Mac App Store Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000021	/usr/bin/false	/var/db/appstore
+_ard	67	Apple Remote Desktop	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000043	/usr/bin/false	/var/empty
+_assetcache	235	Asset Cache Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB	/usr/bin/false	/var/empty
+_astris	245	Astris Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F5	/usr/bin/false	/var/db/astris
+_atsserver	97	ATS Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000061	/usr/bin/false	/var/empty
+_audiomxd	294	Audio and MediaExperience Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000126	/usr/bin/false	/var/db/audiomxd
+_avbdeviced	229	Ethernet AVB Device Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E5	/usr/bin/false	/var/empty
+_avphidbridge	288	Apple Virtual Platform HID Bridge	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000120	/usr/bin/false	/var/empty
+_backgroundassets	291	Background Assets Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000123	/usr/bin/false	/var/empty
+_biome	289	Biome	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000121	/usr/bin/false	/var/db/biome
+_calendar	93	Calendar	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005D	/usr/bin/false	/var/empty
+_captiveagent	258	captiveagent	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000102	/usr/bin/false	/var/empty
+_ces	32	Certificate Enrollment Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000020	/usr/bin/false	/var/empty
+_clamav	82	ClamAV Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000052	/usr/bin/false	/var/virusmails
+_cmiodalassistants	262	CoreMedia IO Assistants User	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000106	/usr/bin/false	/var/db/cmiodalassistants
+_coreaudiod	202	Core Audio Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CA	/usr/bin/false	/var/empty
+_coremediaiod	236	Core Media IO Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EC	/usr/bin/false	/var/empty
+_coreml	280	CoreML Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000118	/usr/bin/false	/var/db/coreml
+_corespeechd	306	CoreSpeech Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000132	/usr/bin/false	/var/empty
+_ctkd	259	ctkd Account	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000103	/usr/bin/false	/var/db/ctkd
+_cvmsroot	212	CVMS Root	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D4	/usr/bin/false	/var/empty
+_cvs	72	CVS Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000048	/usr/bin/false	/var/empty
+_cyrus	77	Cyrus Administrator	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004D	/usr/bin/false	/var/imap
+_darwindaemon	284	Darwin Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011C	/usr/bin/false	/var/db/darwindaemon
+_datadetectors	257	DataDetectors	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000101	/usr/bin/false	/var/db/datadetectors
+_demod	275	Demo Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000113	/usr/bin/false	/var/empty
+_devdocs	59	Developer Documentation	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000003B	/usr/bin/false	/var/empty
+_devicemgr	220	Device Management Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DC	/usr/bin/false	/var/empty
+_diagnosticservicesd	307	Diagnostic Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000133	/usr/bin/false	/var/empty
+_diskimagesiod	271	DiskImages IO Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010F	/usr/bin/false	/var/db/diskimagesiod
+_displaypolicyd	244	Display Policy Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F4	/usr/bin/false	/var/empty
+_distnote	241	DistNote	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F1	/usr/bin/false	/var/empty
+_dovecot	214	Dovecot Administrator	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D6	/usr/bin/false	/var/empty
+_dovenull	227	Dovecot Authentication	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E3	/usr/bin/false	/var/empty
+_dpaudio	215	DP Audio	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D7	/usr/bin/false	/var/empty
+_driverkit	270	DriverKit	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010E	/usr/bin/false	/var/empty
+_eligibilityd	297	OS Eligibility Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000129	/usr/bin/false	/var/db/eligibilityd
+_eppc	71	Apple Events User	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000047	/usr/bin/false	/var/empty
+_findmydevice	254	Find My Device Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FE	/usr/bin/false	/var/db/findmydevice
+_fpsd	265	FPS Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000109	/usr/bin/false	/var/db/fpsd
+_ftp	98	FTP Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000062	/usr/bin/false	/var/empty
+_gamecontrollerd	247	Game Controller Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F7	/usr/bin/false	/var/empty
+_geod	56	Geo Services Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000038	/usr/bin/false	/var/db/geod
+_hidd	261	HID Service User	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000105	/usr/bin/false	/var/db/hidd
+_iconservices	240	IconServices	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F0	/usr/bin/false	/var/empty
+_installassistant	25	Install Assistant	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000019	/usr/bin/false	/var/empty
+_installcoordinationd	274	Install Coordination Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000112	/usr/bin/false	/var/db/installcoordinationd
+_installer	96	Installer	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000060	/usr/bin/false	/var/empty
+_jabber	84	Jabber XMPP Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000054	/usr/bin/false	/var/empty
+_kadmin_admin	218	Kerberos Admin Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DA	/usr/bin/false	/var/empty
+_kadmin_changepw	219	Kerberos Change Password Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DB	/usr/bin/false	/var/empty
+_knowledgegraphd	279	Knowledge Graph Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000117	/usr/bin/false	/var/db/knowledgegraphd
+_krb_anonymous	234	Open Directory Kerberos Anonymous	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EA	/usr/bin/false	/var/empty
+_krb_changepw	232	Open Directory Kerberos Change Password Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E8	/usr/bin/false	/var/empty
+_krb_kadmin	231	Open Directory Kerberos Admin Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E7	/usr/bin/false	/var/empty
+_krb_kerberos	233	Open Directory Kerberos	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E9	/usr/bin/false	/var/empty
+_krb_krbtgt	230	Open Directory Kerberos Ticket Granting Ticket	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E6	/usr/bin/false	/var/empty
+_krbfast	246	Kerberos FAST Account	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F6	/usr/bin/false	/var/empty
+_krbtgt	217	Kerberos Ticket Granting Ticket	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D9	/usr/bin/false	/var/empty
+_launchservicesd	239	_launchservicesd	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EF	/usr/bin/false	/var/empty
+_lda	211	Local Delivery Agent	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D3	/usr/bin/false	/var/empty
+_locationd	205	Location Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD	/usr/bin/false	/var/db/locationd
+_logd	272	Log Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000110	/usr/bin/false	/var/db/diagnostics
+_lp	26	Printing Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001A	/usr/bin/false	/var/spool/cups
+_mailman	78	Mailman List Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004E	/usr/bin/false	/var/empty
+_mbsetupuser	248	Setup User	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8	/bin/bash	/var/setup
+_mcxalr	54	MCX AppLaunch	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000036	/usr/bin/false	/var/empty
+_mdnsresponder	65	mDNSResponder	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000041	/usr/bin/false	/var/empty
+_mds_stores	308	Spotlight File Metadata Index Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000134	/usr/bin/false	/var/empty
+_mmaintenanced	283	mmaintenanced	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011B	/usr/bin/false	/var/db/mmaintenanced
+_mobileasset	253	MobileAsset User	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FD	/usr/bin/false	/var/ma
+_mobilegestalthelper	293	MobileGestaltHelper	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000125	/usr/bin/false	/var/empty
+_modelmanagerd	301	Model Manager	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012D	/usr/bin/false	/var/db/modelmanagerd
+_mysql	74	MySQL Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004A	/usr/bin/false	/var/empty
+_naturallanguaged	304	Natural Language Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000130	/usr/bin/false	/var/db/com.apple.naturallanguaged
+_nearbyd	268	Proximity and Ranging Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010C	/usr/bin/false	/var/db/nearbyd
+_netbios	222	NetBIOS	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DE	/usr/bin/false	/var/empty
+_netstatistics	228	Network Statistics Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E4	/usr/bin/false	/var/empty
+_networkd	24	Network Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000018	/usr/bin/false	/var/networkd
+_neuralengine	296	AppleNeuralEngine	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000128	/usr/bin/false	/var/db/neuralengine
+_notification_proxy	285	Notification Proxy	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011D	/usr/bin/false	/var/empty
+_nsurlsessiond	242	NSURLSession Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F2	/usr/bin/false	/var/db/nsurlsessiond
+_oahd	441	OAH Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000001B9	/usr/bin/false	/var/empty
+_ondemand	249	On Demand Resource Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F9	/usr/bin/false	/var/db/ondemand
+_postfix	27	Postfix Mail Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001B	/usr/bin/false	/var/spool/postfix
+_postgres	216	PostgreSQL Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D8	/usr/bin/false	/var/empty
+_qtss	76	QuickTime Streaming Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004C	/usr/bin/false	/var/empty
+_reportmemoryexception	269	ReportMemoryException	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010D	/usr/bin/false	/var/db/reportmemoryexception
+_reportsystemmemory	302	ReportSystemMemory	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012E	/usr/bin/false	/var/empty
+_rmd	277	Remote Management Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000115	/usr/bin/false	/var/db/rmd
+_sandbox	60	Seatbelt	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000003C	/usr/bin/false	/var/empty
+_screensaver	203	Screensaver	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CB	/usr/bin/false	/var/empty
+_scsd	31	Service Configuration Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001F	/usr/bin/false	/var/empty
+_securityagent	92	SecurityAgent	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005C	/usr/bin/false	/var/db/securityagent
+_sntpd	281	SNTP Server Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000119	/usr/bin/false	/var/empty
+_softwareupdate	200	Software Update Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000C8	/usr/bin/false	/var/db/softwareupdate
+_spinandd	305	SPINAND Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000131	/usr/bin/false	/var/db/spinandd
+_spotlight	89	Spotlight	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059	/usr/bin/false	/var/empty
+_sshd	75	sshd Privilege separation	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004B	/usr/bin/false	/var/empty
+_svn	73	SVN Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000049	/usr/bin/false	/var/empty
+_swtransparencyd	303	Software Transparency Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012F	/usr/bin/false	/var/db/swtransparencyd
+_systemstatusd	298	SystemStatus Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012A	/usr/bin/false	/var/empty
+_taskgated	13	Task Gate Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000000D	/usr/bin/false	/var/empty
+_teamsserver	94	TeamsServer	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005E	/usr/bin/false	/var/teamsserver
+_terminusd	295	Terminus	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000127	/usr/bin/false	/var/db/terminus
+_timed	266	Time Sync Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010A	/usr/bin/false	/var/db/timed
+_timezone	210	AutoTimeZoneDaemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D2	/usr/bin/false	/var/empty
+_tokend	91	Token Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005B	/usr/bin/false	/var/empty
+_trustd	282	trustd	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011A	/usr/bin/false	/var/empty
+_trustevaluationagent	208	Trust Evaluation Agent	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D0	/usr/bin/false	/var/empty
+_unknown	99	Unknown User	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000063	/usr/bin/false	/var/empty
+_update_sharing	95	Update Sharing	FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005F	/usr/bin/false	/var/empty
+_usbmuxd	213	iPhone OS Device Helper	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D5	/usr/bin/false	/var/db/lockdown
+_uucp	4	Unix to Unix Copy Protocol	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000004	/usr/sbin/uucico	/var/spool/uucp
+_warmd	224	Warm Daemon	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E0	/usr/bin/false	/var/empty
+_webauthserver	221	Web Auth Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DD	/usr/bin/false	/var/empty
+_windowserver	88	WindowServer	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000058	/usr/bin/false	/var/empty
+_www	70	World Wide Web Server	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000046	/usr/bin/false	/Library/WebServer
+_wwwproxy	252	WWW Proxy	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FC	/usr/bin/false	/var/empty
+_xserverdocs	251	macOS Server Documents Service	FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FB	/usr/bin/false	/var/empty
+daemon	1	System Services	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000001	/usr/bin/false	/var/root
+nobody	-2	Unprivileged User	FFFFEEEE-DDDD-CCCC-BBBB-AAAAFFFFFFFE	/usr/bin/false	/var/empty
+root	0	System Administrator	FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000000	/bin/sh	/var/root

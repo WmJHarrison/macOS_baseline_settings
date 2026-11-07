@@ -1,0 +1,21 @@
+Directories with Sticky Bits
+File Path	Ownership	Permissions
+/Library/Application Support/ProApps	0:80	41775
+/Library/Fonts	0:80	41775
+/Library/Caches	0:80	41777
+/System/Library/Templates/Data/Library/Application Support/ProApps	0:80	41775
+/System/Library/Templates/Data/Library/Fonts	0:80	41775
+/System/Library/Templates/Data/Library/Caches	0:80	41777
+/System/Library/Templates/Data/private/var/spool/cups/tmp	0:26	41770
+/System/Library/Templates/Data/private/var/db/mds	0:0	41777
+/System/Library/Templates/Data/private/var/tmp	0:0	41777
+/System/Library/Templates/Data/private/tmp	0:0	41777
+/System/Library/Templates/Data/Users/Shared	0:0	41777
+/System/Library/Templates/Data/.TemporaryItems	0:0	41755
+/System/Library/Templates/Data/cores	0:80	41775
+/private/var/spool/cups/tmp	0:26	41770
+/private/var/db/mds	0:0	41777
+/private/var/tmp	0:0	41777
+/private/tmp	0:0	41777
+/Users/Shared	0:0	41777
+/cores	0:80	41775

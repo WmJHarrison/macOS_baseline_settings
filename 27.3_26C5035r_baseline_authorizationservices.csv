@@ -1,0 +1,209 @@
+Authorization Services
+type	name	allow-root	authenticate-user	class	comment	created	default-button	default-prompt	entitled	entitled-group	extract-password	group	identifier	k-of-n	mechanisms	modified	password-only	require-apple-signed	requirement	rule	session-owner	shared	timeout	tries	version	vpn-entitled-group
+right				rule	Matches otherwise unmatched rights (i.e., is a default). 	815614912.0										815614912.0				default					0	
+right	com.apple.			rule		815614912.0										815614912.0				default					0	
+right	com.apple.AOSNotification.FindMyMac.modify			rule		815614912.0								1		815614912.0				is-root;is-admin;default					0	
+right	com.apple.AOSNotification.FindMyMac.remove			rule		815614912.0								1		815614912.0				is-root;is-admin;default					1	
+right	com.apple.DiskManagement.			rule	Used by diskmanagementd to allow access to its privileged functions 	815614912.0								1		815614912.0				is-root;is-admin;entitled;on-console;default					1	
+right	com.apple.DiskManagement.internal.			rule	Used by diskmanagementd to allow access to its privileged functions 	815614912.0								1		815614912.0				is-root;is-admin;entitled;default					1	
+right	com.apple.DiskManagement.reserveKEK	true	true	user	Used by diskmanagementd to allow use of the reserve KEK. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.DiskManagement.root.			rule	Used by diskmanagementd. 	815614912.0								1		815614912.0				is-root;authenticate-admin					0	
+right	com.apple.KerberosAgent			evaluate-mechanisms	Used to acquire Kerberos credentials. 	815614912.0									KerberosAgent:kerberos-dialog;KerberosAgent:kerberos-authenticate,privileged	815614912.0						true		10000	0	
+right	com.apple.OpenScripting.additions.send	true	true	user	Used to send restricted scripting addition commands to processes that require authorization to handle the events. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.ReportPanic.fixRight	true	true	user		815614912.0						admin;				815614912.0		true			false	false	10	10000	0	
+right	com.apple.Safari.allow-apple-events-to-run-javascript	false	true	user	This right is used by Safari to allow Apple Events to run JavaScript on web pages. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+right	com.apple.Safari.allow-javascript-in-smart-search-field	false	true	user	This right is used by Safari to allow JavaScript to be used in the Smart Search Field. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+right	com.apple.Safari.allow-unsigned-app-extensions	false	true	user	This right is used by Safari to allow unsigned extensions in the Develop Menu. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+right	com.apple.Safari.install-ephemeral-extensions	false	true	user	This is the right used by Safari to install an ephemeral extension without a developer certificate present. 	815614912.0										815614912.0					true	false	0	10000	0	
+right	com.apple.Safari.parental-controls			rule	Checked when changing parental controls for Safari. 	815614912.0								1		815614912.0				is-admin;authenticate-admin					0	
+right	com.apple.Safari.show-credit-card-numbers	false	true	user	This right is used by Safari to show credit card numbers. 	815614912.0										815614912.0					true	false	10	10000	0	
+right	com.apple.Safari.show-passwords	false	true	user	This right is used by Safari to show passwords. 	815614912.0										815614912.0					true	false	10	10000	0	
+right	com.apple.ServiceManagement.blesshelper	true	true	user	Used by the ServiceManagement framework to add a privileged helper tool to the system launchd. 	815614912.0						admin;				815614912.0					false	false	30	10000	1	
+right	com.apple.ServiceManagement.daemons.modify			rule	Used by the ServiceManagement framework to make changes to the system launchd-ne u2019s set of daemons. 	815614912.0								1		815614912.0				is-root;entitled-admin-or-authenticate-admin-nonshared					1	
+right	com.apple.SoftwareUpdate.modify-settings			rule	Checked by the Admin framework when making changes to the Software Update preference pane. 	815614912.0										815614912.0				root-or-entitled-admin-or-app-specific-admin					0	
+right	com.apple.SoftwareUpdate.modify-splat-settings			rule	Checked when modifying splat settings in Privacy & Security. 	815614912.0										815614912.0				root-or-entitled-admin-or-app-specific-admin					0	
+right	com.apple.SoftwareUpdate.scan			rule	Checked when user is updating software. 	815614912.0										815614912.0				root-or-entitled-admin-or-authenticate-admin					0	
+right	com.apple.XType.fontmover.install	true	true	user		815614912.0						admin;				815614912.0					false	true	300	10000	0	
+right	com.apple.XType.fontmover.remove	true	true	user		815614912.0						admin;				815614912.0					false	true	300	10000	0	
+right	com.apple.XType.fontmover.restore			rule		815614912.0										815614912.0				root-or-entitled-admin-or-authenticate-admin					0	
+right	com.apple.activitymonitor.kill			rule	Used by Activity Monitor to authorize killing processes not owned by the user. 	815614912.0										815614912.0				entitled-admin-or-authenticate-admin					0	
+right	com.apple.app-sandbox.create-symlink			rule	Authorize an app-sandboxed application to install a symlink into /usr/local/bin. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.app-sandbox.replace-file			rule	Authorize an app-sandboxed application to save (overwrite) a file in a privileged location. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.app-sandbox.set-attributes			rule	Authorize an app-sandboxed application to change permissions on a privileged file. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.applepay.reset	false	true	user	Used by nfcd. 	815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	com.apple.appserver.privilege.admin			rule	For administrative access to the Application Server management tool. 	815614912.0										815614912.0				appserver-admin					0	
+right	com.apple.appserver.privilege.user			rule	For user access to the Application Server management tool. 	815614912.0								1		815614912.0				appserver-admin;appserver-user					0	
+right	com.apple.auth.admin	false	true	user	Authenticate as an admin user. 	815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	com.apple.auth.user	false	true	user	Authenticate as an any user. 	815614912.0						staff;				815614912.0					false	false	0	10000	0	
+right	com.apple.backgroundtaskmanagement.manage-daemons	true	true	user	Checked when making changes to certain System Preferences. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.builtin.confirm-access			evaluate-mechanisms		815614912.0									builtin:confirm-access	815614912.0						true		1	0	
+right	com.apple.builtin.confirm-access-password			evaluate-mechanisms		815614912.0									builtin:confirm-access-password	815614912.0						true		10000	0	
+right	com.apple.builtin.generic-new-passphrase			evaluate-mechanisms		815614912.0									builtin:generic-new-passphrase	815614912.0						true		10000	0	
+right	com.apple.builtin.generic-unlock			evaluate-mechanisms		815614912.0									builtin:generic-unlock	815614912.0						true		10000	0	
+right	com.apple.builtin.sc-kc-new-passphrase			evaluate-mechanisms		815614912.0									builtin:generic-new-passphrase	815614912.0						true		10000	0	
+right	com.apple.configurationprofiles.deviceenrollment.install	false	true	user	This right is used by UserManagement to ask for an admin password. 	815614912.0						admin;				815614912.0	true				false	false	2147483647	10000	1	
+right	com.apple.configurationprofiles.deviceenrollment.uninstall	false	true	user	This right is used by UserManagement to ask for an admin password. 	815614912.0						admin;				815614912.0	true				false	false	2147483647	10000	1	
+right	com.apple.configurationprofiles.userenrollment.install	false	true	user	This right is used by UserManagement to ask user to acquire password from users. 	815614912.0					true					815614912.0	true				true	false	2147483647	10000	1	
+right	com.apple.configurationprofiles.userprofile.trustcert			rule	Install user configuration profile with certificate requiring trust change. 	815614912.0										815614912.0				authenticate-session-owner-or-admin					0	
+right	com.apple.container-repair	false	true	user		815614912.0						admin;				815614912.0					false	false	30	10000	0	
+right	com.apple.ctk.pair			rule		815614912.0										815614912.0				kcunlock					0	
+right	com.apple.ctkbind.admin	false	true	user		815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.dashboard.advisory.allow	false	true	user		815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	com.apple.desktopservices	false	true	user	For privileged file operations from within the Finder. 	815614912.0						admin;				815614912.0					false	false	0	10000	0	
+right	com.apple.desktopservices.scripted	false	true	user	For scripting-initiated privileged file operations from within the Finder. 	815614912.0						admin;				815614912.0					false	false	0	10000	0	
+right	com.apple.docset.install	false	true	user	Used by Xcode to restrict access to a daemon it uses to install and update documentation sets. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.familycontrols.loginwindow.override			evaluate-mechanisms	This right is checked when overriding a parental control restriction 	815614976.0							com.apple.parentalcontrolsd		FamilyControls:invoke;FamilyControls:authenticate;FamilyControls:success	815614976.0			identifier "com.apple.parentalcontrolsd" and anchor apple			true		10000	0	
+right	com.apple.familycontrols.override	false	true	user	This right is checked when overriding parental controls from a user account 	815614976.0						admin;	com.apple.parentalcontrolsd			815614976.0			identifier "com.apple.parentalcontrolsd" and anchor apple		false	false	5	10000	0	
+right	com.apple.iBooksX.ParentalControl	false	true	user	Checked when making changes to the Parental Controls for iBooks. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.icloud.passwordreset	false	true	user	Authenticate as the session owner to reset iCloud password 	815614912.0										815614912.0	true				true	false	0	10000	1	
+right	com.apple.installassistant.macos	true	true	user	Used by Install Assistant 	815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	com.apple.installassistant.requestpassword	false	true	user	Authenticate as an administrator, password only. 	815614912.0						admin;				815614912.0	true				false	false	0	10000	0	
+right	com.apple.library-repair	false	true	user		815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.lldb.LaunchUsingXPC	false	true	user		815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	com.apple.opendirectoryd.linkidentity			rule		815614912.0										815614912.0				entitled-session-owner-or-authenticate-session-owner					0	
+right	com.apple.pf.rule	false	true	user		815614912.0						admin;				815614912.0					false	false	0	10000	0	
+right	com.apple.safaridriver.allow			rule	This right is used by safaridriver to allow running it. 	815614912.0								1		815614912.0				is-admin;is-webdeveloper;authenticate-webdeveloper					1	
+right	com.apple.security.assessment.update			rule		815614912.0										815614912.0				root-or-entitled-admin-or-authenticate-admin					0	
+right	com.apple.security.sudo			rule		815614912.0								2		815614912.0				entitled;authenticate-session-owner					0	
+right	com.apple.security.syntheticinput			rule		815614912.0										815614912.0				authenticate-session-owner					0	
+right	com.apple.server.admin.streaming			rule	For making administrative requests to the QuickTime Streaming Server. 	815614912.0								1		815614912.0				is-admin;authenticate-admin					0	
+right	com.apple.system-extensions.admin			rule	Authorize a 3rd party application which wants to manipulate system extensions. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.system-migration.cleanup			rule	Used by System Migration. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.system-migration.launch			rule	Used by Migration Assistant. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.system-migration.launch-password			rule	Used by Migration Assistant. 	815614912.0										815614912.0				authenticate-admin-nonshared-password					0	
+right	com.apple.tcc.util.admin			rule	For modification of TCC settings. 	815614912.0										815614912.0				authenticate-admin-nonshared					0	
+right	com.apple.trust-settings.admin			rule	For modifying Trust Settings in the Admin domain. Requires entitlement or admin authentication. 	815614912.0								1		815614912.0				entitled;authenticate-admin					1	
+right	com.apple.trust-settings.user			rule	For modifying per-user Trust Settings. 	815614912.0										815614912.0				entitled-session-owner-or-authenticate-session-owner					0	
+right	com.apple.uninstalld.uninstall	false	false	user		815614912.0			true							815614912.0					false	false	2147483647	10000	1	
+right	com.apple.wifi			rule	For restricting WiFi control 	815614912.0							com.apple.airport.airportd	1		815614912.0			identifier "com.apple.airport.airportd" and anchor apple	entitled;is-admin;is-root;default					0	
+right	config.add.			allow	Wildcard right for adding rights. Anyone is allowed to add any (non-wildcard) rights. 	815614912.0										815614912.0									0	
+right	config.config.			deny	Wildcard right for any change to meta-rights for db modification. Not allowed programmatically (just edit this file). 	815614912.0										815614912.0									0	
+right	config.modify.			rule	Wildcard right for modifying rights. Admins are allowed to modify any (non-wildcard) rights. Root does not require authentication. 	815614912.0								1		815614912.0				is-root;authenticate-admin					0	
+right	config.remove.			rule	Wildcard right for deleting rights. Admins are allowed to delete any (non-wildcard) rights. Root does not require authentication. 	815614912.0								1		815614912.0				is-root;authenticate-admin					0	
+right	config.remove.system.			deny	Wildcard right for deleting system rights. 	815614912.0										815614912.0									0	
+right	sys.openfile.	false	true	user	See authopen(1) for information on the use of this right. 	815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	system.			rule		815614912.0										815614912.0				default					0	
+right	system.admin	true	true	user	Authenticate as an administrator 	815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	system.burn			allow	For burning media. 	815614912.0										815614912.0									0	
+right	system.csfde.requestpassword			rule	Used by CoreStorage Full Disk Encryption to request the user-ne u2019s password. 	815614912.0										815614912.0				authenticate-admin-or-staff-extract					1	
+right	system.csfde.requestpassword.weak			rule	Used by CoreStorage Full Disk Encryption to request the user-ne u2019s password, allowing alternative authentication methods. 	815614912.0										815614912.0				authenticate-admin-or-staff-extract-weak					0	
+right	system.device.dvd.setregion.initial	false	true	user	Used by the DVD player to set the region code the first time. Note that changing the region code after it has been set requires a different right (system.device.dvd.setregion.change). 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.disk.unlock			evaluate-mechanisms	Do not modify. 	815614912.0									DiskUnlock:prompt;DiskUnlock:unlock,privileged	815614912.0						true		10000	0	
+right	system.global-login-items.			rule		815614912.0								1		815614912.0				default					1	
+right	system.hdd.smart			allow	For modifying SMART settings. 	815614912.0										815614912.0									0	
+right	system.identity.write.			rule	For creating, changing or deleting local user accounts and groups. 	815614912.0								1		815614912.0				is-admin;authenticate-admin					0	
+right	system.identity.write.credential			rule	Checked when changing authentication credentials (password or certificate) for a local user account. 	815614912.0										815614912.0				default					0	
+right	system.identity.write.self	false	false	user	Checked when changing authentication credentials (password or certificate) for the current user-ne u2019s account. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+right	system.install.app-store-software			rule	Checked when user is installing software from the App Store. 	815614912.0										815614912.0				entitled-appstore-or-entitled-authenticate-appstore					0	
+right	system.install.app-store-software.standard-user	false	true	user	Checked when user is installing new software. 	815614912.0			true			admin;				815614912.0					false	false	10	10000	0	
+right	system.install.apple-config-data			rule		815614912.0										815614912.0				entitled					0	
+right	system.install.apple-software			rule	Checked when user is installing Apple software. 	815614912.0										815614912.0				root-or-entitled-admin-or-authenticate-admin					0	
+right	system.install.apple-software.standard-user	false	true	user	Checked when user is installing new software. 	815614912.0			true			admin;				815614912.0					false	false	10	10000	0	
+right	system.install.software	true	true	user	Checked when user is installing new software. 	815614912.0						admin;				815614912.0					false	false	900	10000	2	
+right	system.install.software.iap	true	false	user		815614912.0			true							815614912.0					false	false	2147483647	10000	0	
+right	system.install.software.mdm-provided			rule		815614912.0										815614912.0				entitled					1	
+right	system.keychain.create.loginkc			evaluate-mechanisms	Used by the Security framework when you add an item to an unconfigured default keychain. 	815614912.0									loginKC:queryCreate;loginKC:showPasswordUI	815614912.0						false		10000	1	
+right	system.keychain.modify	false	true	user	Used by Keychain Access when editing a system keychain. 	815614912.0						admin;				815614912.0					false	true	30	10000	0	
+right	system.login.console			evaluate-mechanisms	Login mechanism based rule. Not for general use, yet. 	815614912.0									builtin:prelogin;builtin:policy-banner;loginwindow:login;builtin:login-begin;builtin:reset-password,privileged;loginwindow:FDESupport,privileged;builtin:forward-login,privileged;builtin:auto-login,privileged;builtin:authenticate,privileged;builtin:login-success;loginwindow:success;HomeDirMechanism:login,privileged;HomeDirMechanism:status;MCXMechanism:login;CryptoTokenKit:login;loginwindow:done	815614912.0						true		10000	12	
+right	system.login.done			evaluate-mechanisms		815614912.0										815614912.0						true		10000	0	
+right	system.login.filevault			evaluate-mechanisms	Login mechanism based rule for Filevault. 	815614912.0									builtin:policy-banner;loginwindow:login;builtin:login-begin;builtin:authenticate,privileged;builtin:login-success;loginwindow:success;loginwindow:done	815614912.0						true		10000	0	
+right	system.login.fus			evaluate-mechanisms	Login mechanism based rule. Not for general use, yet. 	815614912.0									builtin:smartcard-sniffer,privileged;loginwindow:login;builtin:reset-password,privileged;builtin:auto-login,privileged;builtin:authenticate-nocred,privileged;loginwindow:success;loginwindow:done	815614912.0						true		10000	1	
+right	system.login.screensaver			rule	The owner or any administrator can unlock the screensaver, set rule to "authenticate-session-owner-or-admin" to enable SecurityAgent. 	815614912.0										815614912.0				use-login-window-ui					1	
+right	system.login.screensaver.unlock			evaluate-mechanisms	Do not modify. Performs unlock operations for screensaver. 	815614912.0									CryptoTokenKit:login	815614912.0						true		1	1	
+right	system.login.tty			rule		815614912.0										815614912.0				default					1	
+right	system.platformsso.auth	false	true	user	Do not modify. Authenticates current user for platform sso. 	815614912.0					true					815614912.0	true				true	false	2147483647	10000	2	
+right	system.preferences	true	true	user	Checked by the Admin framework when making changes to certain System Preferences. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.preferences.accessibility	false	true	user	Checked when making changes to the Accessibility Preferences. 	815614912.0						admin;				815614912.0					false	false	0	10000	0	
+right	system.preferences.accounts	true	true	user	Checked by the Admin framework when making changes to the Users & Groups preference pane. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	system.preferences.continuity			rule	Used by Password And Continuity PrefPane to request the user-ne u2019s password. 	815614912.0										815614912.0				authenticate-staff-extract-context					0	
+right	system.preferences.datetime	true	true	user	Checked by the Admin framework when making changes to the Date & Time preference pane. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	1	
+right	system.preferences.energysaver	true	true	user	Checked by the Admin framework when making changes to the Energy Saver preference pane. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.preferences.location			rule	For changing the network location from the Apple menu. 	815614912.0								1		815614912.0				on-console;is-admin;is-root					0	
+right	system.preferences.network	true	true	user	Checked by the Admin framework when making changes to the Network preference pane. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.preferences.nvram			rule		815614912.0								1		815614912.0				entitled;admin					0	
+right	system.preferences.parental-controls	false	true	user	Checked when making changes to the Parental Controls preference pane. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	system.preferences.printing	true	true	user	Checked by the Admin framework when making changes to the Printing preference pane. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.preferences.security	true	true	user	Checked by the Admin framework when making changes to the Security preference pane. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	system.preferences.security.remotepair	false	true	user	Used by Bezel Services to gate IR remote pairing. 	815614912.0				true		admin;				815614912.0					false	true	30	10000	1	
+right	system.preferences.sharing	true	true	user	Checked by the Admin framework when making changes to the Sharing preference pane. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+right	system.preferences.softwareupdate	true	true	user	Checked by the Admin framework when making changes to the Software Update preference pane. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.preferences.startupdisk	true	true	user	Checked by the Admin framework when making changes to the Startup Disk preference pane. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	1	
+right	system.preferences.timemachine	true	true	user	Checked by the Admin framework when making changes to the Time Machine preference pane. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.preferences.version-cue			rule	For gating modifications to Adobe Version Cue preferences. 	815614912.0										815614912.0				authenticate-admin					0	
+right	system.print.admin			rule		815614912.0										815614912.0				root-or-lpadmin					0	
+right	system.print.operator	true	true	user		815614912.0						_lpoperator;				815614912.0					false	true	2147483647	10000	0	
+right	system.printingmanager			rule	For printing to locked printers. 	815614912.0								1		815614912.0				is-admin;authenticate-admin					0	
+right	system.privilege.admin	true	true	user	Used by AuthorizationExecuteWithPrivileges(...). AuthorizationExecuteWithPrivileges() is used by programs requesting to run a tool as root (e.g., some installers). 	815614912.0						admin;				815614912.0					false	false	300	10000	0	
+right	system.privilege.taskport	false	true	user	Used by task_for_pid(...). Task_for_pid is called by programs requesting full control over another program for things like debugging or performance analysis. This authorization only applies if the requesting and target programs are run by the same user; it will never authorize access to the program of another user. WARNING: administrators are advised not to modify this right. 	815614912.0						_developer;				815614912.0					false	true	36000	10000	0	
+right	system.privilege.taskport.debug	false	true	user	For use by Apple. WARNING: administrators are advised not to modify this right. 	815614912.0						_developer;				815614912.0					false	true	36000	10000	0	
+right	system.privilege.taskport.safe			allow	For use by Apple. 	815614912.0										815614912.0									0	
+right	system.restart			evaluate-mechanisms	Checked if the foreground console user tries to restart the system while other users are logged in via fast-user switching. 	815614912.0									RestartAuthorization:restart;builtin:authenticate,privileged;RestartAuthorization:success	815614912.0						true		10000	0	
+right	system.services.directory.configure			rule	For making Directory Services changes. 	815614912.0								1		815614912.0				is-root;entitled;authenticate-admin-nonshared					3	
+right	system.services.networkextension.filtering	true	true	user	For making changes to the Content Filtering configuration using NetworkExtension. 	815614912.0				true		admin;				815614912.0					false	false	2147483647	10000	0	true
+right	system.services.networkextension.vpn	true	true	user	For making changes to the VPN configuration using NetworkExtension. 	815614912.0				true		admin;				815614912.0					false	false	2147483647	10000	0	true
+right	system.services.systemconfiguration.network			rule	For making change to network configuration via System Configuration. 	815614912.0								1		815614912.0				is-root;entitled;_mbsetupuser-nonshared;authenticate-admin-nonshared					2	
+right	system.sharepoints.	true	true	user	Checked when making changes to the Sharepoints. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+right	system.shutdown			evaluate-mechanisms	Checked if the foreground console user tries to shut down the system while other users are logged in via fast-user switching. 	815614912.0									RestartAuthorization:shutdown;builtin:authenticate,privileged;RestartAuthorization:success	815614912.0						true		10000	0	
+right	system.volume.			rule	system.volume.(external	internal	removable).(adopt	encode	mount	rename	unmount) 	815614912.0								1		815614912.0				is-root;is-admin;authenticate-admin-30					0	
+right	system.volume.external.			rule	system.volume.(external	internal	removable).(adopt	encode	mount	rename	unmount) 	815614912.0								1		815614912.0				is-root;is-admin;on-console;authenticate-admin-30					0	
+right	system.volume.external.adopt			rule	system.volume.(external	internal	removable).(adopt	encode	mount	rename	unmount) 	815614912.0								1		815614912.0				is-root;is-admin;authenticate-admin-30					0	
+right	system.volume.network.			rule	system.volume.network.unmount 	815614912.0								1		815614912.0				is-root;is-admin;on-console;authenticate-admin-30					0	
+right	system.volume.optical.			rule	system.volume.optical.(adopt	encode	mount	rename	unmount) 	815614912.0								1		815614912.0				is-root;is-admin;on-console;authenticate-admin-30					0	
+right	system.volume.optical.adopt			rule	system.volume.optical.adopt 	815614912.0								1		815614912.0				is-root;is-admin;authenticate-admin-30					0	
+right	system.volume.removable.			rule	system.volume.(external	internal	removable).(adopt	encode	mount	rename	unmount) 	815614912.0								1		815614912.0				is-root;is-admin;on-console;authenticate-admin-30					0	
+right	system.volume.removable.adopt			rule	system.volume.(external	internal	removable).(adopt	encode	mount	rename	unmount) 	815614912.0								1		815614912.0				is-root;is-admin;authenticate-admin-30					0	
+rule	_mbsetupuser-nonshared	false	false	user	Succeeds if user is from _mbsetupuser group. 	815614912.0						_mbsetupuser;				815614912.0					false	false	30	10000	0	
+rule	admin	false	true	user		815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+rule	allow			allow	Allow anyone. 	815614912.0										815614912.0									0	
+rule	app-specific-admin	false	true	user		815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+rule	appserver-admin	false	true	user		815614912.0						appserveradm;				815614912.0					false	false	2147483647	10000	0	
+rule	appserver-user	false	true	user		815614912.0						appserverusr;				815614912.0					false	false	2147483647	10000	0	
+rule	authenticate			evaluate-mechanisms		815614912.0									builtin:authenticate;builtin:reset-password,privileged;builtin:authenticate,privileged	815614912.0						true		10000	1	
+rule	authenticate-admin	false	true	user	Authenticate as an administrator. 	815614912.0						admin;				815614912.0					false	true	0	10000	0	
+rule	authenticate-admin-30	false	true	user	Like the default rule, but credentials remain valid for only 30 seconds after they-ne u2019ve been obtained. An acquired credential is shared by all clients. 	815614912.0						admin;				815614912.0					false	true	30	10000	0	
+rule	authenticate-admin-extract	false	true	user	Authenticate as an administrator + allow password extraction. 	815614912.0					true	admin;				815614912.0	true	true			false	false	0	10000	1	
+rule	authenticate-admin-extract-weak	false	true	user	Authenticate as an administrator + allow password extraction. 	815614912.0					true	admin;				815614912.0		true			false	false	0	10000	0	
+rule	authenticate-admin-nonshared	false	true	user	Authenticate as an administrator. 	815614912.0						admin;				815614912.0					false	false	30	10000	1	
+rule	authenticate-admin-nonshared-password	false	true	user	Authenticate as an administrator with the password. 	815614912.0						admin;				815614912.0	true				false	false	30	10000	1	
+rule	authenticate-admin-or-staff-extract			rule		815614912.0								1		815614912.0				authenticate-admin-extract;authenticate-staff-extract					0	
+rule	authenticate-admin-or-staff-extract-weak			rule		815614912.0								1		815614912.0				authenticate-admin-extract-weak;authenticate-staff-extract-weak					0	
+rule	authenticate-appstore-30	false	true	user		815614912.0						_appstore;				815614912.0					false	true	30	10000	0	
+rule	authenticate-developer	false	true	user	Authenticate as a developer. 	815614912.0						_developer;				815614912.0					false	true	36000	10000	0	
+rule	authenticate-session-owner	false	true	user	Authenticate as the session owner. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+rule	authenticate-session-owner-or-admin	false	true	user	Authenticate either as the owner or as an administrator. 	815614912.0						admin;				815614912.0					true	false	2147483647	10000	0	
+rule	authenticate-session-user	false	true	user	Same as authenticate-session-owner. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+rule	authenticate-staff-extract	false	true	user	Authenticate as group staff + allow password to be extracted. 	815614912.0					true	staff;				815614912.0	true	true			false	false	0	10000	1	
+rule	authenticate-staff-extract-context			rule		815614912.0								2		815614912.0				authenticate-staff-extract;localauthentication-context					0	
+rule	authenticate-staff-extract-weak	false	true	user	Authenticate as group staff + allow password to be extracted. 	815614912.0					true	staff;				815614912.0		true			false	false	0	10000	0	
+rule	authenticate-webdeveloper	false	true	user	Authenticate as a web developer. 	815614912.0						_webdeveloper;				815614912.0					false	true	36000	10000	0	
+rule	default	false	true	user	Default rule. Credentials remain valid for 5 minutes after they-ne u2019ve been obtained. An acquired credential is shared by all clients. 	815614912.0						admin;				815614912.0					false	true	300	10000	0	
+rule	entitled			evaluate-mechanisms		815614912.0									builtin:entitled,privileged	815614912.0						true		1	0	
+rule	entitled-admin			rule		815614912.0								2		815614912.0				is-admin;entitled					0	
+rule	entitled-admin-nonshared			rule		815614912.0								2		815614912.0				is-admin-nonshared;entitled					0	
+rule	entitled-admin-or-authenticate-admin			rule		815614912.0								1		815614912.0				entitled-admin;authenticate-admin-30					0	
+rule	entitled-admin-or-authenticate-admin-nonshared			rule		815614912.0								1		815614912.0				entitled-admin-nonshared;authenticate-admin-nonshared					0	
+rule	entitled-appstore			rule		815614912.0								2		815614912.0				is-appstore;entitled					0	
+rule	entitled-appstore-or-entitled-authenticate-appstore			rule		815614912.0								1		815614912.0				entitled-appstore;entitled-authenticate-appstore					0	
+rule	entitled-authenticate-admin			rule		815614912.0								2		815614912.0				entitled;authenticate-admin-30					0	
+rule	entitled-authenticate-appstore			rule		815614912.0								2		815614912.0				entitled;authenticate-appstore-30					0	
+rule	entitled-session-owner			rule		815614912.0								2		815614912.0				is-session-owner;entitled					0	
+rule	entitled-session-owner-or-authenticate-session-owner			rule		815614912.0								1		815614912.0				entitled-session-owner;authenticate-session-owner					0	
+rule	is-admin	false	false	user	Verify that the user asking for authorization is an administrator. 	815614912.0						admin;				815614912.0					false	true	2147483647	10000	0	
+rule	is-admin-nonshared	false	false	user	Verify that the user asking for authorization is an administrator - nonshared right. 	815614912.0						admin;				815614912.0					false	false	2147483647	10000	0	
+rule	is-appstore	false	false	user		815614912.0						_appstore;				815614912.0					false	true	2147483647	10000	0	
+rule	is-developer	false	false	user	Verify that the user asking for authorization is a developer. 	815614912.0						_developer;				815614912.0					false	false	2147483647	10000	0	
+rule	is-lpadmin	false	false	user		815614912.0						_lpadmin;				815614912.0					false	false	2147483647	10000	0	
+rule	is-root	true	false	user	Verify that the process that created this AuthorizationRef is running as root. 	815614912.0										815614912.0					false	false	2147483647	10000	0	
+rule	is-session-owner	false	false	user	Verify that the requesting process is running as the session owner. 	815614912.0										815614912.0					true	false	2147483647	10000	0	
+rule	is-webdeveloper	false	false	user	Verify that the user asking for authorization is a web developer. 	815614912.0						_webdeveloper;				815614912.0					false	false	2147483647	10000	0	
+rule	kcunlock			evaluate-mechanisms		815614912.0					true				builtin:unlock-keychain;builtin:kc-verify,privileged	815614912.0						true		10000	1	
+rule	localauthentication-context			evaluate-mechanisms	Used by LocalAuthentication to pass externalized context. 	815614912.0									LocalAuthentication:context	815614912.0						true		10000	0	
+rule	lpadmin	false	true	user		815614912.0						_lpadmin;				815614912.0					false	true	2147483647	10000	0	
+rule	on-console			evaluate-mechanisms		815614912.0									builtin:on-console	815614912.0						true		1	0	
+rule	psso-screensaver			rule		815614912.0								2		815614912.0				psso-screensaver-authenticate;authenticate-session-owner-or-admin					5	
+rule	psso-screensaver-authenticate			evaluate-mechanisms	Do not modify. Performs unlock operations for screensaver. 	815614912.0									builtin:authenticate-platformsso,privileged;CryptoTokenKit:login;builtin:kcunlock	815614912.0						true		1	0	
+rule	root-or-entitled-admin-or-admin			rule		815614912.0								1		815614912.0				is-root;entitled-admin;admin					0	
+rule	root-or-entitled-admin-or-app-specific-admin			rule		815614912.0								1		815614912.0				is-root;entitled-admin;app-specific-admin					0	
+rule	root-or-entitled-admin-or-authenticate-admin			rule		815614912.0								1		815614912.0				is-root;entitled-admin-or-authenticate-admin					0	
+rule	root-or-lpadmin			rule		815614912.0								1		815614912.0				is-root;is-lpadmin;lpadmin					0	
+rule	use-login-window-ui	false	true	user	Authenticate either as the owner or as an administrator. 	815614912.0						admin;				815614912.0					true	false	2147483647	10000	0	

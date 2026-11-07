@@ -1,0 +1,163 @@
+Local Groups
+Group Name	Group ID	Real Name	Generated UID	Members
+_accessoryupdater	278	Accessory Update Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000116	_accessoryupdater
+_amavisd	83	SPAM Assassin Group 2	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000053	
+_analyticsd	263	Analytics Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000107	_analyticsd
+_analyticsusers	250	Analytics Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FA	_analyticsd _networkd _timed _reportmemoryexception _mbsetupuser
+_aonsensed	300	Always On Sense Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012C	_aonsensed
+_appinstalld	273	App Install Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000194	_appinstalld
+_appleevents	55	AppleEvents Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000037	
+_applepay	260	applepay Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000104	
+_appowner	87	Application Owner	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000057	
+_appserveradm	81	App Server Admins	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000051	
+_appserverusr	79	Application Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000004F	
+_appstore	33	App Store users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000021	_appstore
+_ard	67	Apple Remote Desktop	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000043	
+_assetcache	235	Asset Cache Service	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000EB	
+_astris	245	Astris Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F5	
+_atsserver	97	ATS Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000061	
+_audiomxd	294	Audio and MediaExperience Daemon Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000126	
+_avphidbridge	288	Apple Virtual Platform HID Bridge	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000120	_avphidbridge
+_backgroundassets	291	Background Assets Service	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000123	_backgroundassets
+_biome	289	Biome	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000121	_biome
+_calendar	93	Calendar	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005D	_teamsserver
+_captiveagent	258	captiveagent	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000102	
+_ces	32	Certificate Enrollment Service	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000020	
+_clamav	82	SPAM Assassin Group 1	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000052	
+_cmiodalassistants	262	CoreMedia IO Assistants Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000106	
+_coreaudiod	202	Core Audio Daemon Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000CA	
+_coremediaiod	236	Core Media IO Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000EC	
+_coreml	280	CoreML Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000118	_coreml
+_corespeechd	306	CoreSpeech Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000132	_corespeechd
+_ctkd	259	ctkd Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000103	
+_cvms	212	CVMS	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D4	
+_cvs	72	CVS Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000048	
+_darwindaemon	284	Darwin Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011C	_darwindaemon
+_datadetectors	257	DataDetectors	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000101	
+_demod	275	Demo Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000113	_demod
+_detachedsig	207	Detached Signature Writers	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000CF	_locationd
+_devdocs	59	Developer Documentation	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000003B	
+_developer	204	Developer Tools	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000CC	
+_devicemgr	220	Device Management Servers	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000DC	
+_diagnosticservicesd	307	Diagnostic Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000133	_diagnosticservicesd
+_diskimagesiod	271	DiskImages IO Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000192	_diskimagesiod
+_displaypolicyd	244	Display Policy Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F4	
+_distnote	241	DistNote	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F1	
+_dovenull	227	Dovecot Authentication	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000E3	
+_dpaudio	215	DP Audio Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D7	_dpaudio
+_driverkit	270	DriverKit	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000191	_driverkit
+_eligibilityd	297	OS Eligibility Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000129	_eligibilityd
+_eppc	71	Apple Events Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000047	_eppc
+_findmydevice	254	Find My Device Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FE	
+_fpsd	265	FPS Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000109	_fpsd
+_gamecontrollerd	247	Game Controller Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F7	
+_geod	56	Geo Services Daemon Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000038	
+_guest	201	Guest	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000C9	
+_hidd	261	HID Service Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000105	
+_iconservices	240	IconServices	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F0	
+_installassistant	25	Install Assistant	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000019	
+_installcoordinationd	274	Install Coordination Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000195	_installcoordinationd
+_installer	96	Installer	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000060	
+_jabber	84	Chat Server Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000054	
+_keytabusers	30	keytabusers	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001E	_calendar _jabber _postfix
+_knowledgegraphd	279	Knowledge Graph Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000117	_knowledgegraphd
+_launchservicesd	239	_launchservicesd	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000EF	
+_lda	211	Local Delivery Agent	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D3	
+_locationd	205	Location Daemon Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000CD	
+_logd	272	Log Daemon Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000110	_logd
+_lp	26	Print Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001A	
+_lpadmin	98	Print Administrators	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000062	
+_lpoperator	100	Print Operator	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000064	
+_mailman	78	Mailing List	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000004E	
+_mbsetupuser	248	Setup User	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F8	
+_mcxalr	54	MCX AppLaunch	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000036	
+_mdnsresponder	65	mDNSResponder	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000041	
+_mds_stores	308	Spotlight File Metadata Index Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000134	_mds_stores
+_mmaintenanced	283	mmaintenanced	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011B	_mmaintenanced
+_mobileasset	253	MobileAsset User	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FD	
+_mobilegestalthelper	293	MobileGestaltHelper	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000125	
+_modelmanagerd	301	Model Manager	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012D	_modelmanagerd
+_mysql	74	MySQL Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000004A	
+_naturallanguaged	304	Natural Language Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000130	_naturallanguaged
+_nearbyd	268	Proximity and Ranging Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000010C	_nearbyd
+_netbios	222	NetBIOS	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000DE	
+_netstatistics	228	Network Statistics Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000E4	
+_networkd	24	Network Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000018	
+_neuralengine	296	AppleNeuralEngine	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000128	_neuralengine
+_notification_proxy	285	Notification Proxy	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011D	
+_nsurlsessiond	242	NSURLSession Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F2	
+_oahd	441	OAH Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000001B9	_oahd
+_odchpass	209	OD Change Password	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D1	_teamsserver
+_ondemand	249	On Demand Resource Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000F9	
+_postdrop	28	SMTP Mail Posting	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001C	
+_postfix	27	Postfix Mail Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001B	
+_postgres	216	PostgreSQL Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D8	_devicemgr _calendar _teamsserver _xserverdocs
+_qtss	76	QuickTime Streaming Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000004C	
+_reportmemoryexception	269	ReportMemoryException	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000010D	_reportmemoryexception
+_reportsystemmemory	302	ReportSystemMemory	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012E	_reportsystemmemory
+_rmd	277	Remote Management Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000115	_rmd
+_sandbox	60	Seatbelt	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000003C	
+_screensaver	203	Screensaver	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000CB	
+_scsd	31	Service Configuration Service	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001F	
+_securityagent	92	SecurityAgent	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005C	
+_sntpd	281	SNTP Server Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000119	_sntpd _timed
+_softwareupdate	200	Software Update Service	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000C8	_softwareupdate
+_spinandd	305	SPINAND Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000131	_spinandd
+_spotlight	89	Spotlight	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000059	
+_sshd	75	SSH Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000004B	
+_svn	73	SVN Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000049	
+_swtransparencyd	303	Software Transparency Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012F	_swtransparencyd
+_systemstatusd	298	SystemStatus Services	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012A	_systemstatusd
+_taskgated	13	Task Gate Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000000D	_taskgated
+_teamsserver	94	Teams Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005E	_devicemgr
+_terminusd	295	Terminus	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000127	
+_timed	266	Time Sync Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000010A	
+_timezone	210	AutoTimeZoneDaemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D2	
+_tokend	91	Token Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005B	
+_trustd	282	trustd	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011A	_trustd
+_trustevaluationagent	208	Trust Evaluation Agent	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D0	
+_unknown	99	Guests	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000063	
+_update_sharing	95	Update Sharing	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005F	
+_usbmuxd	213	iPhone OS Device Helper	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D5	
+_uucp	66	Unix to Unix Copy Protocol	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000042	
+_warmd	224	Warm Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000E0	_warmd
+_webauthserver	221	Web Auth Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000DD	_teamsserver _devicemgr
+_webdeveloper	264	Safari Web Developer	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000108	
+_windowserver	88	WindowServer	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000058	
+_www	70	World Wide Web Server	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000046	_devicemgr _teamsserver
+_wwwproxy	252	WWW Proxy	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FC	
+_xserverdocs	251	macOS Server Documents Service	ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FB	
+accessibility	90	Accessibility Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005A	
+admin	80	Administrators	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000050	root
+authedusers	50	Authenticated Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000032	
+bin	7	Binary	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000007	
+certusers	29	Certificate Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001D	root _jabber _postfix _cyrus _calendar _dovecot _ftp
+com.apple.access_disabled	396	Disabled Users Service ACL	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000018C	
+com.apple.access_ftp	395	FTP Service ACL	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000018B	
+com.apple.access_remote_ae	400	Remote Access	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000190	
+com.apple.access_screensharing	398	Screensharing Service ACL	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000018E	
+com.apple.access_sessionkey	397	Session Key Service ACL	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000018D	
+com.apple.access_ssh	399	SSH Service ACL	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000018F	
+consoleusers	53	Terminal Server User	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000035	
+daemon	1	Daemon	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000001	root
+dialer	68	Dialup	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000044	
+everyone	12	Everyone	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000000C	
+group	16	Creator Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000010	
+interactusers	51	Interactive Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000033	
+kmem	2	Kernel Memory	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000002	root
+localaccounts	61	Local Accounts	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000003D	
+mail	6	SMTP Mail	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000006	_teamsserver
+netaccounts	62	Network Accounts	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000003E	
+netusers	52	Network Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000034	
+network	69	Network Config Users	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000045	
+nobody	-2	Nobody	ABCDEFAB-CDEF-ABCD-EFAB-CDEFFFFFFFFE	
+nogroup	-1	No Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEFFFFFFFFF	
+operator	5	System Operators	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000005	root
+owner	10	Creator Owner	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000000A	
+procmod	9	procmod	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000009	root
+procview	8	procview	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000008	root
+staff	20	Staff	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000014	root
+sys	3	System	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000003	root
+tty	4	Terminal	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000004	root
+utmp	45	utmp	ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000002D	
+wheel	0	System Group	ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000000	root

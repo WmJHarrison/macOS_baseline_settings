@@ -1,0 +1,197 @@
+/usr/sbin
+filepath	mode	fileowner	filegroup	cksum	installdate	type	version	manpage	source
+/usr/sbin/BTLEServer	-rwxr-xr-x 	0	0	142876648	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/BTLEServerAgent	-rwxr-xr-x 	0	0	2149237253	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/BlueTool	-rwxr-xr-x 	0	0	2633351992	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/BootCacheControl	-rwxr-xr-x 	0	0	4021708722	2026-10-31 00:06:50	public.unix-executable	162	BootCacheControl(8)	NULL
+/usr/sbin/DevToolsSecurity	-rwxr-xr-x 	0	0	3645500937	2026-10-31 00:06:50	public.unix-executable	64578.81.1	DevToolsSecurity(8)	NULL
+/usr/sbin/KernelEventAgent	-rwxr-xr-x 	0	0	500621125	2026-10-31 00:06:50	public.unix-executable	NULL	KernelEventAgent(8)	NULL
+/usr/sbin/PasswordService	-rwxr-xr-x 	0	0	396874779	2026-10-31 00:06:50	public.unix-executable	NULL	PasswordService(8)	NULL
+/usr/sbin/WirelessRadioManagerd	-rwxr-xr-x 	0	0	1323984511	2026-10-31 00:06:50	public.unix-executable	NULL	WirelessRadioManagerd(8)	NULL
+/usr/sbin/ab	-rwxr-xr-x 	0	0	689148517	2026-10-31 00:06:50	public.unix-executable	NULL	ab(1)	NULL
+/usr/sbin/ac	-rwxr-xr-x 	0	0	1446902392	2026-10-31 00:06:50	public.unix-executable	1071.40.9	ac(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/accton	-rwxr-xr-x 	0	0	1213602301	2026-10-31 00:06:50	public.unix-executable	1071.40.9	accton(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/amt	-rwxr-xr-x 	0	0	1285963592	2026-10-31 00:06:50	public.unix-executable	NULL	amt(8)	NULL
+/usr/sbin/apachectl	-rwxr-xr-x 	0	0	72955782	2026-10-31 00:06:50	public.bash-script	NULL	apachectl(8)	NULL
+/usr/sbin/appleh13camerad	-rwxr-xr-x 	0	0	1694619060	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/appleh16camerad	-rwxr-xr-x 	0	0	2166515514	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/appsleepd	-rwxr-xr-x 	0	0	364588868	2026-10-31 00:06:50	public.unix-executable	5027.2.4	appsleepd(8)	NULL
+/usr/sbin/arp	-r-xr-xr-x 	0	0	711397265	2026-10-31 00:06:50	public.unix-executable	NULL	arp(4)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/aslmanager	-rwxr-xr-x 	0	0	2051497209	2026-10-31 00:06:50	public.unix-executable	409.60.2	aslmanager(8)	NULL
+/usr/sbin/asr	-rwxr-xr-x 	0	0	882884195	2026-10-31 00:06:50	public.unix-executable	633.60.2	asr(8)	NULL
+/usr/sbin/audit	-rwxr-xr-x 	0	0	114008596	2026-10-31 00:06:50	public.unix-executable	NULL	audit(4)	NULL
+/usr/sbin/auditd	-rwxr-xr-x 	0	0	1027650193	2026-10-31 00:06:50	public.unix-executable	NULL	auditd(8)	NULL
+/usr/sbin/auditreduce	-rwxr-xr-x 	0	0	2225533475	2026-10-31 00:06:50	public.unix-executable	NULL	auditreduce(1)	NULL
+/usr/sbin/authserver/tools/weakpass	-rwx------ 	0	0	2148037200	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/automount	-rwxr-xr-x 	0	0	1324857247	2026-10-31 00:06:50	public.unix-executable	NULL	automount(8)	NULL
+/usr/sbin/avbdeviced	-rwxr-xr-x 	0	0	630041665	2026-10-31 00:06:50	public.unix-executable	NULL	avbdeviced(1)	NULL
+/usr/sbin/bless	-rwxr-xr-x 	0	0	3712640183	2026-10-31 00:06:50	public.unix-executable	335.40.4	bless(8)	https://github.com/apple-oss-distributions/bless
+/usr/sbin/bluetoothaudiod	-rwxr-xr-x 	0	0	2360439622	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/bluetoothd	-rwxr-xr-x 	0	0	974017103	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/cfprefsd	-rwxr-xr-x 	0	0	1211049407	2026-10-31 00:06:50	public.unix-executable	5027.2.4	cfprefsd(8)	NULL
+/usr/sbin/chat	-rwxr-xr-x 	0	0	2769678495	2026-10-31 00:06:50	public.unix-executable	NULL	chat(8)	NULL
+/usr/sbin/checkgid	-rwxr-xr-x 	0	0	1521433917	2026-10-31 00:06:50	public.unix-executable	NULL	checkgid(8)	NULL
+/usr/sbin/chown	-rwxr-xr-x 	0	0	3383454443	2026-10-31 00:06:50	public.unix-executable	487.60.2	chown(8)	https://github.com/apple-oss-distributions/file_cmds
+/usr/sbin/chroot	-rwxr-xr-x 	0	0	1764862278	2026-10-31 00:06:50	public.unix-executable	336.40.1	chroot(8)	https://github.com/apple-oss-distributions/shell_cmds
+/usr/sbin/ckksctl	-rwxr-xr-x 	0	0	1286716296	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1		NULL
+/usr/sbin/coreaudiod	-rwxr-xr-x 	0	0	591440127	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/createhomedir	-rwxr-xr-x 	0	0	3703025006	2026-10-31 00:06:50	public.unix-executable	NULL	createhomedir(1)	NULL
+/usr/sbin/cron	-rwxr-xr-x 	0	0	2986492014	2026-10-31 00:06:50	public.unix-executable	54	cron(8)	https://github.com/apple-oss-distributions/cron
+/usr/sbin/cupsaccept	-r-xr-xr-x 	0	0	1696626173	2026-10-31 00:06:50	public.unix-executable	NULL	cupsaccept(8)	NULL
+/usr/sbin/cupsctl	-r-xr-xr-x 	0	0	3653087131	2026-10-31 00:06:50	public.unix-executable	NULL	cupsctl(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/cupsd	-r-x------ 	0	0	420262450	2026-10-31 00:06:50	public.unix-executable	NULL	cupsd(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/cupsfilter	-r-xr-xr-x 	0	0	2299313709	2026-10-31 00:06:50	public.unix-executable	NULL	cupsfilter(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/dbmmanage	-rwxr-xr-x 	0	0	3589269332	2026-10-31 00:06:50	public.perl-script	NULL	dbmmanage(1)	NULL
+/usr/sbin/ddns-confgen	-rwxr-xr-x 	0	0	398310019	2026-10-31 00:06:50	public.unix-executable	NULL	ddns-confgen(8)	NULL
+/usr/sbin/dev_mkdb	-r-xr-xr-x 	0	0	4052511300	2026-10-31 00:06:50	public.unix-executable	NULL	dev_mkdb(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/usr/sbin/diskutil	-rwxr-xr-x 	0	0	1165898122	2026-10-31 00:06:50	public.unix-executable	NULL	diskutil(8)	NULL
+/usr/sbin/distnoted	-rwxr-xr-x 	0	0	3427874083	2026-10-31 00:06:50	public.unix-executable	5027.2.4	distnoted(8)	NULL
+/usr/sbin/dnctl	-r-xr-xr-x 	0	0	1178420268	2026-10-31 00:06:50	public.unix-executable	NULL	dnctl(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/dot_clean	-r-xr-xr-x 	0	0	836521192	2026-10-31 00:06:50	public.unix-executable	NULL	dot_clean(1)	NULL
+/usr/sbin/dsconfigad	-rwxr-xr-x 	0	0	398039534	2026-10-31 00:06:50	public.unix-executable	NULL	dsconfigad(8)	NULL
+/usr/sbin/dsconfigldap	-rwxr-xr-x 	0	0	1855586457	2026-10-31 00:06:50	public.unix-executable	191	dsconfigldap(1)	NULL
+/usr/sbin/dseditgroup	-rwxr-xr-x 	0	0	703389591	2026-10-31 00:06:50	public.unix-executable	191	dseditgroup(8)	NULL
+/usr/sbin/dsenableroot	-rwxr-xr-x 	0	0	1880096443	2026-10-31 00:06:50	public.unix-executable	191	dsenableroot(8)	NULL
+/usr/sbin/dtrace	-rwxr-xr-x 	0	0	3809248533	2026-10-31 00:06:50	public.unix-executable	NULL	dtrace(1)	https://github.com/apple-oss-distributions/dtrace
+/usr/sbin/edquota	-r-xr-xr-x 	0	0	639366173	2026-10-31 00:06:50	public.unix-executable	NULL	edquota(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/usr/sbin/fcgistarter	-rwxr-xr-x 	0	0	3056746536	2026-10-31 00:06:50	public.unix-executable	NULL	fcgistarter(8)	NULL
+/usr/sbin/fdisk	-r-xr-xr-x 	0	0	3770354976	2026-10-31 00:06:50	public.unix-executable	NULL	fdisk(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/usr/sbin/filecoordinationd	-rwxr-xr-x 	0	0	668647232	2026-10-31 00:06:50	public.unix-executable	5027.2.4	filecoordinationd(8)	NULL
+/usr/sbin/firmwarepasswd	-rwxr-xr-x 	0	0	816513283	2026-10-31 00:06:50	public.unix-executable	NULL	firmwarepasswd(8)	NULL
+/usr/sbin/gpt	-rwxr-xr-x 	0	0	2715134687	2026-10-31 00:06:50	public.unix-executable	NULL	gpt(8)	https://github.com/apple-oss-distributions/gpt
+/usr/sbin/graphicssession	-rwxr-xr-x 	0	0	379886612	2026-10-31 00:06:50	public.unix-executable	NULL	graphicssession(1)	NULL
+/usr/sbin/gssd	-r-xr-xr-x 	0	0	1100625366	2026-10-31 00:06:50	public.unix-executable	NULL	gssd(8)	https://github.com/apple-oss-distributions/gssd
+/usr/sbin/hdik	-rwxr-xr-x 	0	0	3992381866	2026-10-31 00:06:50	public.unix-executable	NULL	hdik(8)	NULL
+/usr/sbin/htcacheclean	-rwxr-xr-x 	0	0	2999923324	2026-10-31 00:06:50	public.unix-executable	NULL	htcacheclean(8)	NULL
+/usr/sbin/htdbm	-rwxr-xr-x 	0	0	1847741003	2026-10-31 00:06:50	public.unix-executable	NULL	htdbm(1)	NULL
+/usr/sbin/htdigest	-rwxr-xr-x 	0	0	1753956312	2026-10-31 00:06:50	public.unix-executable	NULL	htdigest(1)	NULL
+/usr/sbin/htpasswd	-rwxr-xr-x 	0	0	3629634621	2026-10-31 00:06:50	public.unix-executable	NULL	htpasswd(1)	NULL
+/usr/sbin/httpd	-rwxr-xr-x 	0	0	3458531669	2026-10-31 00:06:50	public.unix-executable	NULL	httpd(8)	NULL
+/usr/sbin/httpd-wrapper	-r-xr-xr-x 	0	0	1942037410	2026-10-31 00:06:50	public.ruby-script	NULL	httpd-wrapper(8)	NULL
+/usr/sbin/httxt2dbm	-rwxr-xr-x 	0	0	3708449444	2026-10-31 00:06:50	public.unix-executable	NULL	httxt2dbm(1)	NULL
+/usr/sbin/installer	-rwxr-xr-x 	0	0	3689847833	2026-10-31 00:06:50	public.unix-executable	604.0.1	installer(8)	NULL
+/usr/sbin/ioalloccount	-rwxr-xr-x 	0	0	1327135111	2026-10-31 00:06:50	public.unix-executable	NULL	ioalloccount(8)	NULL
+/usr/sbin/ioclasscount	-rwxr-xr-x 	0	0	1600978669	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/ioreg	-rwxr-xr-x 	0	0	3254275349	2026-10-31 00:06:50	public.unix-executable	NULL	ioreg(8)	NULL
+/usr/sbin/iostat	-rwxr-xr-x 	0	0	1590047241	2026-10-31 00:06:50	public.unix-executable	1071.40.9	iostat(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/ipconfig	-rwxr-xr-x 	0	0	1270956464	2026-10-31 00:06:50	public.unix-executable	557.60.2	ipconfig(8)	NULL
+/usr/sbin/kadmin	-rwxr-xr-x 	0	0	2477213307	2026-10-31 00:06:50	public.unix-executable	725.60.2	kadmin(8)	NULL
+/usr/sbin/kadmin.local	-rwxr-xr-x 	0	0	3060165254	2026-10-31 00:06:50	public.shell-script		kadmin.local(8)	NULL
+/usr/sbin/kcditto	-rwxr-xr-x 	0	0	1399949375	2026-10-31 00:06:50	public.unix-executable	NULL	kcditto(8)	NULL
+/usr/sbin/kdcsetup	-rwxr-xr-x 	0	0	2329074395	2026-10-31 00:06:50	public.unix-executable	NULL	kdcsetup(8)	NULL
+/usr/sbin/kextcache	-rwxr-xr-x 	0	0	1314270672	2026-10-31 00:06:50	public.unix-executable	NULL	kextcache(8)	https://github.com/apple-oss-distributions/kext_tools
+/usr/sbin/kextfind	-rwxr-xr-x 	0	0	3748253444	2026-10-31 00:06:50	public.unix-executable	NULL	kextfind(8)	https://github.com/apple-oss-distributions/kext_tools
+/usr/sbin/kextlibs	-rwxr-xr-x 	0	0	2467610769	2026-10-31 00:06:50	public.unix-executable	NULL	kextlibs(8)	https://github.com/apple-oss-distributions/kext_tools
+/usr/sbin/kextstat	-rwxr-xr-x 	0	0	3274912835	2026-10-31 00:06:50	public.unix-executable	NULL	kextstat(8)	https://github.com/apple-oss-distributions/kext_tools
+/usr/sbin/klist_cdhashes	-rwxr-xr-x 	0	0	499136654	2026-10-31 00:06:50	public.zsh-script	NULL	klist_cdhashes(8)	NULL
+/usr/sbin/krbservicesetup	-rwxr-xr-x 	0	0	2599483856	2026-10-31 00:06:50	public.unix-executable	NULL	krbservicesetup(8)	NULL
+/usr/sbin/ktutil	-rwxr-xr-x 	0	0	1573536399	2026-10-31 00:06:50	public.unix-executable	725.60.2	ktutil(8)	NULL
+/usr/sbin/languagesetup	-rwxr-xr-x 	0	0	808504920	2026-10-31 00:06:50	public.unix-executable	NULL	languagesetup(1)	NULL
+/usr/sbin/localemanager	-rwxr-xr-x 	0	0	1482388923	2026-10-31 00:06:50	public.unix-executable	NULL	localemanager(8)	NULL
+/usr/sbin/logresolve	-rwxr-xr-x 	0	0	2140678029	2026-10-31 00:06:50	public.unix-executable	NULL	logresolve(1)	NULL
+/usr/sbin/lpadmin	-r-xr-xr-x 	0	0	2501663159	2026-10-31 00:06:50	public.unix-executable	NULL	lpadmin(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/lpc	-r-xr-xr-x 	0	0	732737058	2026-10-31 00:06:50	public.unix-executable	NULL	lpc(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/lpinfo	-r-xr-xr-x 	0	0	1602394447	2026-10-31 00:06:50	public.unix-executable	NULL	lpinfo(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/lpmove	-r-xr-xr-x 	0	0	3630261257	2026-10-31 00:06:50	public.unix-executable	NULL	lpmove(8)	https://github.com/apple-oss-distributions/cups
+/usr/sbin/lsof	-rwxr-xr-x 	0	0	2681407001	2026-10-31 00:06:50	public.unix-executable	NULL	lsof(8)	https://github.com/apple-oss-distributions/lsof
+/usr/sbin/mDNSResponder	-rwxr-xr-x 	0	0	1954425806	2026-10-31 00:06:50	public.unix-executable	NULL	mDNSResponder(8)	https://github.com/apple-oss-distributions/mDNSResponder
+/usr/sbin/mDNSResponderHelper	-rwxr-xr-x 	0	0	3946363835	2026-10-31 00:06:50	public.unix-executable	NULL	mDNSResponderHelper(8)	NULL
+/usr/sbin/mkextunpack	-rwxr-xr-x 	0	0	2459397762	2026-10-31 00:06:50	public.unix-executable	NULL	mkextunpack(8)	NULL
+/usr/sbin/mkfile	-rwxr-xr-x 	0	0	920734573	2026-10-31 00:06:50	public.unix-executable	1071.40.9	mkfile(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/mkpassdb	-rwxr-xr-x 	0	0	3017693855	2026-10-31 00:06:50	public.unix-executable	NULL	mkpassdb(8)	NULL
+/usr/sbin/mtree	-rwxr-xr-x 	0	0	2304900105	2026-10-31 00:06:50	public.unix-executable	487.60.2	mtree(5)	https://github.com/apple-oss-distributions/file_cmds
+/usr/sbin/ndp	-r-xr-xr-x 	0	0	1711755098	2026-10-31 00:06:50	public.unix-executable	NULL	ndp(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/netbiosd	-rwxr-xr-x 	0	0	2881086362	2026-10-31 00:06:50	public.unix-executable	684.60.1	netbiosd(8)	NULL
+/usr/sbin/netstat	-r-xr-xr-x 	0	0	1363874412	2026-10-31 00:06:50	public.unix-executable	NULL	netstat(1)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/networksetup	-rwxr-xr-x 	0	0	3243670114	2026-10-31 00:06:50	public.unix-executable	NULL	networksetup(8)	NULL
+/usr/sbin/newsyslog	-rwxr-xr-x 	0	0	3538642413	2026-10-31 00:06:50	public.unix-executable	409.60.2	newsyslog(8)	https://github.com/apple-oss-distributions/syslog
+/usr/sbin/nfs4mapid	-rwxr-xr-x 	0	0	3256448043	2026-10-31 00:06:50	public.unix-executable	NULL	nfs4mapid(8)	https://github.com/apple-oss-distributions/NFS
+/usr/sbin/nlcontrol	-rwxr-xr-x 	0	0	3749281862	2026-10-31 00:06:50	public.unix-executable	684.60.1	nlcontrol(8)	NULL
+/usr/sbin/notifyd	-rwxr-xr-x 	0	0	4108162796	2026-10-31 00:06:50	public.unix-executable	368.40.2	notifyd(8)	NULL
+/usr/sbin/nvram	-rwxr-xr-x 	0	0	3307313355	2026-10-31 00:06:50	public.unix-executable	1071.40.9	nvram(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/ocspd	-rwxr-xr-x 	0	0	963861003	2026-10-31 00:06:50	public.unix-executable	55149.40.1	ocspd(1)	https://github.com/apple-oss-distributions/security_ocspd
+/usr/sbin/otctl	-rwxr-xr-x 	0	0	1160690622	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	otctl(1)	NULL
+/usr/sbin/pdisk	-rwxr-xr-x 	0	0	171238471	2026-10-31 00:06:50	public.unix-executable	NULL	pdisk(8)	https://github.com/apple-oss-distributions/pdisk
+/usr/sbin/pkgutil	-rwxr-xr-x 	0	0	1548654616	2026-10-31 00:06:50	public.unix-executable	883	pkgutil(1)	NULL
+/usr/sbin/postalias	-rwxr-xr-x 	0	0	2812797359	2026-10-31 00:06:50	public.unix-executable	NULL	postalias(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postcat	-rwxr-xr-x 	0	0	518757029	2026-10-31 00:06:50	public.unix-executable	NULL	postcat(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postconf	-rwxr-xr-x 	0	0	1967013632	2026-10-31 00:06:50	public.unix-executable	NULL	postconf(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postdrop	-rwxr-sr-x 	0	28	2714443368	2026-10-31 00:06:50	public.unix-executable	NULL	postdrop(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postfix	-rwxr-xr-x 	0	0	3231888010	2026-10-31 00:06:50	public.unix-executable	NULL	postfix(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postkick	-rwxr-xr-x 	0	0	1448754657	2026-10-31 00:06:50	public.unix-executable	NULL	postkick(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postlock	-rwxr-xr-x 	0	0	2152511085	2026-10-31 00:06:50	public.unix-executable	NULL	postlock(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postlog	-rwxr-xr-x 	0	0	2714788096	2026-10-31 00:06:50	public.unix-executable	NULL	postlog(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postmap	-rwxr-xr-x 	0	0	3626362079	2026-10-31 00:06:50	public.unix-executable	NULL	postmap(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postmulti	-rwxr-xr-x 	0	0	2180482750	2026-10-31 00:06:50	public.unix-executable	NULL	postmulti(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postqueue	-rwxr-sr-x 	0	28	769905916	2026-10-31 00:06:50	public.unix-executable	NULL	postqueue(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/postsuper	-rwxr-xr-x 	0	0	2284683940	2026-10-31 00:06:50	public.unix-executable	NULL	postsuper(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/pppd	-r-xr-xr-x 	0	0	1627618114	2026-10-31 00:06:50	public.unix-executable	NULL	pppd(8)	NULL
+/usr/sbin/praudit	-rwxr-xr-x 	0	0	3547007997	2026-10-31 00:06:50	public.unix-executable	NULL	praudit(1)	NULL
+/usr/sbin/purge	-rwxr-xr-x 	0	0	4242046427	2026-10-31 00:06:50	public.unix-executable	1071.40.9	purge(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/pwd_mkdb	-rwxr-xr-x 	0	0	3535303745	2026-10-31 00:06:50	public.unix-executable	1071.40.9	pwd_mkdb(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/quotaoff	-r-xr-xr-x 	0	0	1093853233	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/quotaon	-r-xr-xr-x 	0	0	1093853233	2026-10-31 00:06:50	public.unix-executable	NULL	quotaon(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/usr/sbin/racoon	-r-xr-xr-x 	0	0	3227969985	2026-10-31 00:06:50	public.unix-executable	NULL	racoon(8)	NULL
+/usr/sbin/rarpd	-r-xr-xr-x 	0	0	2070961865	2026-10-31 00:06:50	public.unix-executable	NULL	rarpd(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/repairHomePermissions	-rwxr-xr-x 	0	0	1177478033	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/repquota	-r-xr-xr-x 	0	0	3697314182	2026-10-31 00:06:50	public.unix-executable	NULL	repquota(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/usr/sbin/rotatelogs	-rwxr-xr-x 	0	0	298132721	2026-10-31 00:06:50	public.unix-executable	NULL	rotatelogs(8)	NULL
+/usr/sbin/rpc.lockd	-rwxr-xr-x 	0	0	2631466252	2026-10-31 00:06:50	public.unix-executable		rpc.lockd(8)	https://github.com/apple-oss-distributions/NFS
+/usr/sbin/rpc.statd	-rwxr-xr-x 	0	0	2840543147	2026-10-31 00:06:50	public.unix-executable		rpc.statd(8)	https://github.com/apple-oss-distributions/NFS
+/usr/sbin/rpcbind	-rwxr-xr-x 	0	0	3328725606	2026-10-31 00:06:50	public.unix-executable	94	rpcbind(8)	NULL
+/usr/sbin/rpcinfo	-rwxr-xr-x 	0	0	2277674185	2026-10-31 00:06:50	public.unix-executable	94	rpcinfo(8)	NULL
+/usr/sbin/rtadvd	-r-xr-xr-x 	0	0	1193323498	2026-10-31 00:06:50	public.unix-executable	NULL	rtadvd(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/sa	-rwxr-xr-x 	0	0	734563861	2026-10-31 00:06:50	public.unix-executable	1071.40.9	sa(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/sc_auth	-rwxr-xr-x 	0	0	478401331	2026-10-31 00:06:50	public.bash-script	NULL	sc_auth(8)	NULL
+/usr/sbin/screencapture	-rwxr-xr-x 	0	0	1857466476	2026-10-31 00:06:50	public.unix-executable	454.2.1	screencapture(1)	NULL
+/usr/sbin/scselect	-rwxr-xr-x 	0	0	2847121860	2026-10-31 00:06:50	public.unix-executable	1453.60.5	scselect(8)	NULL
+/usr/sbin/scutil	-rwxr-xr-x 	0	0	3309322622	2026-10-31 00:06:50	public.unix-executable	1453.60.5	scutil(8)	https://github.com/apple-oss-distributions/configd
+/usr/sbin/securityd	-rwxr-xr-x 	0	0	2357682746	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	securityd(1)	https://github.com/apple-oss-distributions/Security
+/usr/sbin/sendmail	-rwxr-xr-x 	0	0	2402093306	2026-10-31 00:06:50	public.unix-executable	NULL	sendmail(1)	https://github.com/apple-oss-distributions/postfix
+/usr/sbin/setkey	-r-xr-xr-x 	0	0	3659991679	2026-10-31 00:06:50	public.unix-executable	NULL	setkey(8)	NULL
+/usr/sbin/setquota	-rwxr-xr-x 	0	0	1864044143	2026-10-31 00:06:50	public.unix-executable	NULL	setquota(1)	NULL
+/usr/sbin/sharing	-rwxr-xr-x 	0	0	4288840045	2026-10-31 00:06:50	public.unix-executable	NULL	sharing(8)	NULL
+/usr/sbin/skywalkctl	-rwxr-xr-x 	0	0	2344162297	2026-10-31 00:06:50	public.unix-executable	NULL	skywalkctl(8)	NULL
+/usr/sbin/slapconfig	-rwxr-xr-x 	0	0	765154547	2026-10-31 00:06:50	public.unix-executable	NULL	slapconfig(8)	https://github.com/apple-oss-distributions/OpenLDAP
+/usr/sbin/smbd	-rwxr-xr-x 	0	0	272019461	2026-10-31 00:06:50	public.unix-executable	684.60.1	smbd(8)	NULL
+/usr/sbin/smbdiagnose	-rwxr-xr-x 	0	0	1740296783	2026-10-31 00:06:50	public.shell-script	NULL	smbdiagnose(8)	https://github.com/apple-oss-distributions/SMBClient
+/usr/sbin/snmpd	-rwxr-xr-x 	0	0	190287939	2026-10-31 00:06:50	public.shell-script	NULL	snmpd(8)	NULL
+/usr/sbin/snmptrapd	-rwxr-xr-x 	0	0	522248940	2026-10-31 00:06:50	public.unix-executable	NULL	snmptrapd(8)	NULL
+/usr/sbin/sntpd	-rwxr-xr-x 	0	0	1851840557	2026-10-31 00:06:50	public.unix-executable	NULL	sntpd(8)	NULL
+/usr/sbin/softwareupdate	-rwxr-xr-x 	0	0	148921514	2026-10-31 00:06:50	public.unix-executable	NULL	softwareupdate(8)	NULL
+/usr/sbin/spctl	-rwxr-xr-x 	0	0	2115444776	2026-10-31 00:06:50	public.unix-executable	823.60.4	spctl(8)	NULL
+/usr/sbin/spindump	-rwxr-xr-x 	0	0	3554865253	2026-10-31 00:06:50	public.unix-executable	454.2	spindump(8)	NULL
+/usr/sbin/spray	-r-xr-xr-x 	0	0	2025667953	2026-10-31 00:06:50	public.unix-executable	NULL	spray(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/sshd	-rwxr-xr-x 	0	0	2954646363	2026-10-31 00:06:50	public.unix-executable	369.60.3	sshd(8)	https://github.com/apple-oss-distributions/OpenSSH
+/usr/sbin/sso_util	-rwxr-xr-x 	0	0	2691223233	2026-10-31 00:06:50	public.unix-executable	NULL	sso_util(8)	NULL
+/usr/sbin/sysadminctl	-rwxr-xr-x 	0	0	904977663	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/sysctl	-rwxr-xr-x 	0	0	3529772288	2026-10-31 00:06:50	public.unix-executable	1071.40.9	sysctl(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/syslogd	-rwxr-xr-x 	0	0	2004147191	2026-10-31 00:06:50	public.unix-executable	409.60.2	syslogd(8)	NULL
+/usr/sbin/system_profiler	-rwxr-xr-x 	0	0	1452270457	2026-10-31 00:06:50	public.unix-executable	NULL	system_profiler(8)	NULL
+/usr/sbin/systemkeychain	-rwxr-xr-x 	0	0	3907814816	2026-10-31 00:06:50	public.unix-executable	55217.0.1	systemkeychain(8)	https://github.com/apple-oss-distributions/security_systemkeychain
+/usr/sbin/systemsetup	-rwxr-xr-x 	0	0	1963031408	2026-10-31 00:06:50	public.unix-executable	NULL	systemsetup(8)	NULL
+/usr/sbin/systemsoundserverd	-rwxr-xr-x 	0	0	2948109114	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/systemstats	-rwxr-xr-x 	0	0	4275697235	2026-10-31 00:06:50	public.unix-executable	515.40.2	systemstats(8)	NULL
+/usr/sbin/taskpolicy	-rwxr-xr-x 	0	0	998904565	2026-10-31 00:06:50	public.unix-executable	1071.40.9	taskpolicy(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/tcpdump	-rwxr-xr-x 	0	0	3162937058	2026-10-31 00:06:50	public.unix-executable	161	tcpdump(1)	https://github.com/apple-oss-distributions/tcpdump
+/usr/sbin/traceroute	-r-sr-xr-x 	0	0	1286399619	2026-10-31 00:06:50	public.unix-executable	NULL	traceroute(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/traceroute6	-r-sr-xr-x 	0	0	1023551484	2026-10-31 00:06:50	public.unix-executable	NULL	traceroute6(8)	https://github.com/apple-oss-distributions/network_cmds
+/usr/sbin/uasysdiagnose	-rwxr-xr-x 	0	0	2143638581	2026-10-31 00:06:50	public.unix-executable	NULL	uasysdiagnose(8)	NULL
+/usr/sbin/universalaccessd	-rwxr-xr-x 	0	0	2046907798	2026-10-31 00:06:50	public.unix-executable	NULL	universalaccessd(8)	NULL
+/usr/sbin/unsetpassword	-rwxr-xr-x 	0	0	1947857213	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/usernoted	-rwxr-xr-x 	0	0	1781800940	2026-10-31 00:06:50	public.unix-executable	1674.2.4	usernoted(8)	NULL
+/usr/sbin/uuchk	-rwxr-xr-x 	0	0	1418579134	2026-10-31 00:06:50	public.unix-executable	NULL	uuchk(8)	https://github.com/apple-oss-distributions/uucp
+/usr/sbin/uucico	-r-xr-xr-x 	4	0	3732974579	2026-10-31 00:06:50	public.unix-executable	NULL	uucico(8)	https://github.com/apple-oss-distributions/uucp
+/usr/sbin/uuconv	-rwxr-xr-x 	0	0	700523316	2026-10-31 00:06:50	public.unix-executable	NULL	uuconv(1)	https://github.com/apple-oss-distributions/uucp
+/usr/sbin/uusched	-rwxr-xr-x 	0	0	64871302	2026-10-31 00:06:50	public.shell-script	NULL	uusched(8)	https://github.com/apple-oss-distributions/uucp
+/usr/sbin/uuxqt	-r-xr-xr-x 	4	0	1543186388	2026-10-31 00:06:50	public.unix-executable	NULL	uuxqt(8)	https://github.com/apple-oss-distributions/uucp
+/usr/sbin/vifs	-rwxr-xr-x 	0	0	304151069	2026-10-31 00:06:50	public.unix-executable	1071.40.9	vifs(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/vipw	-rwxr-xr-x 	0	0	3941344740	2026-10-31 00:06:50	public.unix-executable	1071.40.9	vipw(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/visudo	---x--x--x 	0	0	1075967110	2026-10-31 00:06:50	public.unix-executable	NULL	visudo(8)	https://github.com/apple-oss-distributions/sudo
+/usr/sbin/vpnd	-r-xr-xr-x 	0	0	4184489578	2026-10-31 00:06:50	public.unix-executable	NULL	vpnd(5)	NULL
+/usr/sbin/vsdbutil	-r-xr-xr-x 	0	0	2923373684	2026-10-31 00:06:50	public.unix-executable	NULL	vsdbutil(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/usr/sbin/wfsctl	-rwxr-xr-x 	0	0	2966495914	2026-10-31 00:06:50	public.unix-executable	NULL	wfsctl(8)	NULL
+/usr/sbin/xartutil	-rwxr-xr-x 	0	0	1185673737	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/sbin/xscertadmin	-rwxr-xr-x 	0	0	3944653226	2026-10-31 00:06:50	public.unix-executable	NULL	xscertadmin(8)	NULL
+/usr/sbin/zdump	-rwxr-xr-x 	0	0	660659278	2026-10-31 00:06:50	public.unix-executable	1071.40.9	zdump(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/sbin/zic	-rwxr-xr-x 	0	0	705093938	2026-10-31 00:06:50	public.unix-executable	1071.40.9	zic(8)	https://github.com/apple-oss-distributions/system_cmds

@@ -1,0 +1,39 @@
+/bin
+filepath	mode	fileowner	filegroup	cksum	installdate	type	version	manpage	source
+/bin/[	-rwxr-xr-x 	0	0	1276370816	2026-10-31 00:06:50	public.unix-executable	336.40.1		NULL
+/bin/bash	-r-xr-xr-x 	0	0	2880456010	2026-10-31 00:06:50	public.unix-executable	149	bash(1)	https://github.com/apple-oss-distributions/bash
+/bin/cat	-rwxr-xr-x 	0	0	3811341866	2026-10-31 00:06:50	public.unix-executable	201	cat(1)	https://github.com/apple-oss-distributions/text_cmds
+/bin/chmod	-rwxr-xr-x 	0	0	3347749614	2026-10-31 00:06:50	public.unix-executable	487.60.2	chmod(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/cp	-rwxr-xr-x 	0	0	314703761	2026-10-31 00:06:50	public.unix-executable	487.60.2	cp(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/csh	-rwxr-xr-x 	0	0	847167070	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/bin/dash	-rwxr-xr-x 	0	0	1790410959	2026-10-31 00:06:50	public.unix-executable	16	dash(1)	NULL
+/bin/date	-rwxr-xr-x 	0	0	2374420783	2026-10-31 00:06:50	public.unix-executable	336.40.1	date(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/dd	-rwxr-xr-x 	0	0	947760690	2026-10-31 00:06:50	public.unix-executable	487.60.2	dd(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/df	-rwxr-xr-x 	0	0	2826065103	2026-10-31 00:06:50	public.unix-executable	487.60.2	df(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/echo	-rwxr-xr-x 	0	0	38196916	2026-10-31 00:06:50	public.unix-executable	336.40.1	echo(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/ed	-rwxr-xr-x 	0	0	4167266295	2026-10-31 00:06:50	public.unix-executable	201	ed(1)	https://github.com/apple-oss-distributions/text_cmds
+/bin/expr	-rwxr-xr-x 	0	0	2784585390	2026-10-31 00:06:50	public.unix-executable	336.40.1	expr(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/hostname	-rwxr-xr-x 	0	0	1087283553	2026-10-31 00:06:50	public.unix-executable	336.40.1	hostname(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/kill	-rwxr-xr-x 	0	0	4278930826	2026-10-31 00:06:50	public.unix-executable	336.40.1	kill(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/ksh	-r-xr-xr-x 	0	0	2659642077	2026-10-31 00:06:50	public.unix-executable	NULL	ksh(1)	https://github.com/apple-oss-distributions/ksh
+/bin/launchctl	-rwxr-xr-x 	0	0	2009711508	2026-10-31 00:06:50	public.unix-executable	3298.60.14	launchctl(1)	NULL
+/bin/link	-rwxr-xr-x 	0	0	3374499514	2026-10-31 00:06:50	public.unix-executable	487.60.2		NULL
+/bin/ln	-rwxr-xr-x 	0	0	3374499514	2026-10-31 00:06:50	public.unix-executable	487.60.2	ln(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/ls	-rwxr-xr-x 	0	0	2318689813	2026-10-31 00:06:50	public.unix-executable	487.60.2	ls(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/mkdir	-rwxr-xr-x 	0	0	25065602	2026-10-31 00:06:50	public.unix-executable	487.60.2	mkdir(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/mv	-rwxr-xr-x 	0	0	2966610181	2026-10-31 00:06:50	public.unix-executable	487.60.2	mv(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/pax	-rwxr-xr-x 	0	0	3742572402	2026-10-31 00:06:50	public.unix-executable	487.60.2	pax(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/ps	-rwsr-xr-x 	0	0	2580569942	2026-10-31 00:06:50	public.unix-executable	241.40.1	ps(1)	https://github.com/apple-oss-distributions/adv_cmds
+/bin/pwd	-rwxr-xr-x 	0	0	1812309216	2026-10-31 00:06:50	public.unix-executable	336.40.1	pwd(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/realpath	-rwxr-xr-x 	0	0	3209744349	2026-10-31 00:06:50	public.unix-executable	336.40.1	realpath(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/rm	-rwxr-xr-x 	0	0	1782907906	2026-10-31 00:06:50	public.unix-executable	487.60.2	rm(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/rmdir	-rwxr-xr-x 	0	0	2858732382	2026-10-31 00:06:50	public.unix-executable	487.60.2	rmdir(1)	https://github.com/apple-oss-distributions/file_cmds
+/bin/sh	-rwxr-xr-x 	0	0	712217140	2026-10-31 00:06:50	public.unix-executable	16	sh(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/sleep	-rwxr-xr-x 	0	0	682053662	2026-10-31 00:06:50	public.unix-executable	336.40.1	sleep(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/stty	-rwxr-xr-x 	0	0	466626368	2026-10-31 00:06:50	public.unix-executable	241.40.1	stty(1)	https://github.com/apple-oss-distributions/adv_cmds
+/bin/sync	-rwxr-xr-x 	0	0	4265885509	2026-10-31 00:06:50	public.unix-executable	1071.40.9	sync(8)	https://github.com/apple-oss-distributions/system_cmds
+/bin/tcsh	-rwxr-xr-x 	0	0	847167070	2026-10-31 00:06:50	public.unix-executable	NULL	tcsh(1)	https://github.com/apple-oss-distributions/tcsh
+/bin/test	-rwxr-xr-x 	0	0	661841522	2026-10-31 00:06:50	public.unix-executable	336.40.1	test(1)	https://github.com/apple-oss-distributions/shell_cmds
+/bin/unlink	-rwxr-xr-x 	0	0	1782907906	2026-10-31 00:06:50	public.unix-executable	487.60.2		NULL
+/bin/wait4path	-rwxr-xr-x 	0	0	838587081	2026-10-31 00:06:50	public.unix-executable	1071.40.9	wait4path(1)	https://github.com/apple-oss-distributions/system_cmds
+/bin/zsh	-rwxr-xr-x 	0	0	1148775867	2026-10-31 00:06:50	public.unix-executable	NULL	zsh(1)	https://github.com/apple-oss-distributions/zsh

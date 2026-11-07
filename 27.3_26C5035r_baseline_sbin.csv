@@ -1,0 +1,52 @@
+/sbin
+filepath	mode	fileowner	filegroup	cksum	installdate	type	version	manpage	source
+/sbin/apfs_unlockfv	-rwxr-xr-x 	0	0	1269669383	2026-10-31 00:06:50	public.unix-executable	NULL	apfs_unlockfv(8)	NULL
+/sbin/disklabel	-rwxr-xr-x 	0	0	2172130578	2026-10-31 00:06:50	public.unix-executable	NULL	disklabel(8)	NULL
+/sbin/dmesg	-rwxr-xr-x 	0	0	2648172045	2026-10-31 00:06:50	public.unix-executable	1071.40.9	dmesg(8)	https://github.com/apple-oss-distributions/system_cmds
+/sbin/dynamic_pager	-rwxr-xr-x 	0	0	1372094378	2026-10-31 00:06:50	public.unix-executable	1071.40.9	dynamic_pager(8)	https://github.com/apple-oss-distributions/system_cmds
+/sbin/fibreconfig	-rwxr-xr-x 	0	0	3972123611	2026-10-31 00:06:50	public.unix-executable	NULL	fibreconfig(8)	NULL
+/sbin/fsck	-r-xr-xr-x 	0	0	2733343837	2026-10-31 00:06:50	public.unix-executable	NULL	fsck(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/fsck_cs	-rwxr-xr-x 	0	0	535353711	2026-10-31 00:06:50	public.unix-executable	NULL	fsck_cs(8)	NULL
+/sbin/fsck_fskit	-r-xr-xr-x 	0	0	3196027050	2026-10-31 00:06:50	public.unix-executable	NULL	fsck_fskit(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/fstyp	-r-xr-xr-x 	0	0	3160243184	2026-10-31 00:06:50	public.unix-executable	NULL	fstyp(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/fstyp_hfs	-r-xr-xr-x 	0	0	67306730	2026-10-31 00:06:50	public.unix-executable	753.60.3	fstyp_hfs(8)	NULL
+/sbin/fstyp_msdos	-r-xr-xr-x 	0	0	1629540976	2026-10-31 00:06:50	public.unix-executable	NULL	fstyp_msdos(8)	NULL
+/sbin/fstyp_ntfs	-r-xr-xr-x 	0	0	3131051860	2026-10-31 00:06:50	public.unix-executable	NULL	fstyp_ntfs(8)	NULL
+/sbin/fstyp_udf	-r-xr-xr-x 	0	0	193224113	2026-10-31 00:06:50	public.unix-executable	NULL	fstyp_udf(8)	NULL
+/sbin/halt	-rwxr-xr-x 	0	0	2105285605	2026-10-31 00:06:50	public.unix-executable	1071.40.9	halt(8)	NULL
+/sbin/ifconfig	-r-xr-xr-x 	0	0	1176070405	2026-10-31 00:06:50	public.unix-executable	NULL	ifconfig(8)	https://github.com/apple-oss-distributions/network_cmds
+/sbin/kextload	-rwxr-xr-x 	0	0	1905324859	2026-10-31 00:06:50	public.unix-executable	NULL	kextload(8)	https://github.com/apple-oss-distributions/kext_tools
+/sbin/kextunload	-rwxr-xr-x 	0	0	1629609705	2026-10-31 00:06:50	public.unix-executable	NULL	kextunload(8)	https://github.com/apple-oss-distributions/kext_tools
+/sbin/launchd	-rwxr-xr-x 	0	0	142740531	2026-10-31 00:06:50	public.unix-executable	3298.60.14	launchd(8)	NULL
+/sbin/md5	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201	md5(1)	https://github.com/apple-oss-distributions/text_cmds
+/sbin/md5sum	-rwxr-xr-x 	0	0	2556584979	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/mknod	-rwxr-xr-x 	0	0	74965196	2026-10-31 00:06:50	public.unix-executable	487.60.2	mknod(8)	https://github.com/apple-oss-distributions/file_cmds
+/sbin/mount	-r-xr-xr-x 	0	0	614341795	2026-10-31 00:06:50	public.unix-executable	NULL	mount(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/mount_9p	-rwxr-xr-x 	0	0	3639997863	2026-10-31 00:06:50	public.unix-executable	NULL	mount_9p(8)	NULL
+/sbin/mount_devfs	-r-xr-xr-x 	0	0	3093834344	2026-10-31 00:06:50	public.unix-executable	NULL		https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/mount_fdesc	-r-xr-xr-x 	0	0	2052706716	2026-10-31 00:06:50	public.unix-executable	NULL	mount_fdesc(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/mount_nfs	-rwxr-xr-x 	0	0	827761989	2026-10-31 00:06:50	public.unix-executable	NULL	mount_nfs(8)	https://github.com/apple-oss-distributions/NFS
+/sbin/mount_smbfs	-r-xr-xr-x 	0	0	160919986	2026-10-31 00:06:50	public.unix-executable	NULL	mount_smbfs(8)	https://github.com/apple-oss-distributions/SMBClient
+/sbin/mount_webdav	-rwxr-xr-x 	0	0	76136017	2026-10-31 00:06:50	public.unix-executable	NULL	mount_webdav(8)	NULL
+/sbin/mpioutil	-rwxr-xr-x 	0	0	319529211	2026-10-31 00:06:50	public.unix-executable	NULL	mpioutil(1)	NULL
+/sbin/newfs_fskit	-r-xr-xr-x 	0	0	185555828	2026-10-31 00:06:50	public.unix-executable	NULL	newfs_fskit(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/nfsd	-rwxr-xr-x 	0	0	1989539498	2026-10-31 00:06:50	public.unix-executable	NULL	nfsd(8)	https://github.com/apple-oss-distributions/NFS
+/sbin/nologin	-rwxr-xr-x 	0	0	1991117114	2026-10-31 00:06:50	public.unix-executable	1071.40.9	nologin(5)	https://github.com/apple-oss-distributions/system_cmds
+/sbin/pfctl	-r-xr-xr-x 	0	0	3894725682	2026-10-31 00:06:50	public.unix-executable	NULL	pfctl(8)	NULL
+/sbin/ping	-r-xr-xr-x 	0	0	1065055070	2026-10-31 00:06:50	public.unix-executable	NULL	ping(8)	https://github.com/apple-oss-distributions/network_cmds
+/sbin/ping6	-r-xr-xr-x 	0	0	727715069	2026-10-31 00:06:50	public.unix-executable	NULL	ping6(8)	https://github.com/apple-oss-distributions/network_cmds
+/sbin/quotacheck	-r-xr-xr-x 	0	0	4220383059	2026-10-31 00:06:50	public.unix-executable	NULL	quotacheck(8)	https://github.com/apple-oss-distributions/diskdev_cmds
+/sbin/reboot	-rwxr-xr-x 	0	0	4270025317	2026-10-31 00:06:50	public.unix-executable	1071.40.9		https://github.com/apple-oss-distributions/system_cmds
+/sbin/route	-r-xr-xr-x 	0	0	1038297895	2026-10-31 00:06:50	public.unix-executable	NULL	route(4)	https://github.com/apple-oss-distributions/network_cmds
+/sbin/sha1	-rwxr-xr-x 	0	0	2556584979	2026-10-31 00:06:50	public.unix-executable	201	sha1(n)	NULL
+/sbin/sha1sum	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha224	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha224sum	-rwxr-xr-x 	0	0	2556584979	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha256	-rwxr-xr-x 	0	0	2556584979	2026-10-31 00:06:50	public.unix-executable	201	sha256(n)	NULL
+/sbin/sha256sum	-rwxr-xr-x 	0	0	2556584979	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha384	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha384sum	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha512	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/sha512sum	-rwxr-xr-x 	0	0	2820856198	2026-10-31 00:06:50	public.unix-executable	201		NULL
+/sbin/shutdown	-rwxr-xr-x 	0	0	774193178	2026-10-31 00:06:50	public.unix-executable	1071.40.9	shutdown(8)	https://github.com/apple-oss-distributions/system_cmds
+/sbin/umount	-r-xr-xr-x 	0	0	1965213497	2026-10-31 00:06:50	public.unix-executable	NULL	umount(8)	https://github.com/apple-oss-distributions/diskdev_cmds

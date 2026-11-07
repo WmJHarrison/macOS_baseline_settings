@@ -1,0 +1,590 @@
+/usr/libexec
+filepath	mode	fileowner	filegroup	cksum	installdate	type	version	manpage	source
+/usr/libexec/ASPCarryLog	-rwxr-xr-x 	0	0	1070429538	2026-10-31 00:06:50	public.unix-executable	NULL	ASPCarryLog(8)	NULL
+/usr/libexec/AdvancedCommandsMigrator	-rwxr-xr-x 	0	0	2390732385	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/AirPlayXPCHelper	-rwxr-xr-x 	0	0	3969716657	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/AppleQEMUGuestAgent	-rwxr-xr-x 	0	0	3282595975	2026-10-31 00:06:50	public.unix-executable	NULL	AppleQEMUGuestAgent(8)	NULL
+/usr/libexec/AppleVirtualPlatformHIDBridge	-rwxr-xr-x 	0	0	3349006631	2026-10-31 00:06:50	public.unix-executable	NULL	AppleVirtualPlatformHIDBridge(8)	NULL
+/usr/libexec/ApplicationFirewall/Firewall	-rwxr-xr-x 	0	0	1355774304	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/ApplicationFirewall/socketfilterfw	-rwxr-xr-x 	0	0	386135272	2026-10-31 00:06:50	public.unix-executable	NULL	socketfilterfw(8)	NULL
+/usr/libexec/ApplicationFirewall/socketfilterhelper	-rwxr-xr-x 	0	0	1394173822	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/AssetCache/AssetCache	-rwxr-xr-x 	0	0	3016757652	2026-10-31 00:06:50	public.unix-executable	NULL	AssetCache(8)	NULL
+/usr/libexec/AssetCacheAgent/AssetCacheAgent	-rwxr-xr-x 	0	0	3155860844	2026-10-31 00:06:50	public.unix-executable	NULL	AssetCacheAgent(8)	NULL
+/usr/libexec/CSCSupportd	-rwxr-xr-x 	0	0	2418166853	2026-10-31 00:06:50	public.unix-executable	NULL	CSCSupportd(8)	NULL
+/usr/libexec/ContainerMigrationService	-rwxr-xr-x 	0	0	2938658558	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/ContinuityCaptureAgent	-rwxr-xr-x 	0	0	705963581	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/DataDetectorsLocalSources	-rwxr-xr-x 	0	0	1291442533	2026-10-31 00:06:50	public.unix-executable	852	DataDetectorsLocalSources(8)	NULL
+/usr/libexec/DataDetectorsSourceAccess	-rwxr-xr-x 	0	0	3641445900	2026-10-31 00:06:50	public.unix-executable	852	DataDetectorsSourceAccess(8)	NULL
+/usr/libexec/DumpPanic	-rwxr-xr-x 	0	0	2986719276	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/DumpPanicRecoveryOS	-rwxr-xr-x 	0	0	220364339	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/FDERecoveryAgent	-rwxr-xr-x 	0	0	2731263899	2026-10-31 00:06:50	public.unix-executable	NULL	FDERecoveryAgent(8)	NULL
+/usr/libexec/GamePolicyAgent	-rwxr-xr-x 	0	0	4234221519	2026-10-31 00:06:50	public.unix-executable	4.1.2	GamePolicyAgent(8)	NULL
+/usr/libexec/IOAccelMemoryInfoCollector	-rwxr-xr-x 	0	0	2885134390	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/IOMFB_bics_daemon	-rwxr-xr-x 	0	0	293154966	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/InternetSharing	-r-xr-xr-x 	0	0	4153435934	2026-10-31 00:06:50	public.unix-executable	408.60.5	InternetSharing(8)	NULL
+/usr/libexec/KeychainStasher	-rwxr-xr-x 	0	0	117619245	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1		NULL
+/usr/libexec/MSUEarlyBootTask	-rwxr-xr-x 	0	0	3245355905	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/MTLAssetUpgraderD	-rwxr-xr-x 	0	0	734991512	2026-10-31 00:06:50	public.unix-executable	NULL	MTLAssetUpgraderD(8)	NULL
+/usr/libexec/MiniTerm.app/Contents/MacOS/MiniTerm	-rwxr-xr-x 	0	0	1558566147	2026-10-31 00:06:50	com.apple.application-bundle	1.9		NULL
+/usr/libexec/MobileAssetEarlyBootTask	-rwxr-xr-x 	0	0	1132528651	2026-10-31 00:06:50	public.unix-executable	2215.60.7		NULL
+/usr/libexec/MobileGestaltHelper	-rwxr-xr-x 	0	0	1493744541	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/MobileStorageMounter	-rwxr-xr-x 	0	0	3254235718	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/NANDTaskScheduler	-rwxr-xr-x 	0	0	281780268	2026-10-31 00:06:50	public.unix-executable	NULL	NANDTaskScheduler(8)	NULL
+/usr/libexec/NRDUpdated	-rwxr-xr-x 	0	0	3918893742	2026-10-31 00:06:50	public.unix-executable	NULL	NRDUpdated(8)	NULL
+/usr/libexec/NVMeAgent	-rwxr-xr-x 	0	0	509521236	2026-10-31 00:06:50	public.unix-executable	NULL	NVMeAgent(8)	NULL
+/usr/libexec/PerfPowerServices	-rwxr-xr-x 	0	0	435981793	2026-10-31 00:06:50	public.unix-executable	3486.60.36	PerfPowerServices(8)	NULL
+/usr/libexec/PerfPowerServicesExtended	-rwxr-xr-x 	0	0	3090379177	2026-10-31 00:06:50	public.unix-executable	3486.60.36	PerfPowerServicesExtended(8)	NULL
+/usr/libexec/PlistBuddy	-rwxr-xr-x 	0	0	1476037538	2026-10-31 00:06:50	public.unix-executable	NULL	PlistBuddy(8)	NULL
+/usr/libexec/PowerUIAgent	-rwxr-xr-x 	0	0	2480505831	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/ReportMemoryException	-rwxr-xr-x 	0	0	3231555818	2026-10-31 00:06:50	public.unix-executable	NULL	ReportMemoryException(8)	NULL
+/usr/libexec/SidecarDisplayAgent	-rwxr-xr-x 	0	0	443596438	2026-10-31 00:06:50	public.unix-executable	414.1	SidecarDisplayAgent(8)	NULL
+/usr/libexec/SidecarRelay	-rwxr-xr-x 	0	0	2255619670	2026-10-31 00:06:50	public.unix-executable	414.1	SidecarRelay(8)	NULL
+/usr/libexec/SmartCardServices/drivers/ifd-ccid.bundle/Contents/MacOS/libccid.dylib	-rwxr-xr-x 	0	0	3922672276	2026-10-31 00:06:50	com.apple.mach-o-dylib	0.0.0		NULL
+/usr/libexec/StorageDEHelper	-rwxr-xr-x 	0	0	3168286645	2026-10-31 00:06:50	public.unix-executable	NULL	StorageDEHelper(8)	NULL
+/usr/libexec/TouchBarServer	-rwxr-xr-x 	0	0	213147538	2026-10-31 00:06:50	public.unix-executable	298.1.2	TouchBarServer(8)	NULL
+/usr/libexec/TrustKitResources/preprocessing.js	-rw-r--r-- 	0	0	3515105045	2026-10-31 00:06:50	com.netscape.javascript-source			NULL
+/usr/libexec/TrustKitResourcesV2/preprocessing.js	-rw-r--r-- 	0	0	3515105045	2026-10-31 00:06:50	com.netscape.javascript-source			NULL
+/usr/libexec/UserEventAgent	-rwxr-xr-x 	0	0	2703351350	2026-10-31 00:06:50	public.unix-executable	362.60.2	UserEventAgent(8)	NULL
+/usr/libexec/ValidUpdater	-rwxr-xr-x 	0	0	2470582584	2026-10-31 00:06:50	public.unix-executable	NULL	ValidUpdater(8)	NULL
+/usr/libexec/adprivacyd	-rwxr-xr-x 	0	0	1322023414	2026-10-31 00:06:50	public.unix-executable	1	adprivacyd(8)	NULL
+/usr/libexec/agentmanagerd	-rwxr-xr-x 	0	0	2702611420	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/aidearlyboot	-rwxr-xr-x 	0	0	2704740349	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/airportd	-rwxr-xr-x 	0	0	4116425137	2026-10-31 00:06:50	public.unix-executable	19180.1	airportd(8)	NULL
+/usr/libexec/alwaysonexclavesd	-rwxr-xr-x 	0	0	1761630464	2026-10-31 00:06:50	public.unix-executable	66.60.5	alwaysonexclavesd(8)	NULL
+/usr/libexec/amfid	-rwxr-xr-x 	0	0	2752079894	2026-10-31 00:06:50	public.unix-executable	NULL	amfid(8)	NULL
+/usr/libexec/amsdstat	-rwxr-xr-x 	0	0	2822478281	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/aned	-rwxr-xr-x 	0	0	3857765205	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/aneuserd	-rwxr-xr-x 	0	0	2643114302	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/aonsensed	-rwxr-xr-x 	0	0	1070196850	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_access_compat.so	-rwxr-xr-x 	0	0	578014691	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_actions.so	-rwxr-xr-x 	0	0	3088634845	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_alias.so	-rwxr-xr-x 	0	0	575467149	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_allowmethods.so	-rwxr-xr-x 	0	0	3260937283	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_asis.so	-rwxr-xr-x 	0	0	1924521520	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_auth_basic.so	-rwxr-xr-x 	0	0	2096525686	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_auth_digest.so	-rwxr-xr-x 	0	0	2782182218	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_auth_form.so	-rwxr-xr-x 	0	0	1655043312	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authn_anon.so	-rwxr-xr-x 	0	0	1321872865	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authn_core.so	-rwxr-xr-x 	0	0	430058002	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authn_dbd.so	-rwxr-xr-x 	0	0	3098616439	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authn_dbm.so	-rwxr-xr-x 	0	0	4171770402	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authn_file.so	-rwxr-xr-x 	0	0	3794093256	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authn_socache.so	-rwxr-xr-x 	0	0	1418082027	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authnz_ldap.so	-rwxr-xr-x 	0	0	1718801498	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authnz_od_apple.so	-r-xr-xr-x 	0	0	3404684451	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_core.so	-rwxr-xr-x 	0	0	1983409808	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_dbd.so	-rwxr-xr-x 	0	0	1585986792	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_dbm.so	-rwxr-xr-x 	0	0	2348808394	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_groupfile.so	-rwxr-xr-x 	0	0	3990265556	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_host.so	-rwxr-xr-x 	0	0	3297368134	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_owner.so	-rwxr-xr-x 	0	0	2335495730	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_authz_user.so	-rwxr-xr-x 	0	0	2989269534	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_autoindex.so	-rwxr-xr-x 	0	0	3924718248	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_buffer.so	-rwxr-xr-x 	0	0	3106622803	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_cache.so	-rwxr-xr-x 	0	0	654182726	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_cache_disk.so	-rwxr-xr-x 	0	0	3160537382	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_cache_socache.so	-rwxr-xr-x 	0	0	1513878859	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_cgi.so	-rwxr-xr-x 	0	0	366218552	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_cgid.so	-rwxr-xr-x 	0	0	2692088277	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_charset_lite.so	-rwxr-xr-x 	0	0	51335146	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_data.so	-rwxr-xr-x 	0	0	4015509011	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dav.so	-rwxr-xr-x 	0	0	4004505641	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dav_fs.so	-rwxr-xr-x 	0	0	85374113	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dav_lock.so	-rwxr-xr-x 	0	0	2491633478	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dbd.so	-rwxr-xr-x 	0	0	2153110301	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_deflate.so	-rwxr-xr-x 	0	0	4275163142	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dialup.so	-rwxr-xr-x 	0	0	4132701283	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dir.so	-rwxr-xr-x 	0	0	582956447	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_dumpio.so	-rwxr-xr-x 	0	0	688788613	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_echo.so	-rwxr-xr-x 	0	0	1756645931	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_env.so	-rwxr-xr-x 	0	0	676916889	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_expires.so	-rwxr-xr-x 	0	0	164152054	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_ext_filter.so	-rwxr-xr-x 	0	0	2236818566	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_file_cache.so	-rwxr-xr-x 	0	0	3773814615	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_filter.so	-rwxr-xr-x 	0	0	337591252	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_headers.so	-rwxr-xr-x 	0	0	1625175689	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_heartbeat.so	-rwxr-xr-x 	0	0	1981810645	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_heartmonitor.so	-rwxr-xr-x 	0	0	3890858155	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_hfs_apple.so	-rwxr-xr-x 	0	0	2112700612	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_http2.so	-rwxr-xr-x 	0	0	3007602980	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_imagemap.so	-rwxr-xr-x 	0	0	3781766297	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_include.so	-rwxr-xr-x 	0	0	4192504279	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_info.so	-rwxr-xr-x 	0	0	3043199938	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_lbmethod_bybusyness.so	-rwxr-xr-x 	0	0	4254258436	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_lbmethod_byrequests.so	-rwxr-xr-x 	0	0	29056780	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_lbmethod_bytraffic.so	-rwxr-xr-x 	0	0	1155144503	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_lbmethod_heartbeat.so	-rwxr-xr-x 	0	0	947459056	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_ldap.so	-rwxr-xr-x 	0	0	1439453032	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_log_config.so	-rwxr-xr-x 	0	0	2404344253	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_log_debug.so	-rwxr-xr-x 	0	0	3940474372	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_log_forensic.so	-rwxr-xr-x 	0	0	3736698059	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_logio.so	-rwxr-xr-x 	0	0	3764187026	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_macro.so	-rwxr-xr-x 	0	0	99248673	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_mime.so	-rwxr-xr-x 	0	0	670734624	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_mime_magic.so	-rwxr-xr-x 	0	0	3311276623	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_mpm_event.so	-rwxr-xr-x 	0	0	3453431486	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_mpm_prefork.so	-rwxr-xr-x 	0	0	3551331853	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_mpm_worker.so	-rwxr-xr-x 	0	0	13626764	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_negotiation.so	-rwxr-xr-x 	0	0	1448299614	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_perl.so	-rwxr-xr-x 	0	0	1753074483	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy.so	-rwxr-xr-x 	0	0	181864502	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_ajp.so	-rwxr-xr-x 	0	0	711200497	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_balancer.so	-rwxr-xr-x 	0	0	3632035787	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_connect.so	-rwxr-xr-x 	0	0	2835584549	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_express.so	-rwxr-xr-x 	0	0	618510707	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_fcgi.so	-rwxr-xr-x 	0	0	243965251	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_fdpass.so	-rwxr-xr-x 	0	0	3806042072	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_ftp.so	-rwxr-xr-x 	0	0	210683485	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_hcheck.so	-rwxr-xr-x 	0	0	949592435	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_html.so	-rwxr-xr-x 	0	0	1540544341	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_http.so	-rwxr-xr-x 	0	0	2230342007	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_scgi.so	-rwxr-xr-x 	0	0	3915220665	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_uwsgi.so	-rwxr-xr-x 	0	0	207006052	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_proxy_wstunnel.so	-rwxr-xr-x 	0	0	1742471152	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_ratelimit.so	-rwxr-xr-x 	0	0	2369471042	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_reflector.so	-rwxr-xr-x 	0	0	1738559810	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_remoteip.so	-rwxr-xr-x 	0	0	2415925468	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_reqtimeout.so	-rwxr-xr-x 	0	0	3290617609	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_request.so	-rwxr-xr-x 	0	0	1226238861	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_rewrite.so	-rwxr-xr-x 	0	0	1415532199	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_sed.so	-rwxr-xr-x 	0	0	3339316015	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_session.so	-rwxr-xr-x 	0	0	4086764269	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_session_cookie.so	-rwxr-xr-x 	0	0	429119177	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_session_dbd.so	-rwxr-xr-x 	0	0	1662834082	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_setenvif.so	-rwxr-xr-x 	0	0	210551986	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_slotmem_plain.so	-rwxr-xr-x 	0	0	151859720	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_slotmem_shm.so	-rwxr-xr-x 	0	0	2160026933	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_socache_dbm.so	-rwxr-xr-x 	0	0	2604019063	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_socache_memcache.so	-rwxr-xr-x 	0	0	362292703	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_socache_redis.so	-rwxr-xr-x 	0	0	4223450446	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_socache_shmcb.so	-rwxr-xr-x 	0	0	3985603514	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_speling.so	-rwxr-xr-x 	0	0	2914365953	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_ssl.so	-rwxr-xr-x 	0	0	1725193137	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_status.so	-rwxr-xr-x 	0	0	3527044523	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_substitute.so	-rwxr-xr-x 	0	0	2904484604	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_unique_id.so	-rwxr-xr-x 	0	0	511846311	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_unixd.so	-rwxr-xr-x 	0	0	1827721422	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_userdir.so	-rwxr-xr-x 	0	0	618615651	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_usertrack.so	-rwxr-xr-x 	0	0	3620875891	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_version.so	-rwxr-xr-x 	0	0	1628343635	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_vhost_alias.so	-rwxr-xr-x 	0	0	1810521514	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_watchdog.so	-rwxr-xr-x 	0	0	1039961415	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apache2/mod_xml2enc.so	-rwxr-xr-x 	0	0	2418914929	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/apfsd	-rwxr-xr-x 	0	0	1715142037	2026-10-31 00:06:50	public.unix-executable	NULL	apfsd(8)	NULL
+/usr/libexec/appleaccountd	-rwxr-xr-x 	0	0	1716493057	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/appledepthd	-rwxr-xr-x 	0	0	3601727598	2026-10-31 00:06:50	public.unix-executable	1	appledepthd(8)	NULL
+/usr/libexec/appleh13camerad	-rwxr-xr-x 	0	0	1694619060	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/appleh16camerad	-rwxr-xr-x 	0	0	2166515514	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/appleidsetupd	-rwxr-xr-x 	0	0	1940640004	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/applekeystored	-rwxr-xr-x 	0	0	4289721427	2026-10-31 00:06:50	public.unix-executable	NULL	applekeystored(8)	NULL
+/usr/libexec/applessdstatistics	-rwxr-xr-x 	0	0	2822405965	2026-10-31 00:06:50	public.unix-executable	NULL	applessdstatistics(8)	NULL
+/usr/libexec/arkitd	-rwxr-xr-x 	0	0	3874153101	2026-10-31 00:06:50	public.unix-executable	781.60.1.0.1	arkitd(8)	NULL
+/usr/libexec/asktod	-rwxr-xr-x 	0	0	2342566524	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/assessmentagent	-rwxr-xr-x 	0	0	334462037	2026-10-31 00:06:50	public.unix-executable	12.0.0	assessmentagent(8)	NULL
+/usr/libexec/assetsubscriptiond	-rwxr-xr-x 	0	0	2038136275	2026-10-31 00:06:50	public.unix-executable	1	assetsubscriptiond(8)	NULL
+/usr/libexec/atcrtcomm	-rwxr-xr-x 	0	0	1946688080	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/atrun	-rwxr-xr-x 	0	0	3124559458	2026-10-31 00:06:50	public.unix-executable	1071.40.9	atrun(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/libexec/attach_automation_image	-rwxr-xr-x 	0	0	2615256410	2026-10-31 00:06:50	public.unix-executable	9	attach_automation_image(8)	NULL
+/usr/libexec/attentionawarenessd	-rwxr-xr-x 	0	0	2083099263	2026-10-31 00:06:50	public.unix-executable	265.60.1.0.2	attentionawarenessd(8)	NULL
+/usr/libexec/audinstaller	-rwxr-xr-x 	0	0	3299067864	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/audioanalyticsd	-rwxr-xr-x 	0	0	475081967	2026-10-31 00:06:50	public.unix-executable	1	audioanalyticsd(8)	NULL
+/usr/libexec/audiomxd	-rwxr-xr-x 	0	0	571047377	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/authopen	-r-sr-xr-x 	0	0	3654774309	2026-10-31 00:06:50	public.unix-executable	NULL	authopen(1)	NULL
+/usr/libexec/autofsd	-rwxr-xr-x 	0	0	551282207	2026-10-31 00:06:50	public.unix-executable	NULL	autofsd(8)	NULL
+/usr/libexec/automation_trampoline	-rwxr-xr-x 	0	0	1439896652	2026-10-31 00:06:50	public.unix-executable	9	automation_trampoline(8)	NULL
+/usr/libexec/automountd	-rwxr-xr-x 	0	0	3615899845	2026-10-31 00:06:50	public.unix-executable	NULL	automountd(8)	NULL
+/usr/libexec/avconferenced	-rwxr-xr-x 	0	0	924051594	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/backgroundassets.user	-rwxr-xr-x 	0	0	633384204	2026-10-31 00:06:50	public.unix-executable			NULL
+/usr/libexec/betaenrollmentagent	-rwxr-xr-x 	0	0	3335210062	2026-10-31 00:06:50	public.unix-executable	1	betaenrollmentagent(1)	NULL
+/usr/libexec/betaenrollmentd	-rwxr-xr-x 	0	0	1021989347	2026-10-31 00:06:50	public.unix-executable	1	betaenrollmentd(1)	NULL
+/usr/libexec/biomesyncd	-rwxr-xr-x 	0	0	4237407700	2026-10-31 00:06:50	public.unix-executable	259.2.0.2	biomesyncd(8)	NULL
+/usr/libexec/biometrickitd	-rwxr-xr-x 	0	0	782791376	2026-10-31 00:06:50	public.unix-executable	NULL	biometrickitd(8)	NULL
+/usr/libexec/bluetoothuserd	-rwxr-xr-x 	0	0	2241728445	2026-10-31 00:06:50	public.unix-executable	NULL	bluetoothuserd(8)	NULL
+/usr/libexec/bootinstalld	-rwxr-xr-x 	0	0	3067508403	2026-10-31 00:06:50	public.unix-executable	NULL	bootinstalld(8)	NULL
+/usr/libexec/bootpd	-rwxr-xr-x 	0	0	1004099385	2026-10-31 00:06:50	public.unix-executable	557.60.2	bootpd(8)	NULL
+/usr/libexec/bubbled	-rwxr-xr-x 	0	0	4250289118	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/callverificationd	-rwxr-xr-x 	0	0	3366954244	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/cameracaptured	-rwxr-xr-x 	0	0	1420948950	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/cameraispd	-rwxr-xr-x 	0	0	3851065723	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/cameraispdarwinsimd	-rwxr-xr-x 	0	0	2550869020	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/captiveagent	-rwxr-xr-x 	0	0	3283592357	2026-10-31 00:06:50	public.unix-executable	545.40.1	captiveagent(8)	NULL
+/usr/libexec/cc_fips_test	-rwxr-xr-x 	0	0	154645982	2026-10-31 00:06:50	public.unix-executable	NULL	cc_fips_test(1)	NULL
+/usr/libexec/centaurid	-rwxr-xr-x 	0	0	3059857536	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/checkLocalKDC	-rwxr-xr-x 	0	0	2122949447	2026-10-31 00:06:50	public.unix-executable	NULL	checkLocalKDC(1)	NULL
+/usr/libexec/chkpasswd	-rwxr-xr-x 	0	0	1480832394	2026-10-31 00:06:50	public.unix-executable	1071.40.9	chkpasswd(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/libexec/ciphermld	-rwxr-xr-x 	0	0	4155072635	2026-10-31 00:06:50	public.unix-executable	1	ciphermld(8)	NULL
+/usr/libexec/clocksyncd	-rwxr-xr-x 	0	0	2469838316	2026-10-31 00:06:50	public.unix-executable	NULL	clocksyncd(1)	NULL
+/usr/libexec/colorsync.displayservices	-rwxr-xr-x 	0	0	1249693992	2026-10-31 00:06:50	public.unix-executable		colorsync.displayservices(8)	NULL
+/usr/libexec/colorsyncd	-rwxr-xr-x 	0	0	1071657752	2026-10-31 00:06:50	public.unix-executable	NULL	colorsyncd(8)	NULL
+/usr/libexec/com.apple.cmio.videodriverkithostextension.systemextension/Contents/MacOS/com.apple.cmio.videodriverkithostextension	-rwxr-xr-x 	0	0	2702698791	2026-10-31 00:06:50	public.unix-executable			NULL
+/usr/libexec/companiond	-rwxr-xr-x 	0	0	4197270193	2026-10-31 00:06:50	public.unix-executable	NULL	companiond(8)	NULL
+/usr/libexec/configd	-rwxr-xr-x 	0	0	2896058448	2026-10-31 00:06:50	public.unix-executable	1453.60.5	configd(8)	https://github.com/apple-oss-distributions/configd
+/usr/libexec/configureLocalKDC	-rwxr-xr-x 	0	0	1674509665	2026-10-31 00:06:50	public.unix-executable	in	configureLocalKDC(1)	NULL
+/usr/libexec/containermanagerd	-rwxr-xr-x 	0	0	3340647860	2026-10-31 00:06:50	public.unix-executable	833.60.4.0.1	containermanagerd(8)	NULL
+/usr/libexec/containermanagerd_system	-rwxr-xr-x 	0	0	1659688095	2026-10-31 00:06:50	public.unix-executable	833.60.4.0.1	containermanagerd_system(8)	NULL
+/usr/libexec/corebrightnessd	-rwxr-xr-x 	0	0	3128574939	2026-10-31 00:06:50	public.unix-executable	NULL	corebrightnessd(8)	NULL
+/usr/libexec/corebrightnessdiag	-rwxr-xr-x 	0	0	3440209694	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/corecaptured	-rwxr-xr-x 	0	0	1275650013	2026-10-31 00:06:50	public.unix-executable	NULL	corecaptured(8)	NULL
+/usr/libexec/coredatad	-rwxr-xr-x 	0	0	2710645363	2026-10-31 00:06:50	public.unix-executable	NULL	coredatad(8)	NULL
+/usr/libexec/coreduetd	-rwxr-xr-x 	0	0	3122507317	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/coreidvd	-rwxr-xr-x 	0	0	2076037763	2026-10-31 00:06:50	public.unix-executable	9.204	coreidvd(8)	NULL
+/usr/libexec/corepersonalizationd	-rwxr-xr-x 	0	0	128996403	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/corercd	-rwxr-xr-x 	0	0	3083614975	2026-10-31 00:06:50	public.unix-executable	277.60.2		NULL
+/usr/libexec/corerepaird	-rwxr-xr-x 	0	0	1927062773	2026-10-31 00:06:50	public.unix-executable	1307.60.20		NULL
+/usr/libexec/corestoraged	-rwxr-xr-x 	0	0	2107427604	2026-10-31 00:06:50	public.unix-executable	NULL	corestoraged(8)	NULL
+/usr/libexec/corestoragehelperd	-rwxr-xr-x 	0	0	5805170	2026-10-31 00:06:50	public.unix-executable	26		NULL
+/usr/libexec/countryd	-rwxr-xr-x 	0	0	1800185009	2026-10-31 00:06:50	public.unix-executable	74	countryd(8)	NULL
+/usr/libexec/create_automation_image_overlay	-rwxr-xr-x 	0	0	2223194894	2026-10-31 00:06:50	public.unix-executable	9	create_automation_image_overlay(8)	NULL
+/usr/libexec/cryptexd	-rwxr-xr-x 	0	0	413707030	2026-10-31 00:06:50	public.unix-executable	761.60.7	cryptexd(8)	NULL
+/usr/libexec/dasd	-rwxr-xr-x 	0	0	1943093271	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/datastored	-rwxr-xr-x 	0	0	1839621489	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/dbtelemetryd	-rwxr-xr-x 	0	0	3767679409	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/devicerecoverytool	-rwxr-xr-x 	0	0	834957823	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/dhcp6d	-rwxr-xr-x 	0	0	900891981	2026-10-31 00:06:50	public.unix-executable	557.60.2	dhcp6d(8)	NULL
+/usr/libexec/diagnosticd	-rwxr-xr-x 	0	0	1619658701	2026-10-31 00:06:50	public.unix-executable	1966.60.6	diagnosticd(8)	NULL
+/usr/libexec/diagnosticextensionsd	-rwxr-xr-x 	0	0	4001527865	2026-10-31 00:06:50	public.unix-executable	NULL	diagnosticextensionsd(8)	NULL
+/usr/libexec/diagnosticspushd	-rwxr-xr-x 	0	0	467256784	2026-10-31 00:06:50	public.unix-executable	1	diagnosticspushd(8)	NULL
+/usr/libexec/dirhelper	-rwxr-xr-x 	0	0	2409239521	2026-10-31 00:06:50	public.unix-executable	129	dirhelper(8)	NULL
+/usr/libexec/dirs_cleaner	-r-xr-xr-x 	0	0	3931521087	2026-10-31 00:06:50	public.unix-executable	NULL	dirs_cleaner(8)	NULL
+/usr/libexec/diskarbitrationd	-rwxr-xr-x 	0	0	1063893376	2026-10-31 00:06:50	public.unix-executable	NULL	diskarbitrationd(8)	NULL
+/usr/libexec/diskimagesiod	-rwxr-xr-x 	0	0	2072099359	2026-10-31 00:06:50	public.unix-executable	NULL	diskimagesiod(8)	NULL
+/usr/libexec/diskimagespawner	-rwxr-xr-x 	0	0	807722862	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/diskmanagementstartup	-rwxr-xr-x 	0	0	3993165935	2026-10-31 00:06:50	public.unix-executable	NULL	diskmanagementstartup(8)	NULL
+/usr/libexec/displaypolicyd	-rwxr-xr-x 	0	0	607802137	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/dmd	-rwxr-xr-x 	0	0	3646990605	2026-10-31 00:06:50	public.unix-executable	269		NULL
+/usr/libexec/dprivacyd	-rwxr-xr-x 	0	0	464083808	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/dtfetchsymbolsd	-rwxr-xr-x 	0	0	243569300	2026-10-31 00:06:50	public.unix-executable	35	dtfetchsymbolsd(1)	NULL
+/usr/libexec/dtrace/log_unnest_badness.d	-rwxr-xr-x 	0	0	3808973648	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/dtrace/smbtrace.d	-rwxr-xr-x 	0	0	3472280847	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/dtrace/suspicious_task_vm_info_count.d	-rwxr-xr-x 	0	0	944011309	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/dtrace/vm_map_delete_permanent.d	-rwxr-xr-x 	0	0	3223591473	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/dtrace/vm_map_delete_permanent_deny.d	-rwxr-xr-x 	0	0	2979672681	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/dtrace/vm_map_delete_permanent_prot_none.d	-rwxr-xr-x 	0	0	3460693293	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/dtrace/vm_object_ownership.d	-rwxr-xr-x 	0	0	3945285735	2026-10-31 00:06:50	public.dtrace-script	NULL		NULL
+/usr/libexec/duetexpertd	-rwxr-xr-x 	0	0	3970280484	2026-10-31 00:06:50	public.unix-executable	678.2.1.0.3		NULL
+/usr/libexec/efi-dump-logs	-rwxr-xr-x 	0	0	2757067688	2026-10-31 00:06:50	public.unix-executable	in		NULL
+/usr/libexec/eligibilityd	-rwxr-xr-x 	0	0	3712264041	2026-10-31 00:06:50	public.unix-executable	446.60.26.501.1	eligibilityd(8)	NULL
+/usr/libexec/endpointsecurityd	-rwxr-xr-x 	0	0	1570901117	2026-10-31 00:06:50	public.unix-executable	NULL	endpointsecurityd(8)	NULL
+/usr/libexec/enhancedloggingd	-rwxr-xr-x 	0	0	122315467	2026-10-31 00:06:50	public.unix-executable	NULL	enhancedloggingd(8)	NULL
+/usr/libexec/eoshostd	-rwxr-xr-x 	0	0	1481332498	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/fairplaydeviceidentityd	-rwxr-xr-x 	0	0	1481210158	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/fax/coverpage.py	-rwxr-xr-x 	0	0	1410039266	2026-10-31 00:06:50	public.python-script			NULL
+/usr/libexec/feedback/appearance.py	-rwxr-xr-x 	0	0	1002937535	2026-10-31 00:06:50	public.python-script			NULL
+/usr/libexec/feedback/fb_collect	-rwxr-xr-x 	0	0	1064634181	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/feedback/filevault.py	-rwxr-xr-x 	0	0	2871394501	2026-10-31 00:06:50	public.python-script			NULL
+/usr/libexec/feedback/sleepwake.sh	-rwxr-xr-x 	0	0	728817095	2026-10-31 00:06:50	public.shell-script			NULL
+/usr/libexec/feedback/systriage.rb	-rwxr-xr-x 	0	0	4067130308	2026-10-31 00:06:50	public.ruby-script			NULL
+/usr/libexec/feedbackd	-rwxr-xr-x 	0	0	3143258158	2026-10-31 00:06:50	public.unix-executable	1	feedbackd(8)	NULL
+/usr/libexec/filevaultd	-rwxr-xr-x 	0	0	3616942383	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/findmybeaconingd	-rwxr-xr-x 	0	0	4098238856	2026-10-31 00:06:50	public.unix-executable	NULL	findmybeaconingd(8)	NULL
+/usr/libexec/findmydevice-user-agent	-rwxr-xr-x 	0	0	2935204840	2026-10-31 00:06:50	public.unix-executable	NULL	findmydevice-user-agent(8)	NULL
+/usr/libexec/findmydeviced	-rwxr-xr-x 	0	0	1952703662	2026-10-31 00:06:50	public.unix-executable	NULL	findmydeviced(8)	NULL
+/usr/libexec/findmylocateagent	-rwxr-xr-x 	0	0	3439860782	2026-10-31 00:06:50	public.unix-executable	NULL	findmylocateagent(8)	NULL
+/usr/libexec/fpassetmanagerd	-rwxr-xr-x 	0	0	453579741	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/frauddefensed	-rwxr-xr-x 	0	0	1036906378	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/fskit_agent	-rwxr-xr-x 	0	0	1833833913	2026-10-31 00:06:50	public.unix-executable	NULL	fskit_agent(8)	NULL
+/usr/libexec/fskit_helper	-rwxr-xr-x 	0	0	2833797135	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/fskitd	-rwxr-xr-x 	0	0	1691507170	2026-10-31 00:06:50	public.unix-executable	NULL	fskitd(8)	NULL
+/usr/libexec/ftp-proxy	-r-xr-xr-x 	0	0	915092714	2026-10-31 00:06:50	public.unix-executable	NULL	ftp-proxy(8)	NULL
+/usr/libexec/gamecontrolleragentd	-rwxr-xr-x 	0	0	3216791642	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/gamecontrollerd	-rwxr-xr-x 	0	0	1176505079	2026-10-31 00:06:50	public.unix-executable	NULL	gamecontrollerd(8)	NULL
+/usr/libexec/gamed	-rwxr-xr-x 	0	0	1834781888	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/gamepolicyd	-rwxr-xr-x 	0	0	2691962966	2026-10-31 00:06:50	public.unix-executable	4.1.2	gamepolicyd(8)	NULL
+/usr/libexec/gamesaved	-rwxr-xr-x 	0	0	3764581697	2026-10-31 00:06:50	public.unix-executable	102.1.2		NULL
+/usr/libexec/getPPDVersion	-rwxr-xr-x 	0	0	3339557192	2026-10-31 00:06:50	public.unix-executable	3.0		NULL
+/usr/libexec/getty	-rwxr-xr-x 	0	0	2669049440	2026-10-31 00:06:50	public.unix-executable	1071.40.9	getty(8)	https://github.com/apple-oss-distributions/system_cmds
+/usr/libexec/gputoolsserviced	-rwxr-xr-x 	0	0	938758064	2026-10-31 00:06:50	public.unix-executable	2027.2.4	gputoolsserviced(8)	NULL
+/usr/libexec/griddatad	-rwxr-xr-x 	0	0	2230901344	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/handwritingd	-rwxr-xr-x 	0	0	3584308761	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/hidd	-rwxr-xr-x 	0	0	2687510606	2026-10-31 00:06:50	public.unix-executable	NULL	hidd(8)	NULL
+/usr/libexec/historicalaudiod	-rwxr-xr-x 	0	0	1232403560	2026-10-31 00:06:50	public.unix-executable	NULL	historicalaudiod(8)	NULL
+/usr/libexec/hybridsearchd	-rwxr-xr-x 	0	0	1880326031	2026-10-31 00:06:50	public.unix-executable	NULL	hybridsearchd(8)	NULL
+/usr/libexec/icloudmailagent	-rwxr-xr-x 	0	0	4239021903	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/icloudwebd	-rwxr-xr-x 	0	0	3157271365	2026-10-31 00:06:50	public.unix-executable	NULL	icloudwebd(8)	NULL
+/usr/libexec/ifcstart	-rwxr-xr-x 	0	0	752254593	2026-10-31 00:06:50	public.unix-executable	NULL	ifcstart(8)	NULL
+/usr/libexec/inboxupdaterd	-rwxr-xr-x 	0	0	3022795090	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/init_exclavekit	-rwxr-xr-x 	0	0	3382695716	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/init_featureflags	-rwxr-xr-x 	0	0	1417252389	2026-10-31 00:06:50	public.unix-executable	111		NULL
+/usr/libexec/inputanalyticsd	-rwxr-xr-x 	0	0	118397668	2026-10-31 00:06:50	public.unix-executable	154.2.4	inputanalyticsd(8)	NULL
+/usr/libexec/installer-core	-rwxr-xr-x 	0	0	1681767774	2026-10-31 00:06:50	public.unix-executable	604.0.1	installer-core(8)	NULL
+/usr/libexec/intelligentroutingd	-rwxr-xr-x 	0	0	3242001422	2026-10-31 00:06:50	public.unix-executable	NULL	intelligentroutingd(8)	NULL
+/usr/libexec/ioupsd	-rwxr-xr-x 	0	0	3687466654	2026-10-31 00:06:50	public.unix-executable	NULL	ioupsd(8)	NULL
+/usr/libexec/ippusbd	-rwxr-xr-x 	0	0	2004248842	2026-10-31 00:06:50	public.unix-executable	NULL	ippusbd(8)	NULL
+/usr/libexec/java_home	-rwxr-xr-x 	0	0	1722952375	2026-10-31 00:06:50	public.unix-executable	326	java_home(1)	NULL
+/usr/libexec/jetsam_priority	-rwxr-xr-x 	0	0	1215465931	2026-10-31 00:06:50	public.unix-executable	10353		NULL
+/usr/libexec/kcgend	-rwxr-xr-x 	0	0	3575115366	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/kcproxy	-rwxr-xr-x 	0	0	4123948853	2026-10-31 00:06:50	public.unix-executable	55349.60.2	kcproxy(8)	NULL
+/usr/libexec/kdumpd	-r-xr-xr-x 	0	0	4209258175	2026-10-31 00:06:50	public.unix-executable	NULL	kdumpd(8)	NULL
+/usr/libexec/kernelmanager_helper	-rwxr-xr-x 	0	0	1068523762	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/kernelmanagerd	-rwxr-xr-x 	0	0	3193193662	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/keybagd	-rwxr-xr-x 	0	0	1655967182	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/keyboardservicesd	-rwxr-xr-x 	0	0	836523415	2026-10-31 00:06:50	public.unix-executable	153		NULL
+/usr/libexec/keychainsharingmessagingd	-rwxr-xr-x 	0	0	3781515556	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1		NULL
+/usr/libexec/knowledge-agent	-rwxr-xr-x 	0	0	1727027977	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/kuncd	-rwxr-xr-x 	0	0	1893996267	2026-10-31 00:06:50	public.unix-executable	NULL	kuncd(8)	NULL
+/usr/libexec/languageassetd	-rwxr-xr-x 	0	0	1831209016	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/lightsoutmanagementd	-rwxr-xr-x 	0	0	2349415596	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/linkd	-rwxr-xr-x 	0	0	995090864	2026-10-31 00:06:50	public.unix-executable	NULL	linkd(1)	NULL
+/usr/libexec/locate.bigram	-rwxr-xr-x 	0	0	2211982252	2026-10-31 00:06:50	public.unix-executable			NULL
+/usr/libexec/locate.code	-rwxr-xr-x 	0	0	3381322475	2026-10-31 00:06:50	public.unix-executable	NULL	locate.code(8)	NULL
+/usr/libexec/locate.concatdb	-rwxr-xr-x 	0	0	521028687	2026-10-31 00:06:50	public.shell-script			NULL
+/usr/libexec/locate.mklocatedb	-rwxr-xr-x 	0	0	867722391	2026-10-31 00:06:50	public.shell-script			NULL
+/usr/libexec/locate.updatedb	-rwxr-xr-x 	0	0	4290526831	2026-10-31 00:06:50	public.shell-script		locate.updatedb(8)	NULL
+/usr/libexec/locationaccessstored	-rwxr-xr-x 	0	0	2890715712	2026-10-31 00:06:50	public.unix-executable	3188.0.7		NULL
+/usr/libexec/locationd	-rwxr-xr-x 	0	0	1425306613	2026-10-31 00:06:50	public.unix-executable	3188.0.7	locationd(8)	NULL
+/usr/libexec/logd	-rwxr-xr-x 	0	0	1095163361	2026-10-31 00:06:50	public.unix-executable	1966.60.6	logd(8)	NULL
+/usr/libexec/logd_helper	-rwxr-xr-x 	0	0	4215057087	2026-10-31 00:06:50	public.unix-executable	1966.60.6	logd_helper(8)	NULL
+/usr/libexec/logd_reporter	-rwxr-xr-x 	0	0	2313851977	2026-10-31 00:06:50	public.unix-executable	1966.60.6	logd_reporter(8)	NULL
+/usr/libexec/loginitemregisterd	-rwxr-xr-x 	0	0	2276712424	2026-10-31 00:06:50	public.unix-executable	3298.60.14	loginitemregisterd(8)	NULL
+/usr/libexec/logkextloadsd	-rwxr-xr-x 	0	0	3803074249	2026-10-31 00:06:50	public.unix-executable	NULL	logkextloadsd(8)	NULL
+/usr/libexec/lsd	-rwxr-xr-x 	0	0	2464443285	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/makewhatis	-rwxr-xr-x 	0	0	1741229072	2026-10-31 00:06:50	public.unix-executable	69	makewhatis(8)	NULL
+/usr/libexec/makewhatis.local	-rwxr-xr-x 	0	0	33715407	2026-10-31 00:06:50	public.shell-script		makewhatis.local(8)	NULL
+/usr/libexec/managedappsd	-rwxr-xr-x 	0	0	1197203929	2026-10-31 00:06:50	public.unix-executable	1	managedappsd(8)	NULL
+/usr/libexec/managedeventsd	-rwxr-xr-x 	0	0	2009094499	2026-10-31 00:06:50	public.unix-executable	1	managedeventsd(8)	NULL
+/usr/libexec/mc_notifier	-rwxr-xr-x 	0	0	3463613996	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/mcxalr	-rwxr-xr-x 	0	0	3938143114	2026-10-31 00:06:50	public.unix-executable	NULL	mcxalr(1)	NULL
+/usr/libexec/mdmclient	-rwxr-xr-x 	0	0	4118861124	2026-10-31 00:06:50	public.unix-executable	NULL	mdmclient(1)	NULL
+/usr/libexec/mediacontinuityd	-rwxr-xr-x 	0	0	4075603908	2026-10-31 00:06:50	public.unix-executable	1	mediacontinuityd(8)	NULL
+/usr/libexec/memoryanalyticsd	-rwxr-xr-x 	0	0	1948802744	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/metrickitd	-rwxr-xr-x 	0	0	2144668803	2026-10-31 00:06:50	public.unix-executable	NULL	metrickitd(8)	NULL
+/usr/libexec/micactivityd	-rwxr-xr-x 	0	0	3418081741	2026-10-31 00:06:50	public.unix-executable	NULL	micactivityd(8)	NULL
+/usr/libexec/microstackshot	-rwxr-xr-x 	0	0	1627832704	2026-10-31 00:06:50	public.unix-executable	515.40.2	microstackshot(8)	NULL
+/usr/libexec/migrateLocalKDC	-rwxr-xr-x 	0	0	2096185845	2026-10-31 00:06:50	public.unix-executable	in	migrateLocalKDC(1)	NULL
+/usr/libexec/milod	-rwxr-xr-x 	0	0	507128553	2026-10-31 00:06:50	public.unix-executable	NULL	milod(8)	NULL
+/usr/libexec/misagent	-rwxr-xr-x 	0	0	1438291222	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/mlhostd	-rwxr-xr-x 	0	0	3757080410	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/mlruntimed	-rwxr-xr-x 	0	0	185652949	2026-10-31 00:06:50	public.unix-executable	113		NULL
+/usr/libexec/mmaintenanced	-rwxr-xr-x 	0	0	614366152	2026-10-31 00:06:50	public.unix-executable	NULL	mmaintenanced(1)	NULL
+/usr/libexec/mobile_obliterator	-rwxr-xr-x 	0	0	2883752414	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/mobile_storage_proxy	-rwxr-xr-x 	0	0	67384321	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/mobileactivationd	-rwxr-xr-x 	0	0	125714685	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/mobileassetd	-rwxr-xr-x 	0	0	3195681779	2026-10-31 00:06:50	public.unix-executable	2215.60.7		NULL
+/usr/libexec/mobilerepaird	-rwxr-xr-x 	0	0	1857864651	2026-10-31 00:06:50	public.unix-executable	1307.60.20		NULL
+/usr/libexec/modelmanagerd	-rwxr-xr-x 	0	0	2756863972	2026-10-31 00:06:50	public.unix-executable	1	modelmanagerd(8)	NULL
+/usr/libexec/mount_url	-rwxr-xr-x 	0	0	461430425	2026-10-31 00:06:50	public.unix-executable	NULL	mount_url(8)	NULL
+/usr/libexec/msutil	-rwxr-xr-x 	0	0	464846712	2026-10-31 00:06:50	public.unix-executable	120		NULL
+/usr/libexec/multiversed	-rwxr-xr-x 	0	0	3417803844	2026-10-31 00:06:50	public.unix-executable	120		NULL
+/usr/libexec/natpmpd	-r-xr-xr-x 	0	0	1671324156	2026-10-31 00:06:50	public.unix-executable	NULL	natpmpd(8)	NULL
+/usr/libexec/naturallanguaged	-rwxr-xr-x 	0	0	298637661	2026-10-31 00:06:50	public.unix-executable	1	naturallanguaged(8)	NULL
+/usr/libexec/neagent	-rwxr-xr-x 	0	0	3899790601	2026-10-31 00:06:50	public.unix-executable	NULL	neagent(8)	NULL
+/usr/libexec/nearbyd	-rwxr-xr-x 	0	0	224437976	2026-10-31 00:06:50	public.unix-executable	NULL	nearbyd(8)	NULL
+/usr/libexec/nehelper	-rwxr-xr-x 	0	0	3648050259	2026-10-31 00:06:50	public.unix-executable	NULL	nehelper(8)	NULL
+/usr/libexec/nesessionmanager	-rwxr-xr-x 	0	0	1981828278	2026-10-31 00:06:50	public.unix-executable	NULL	nesessionmanager(8)	NULL
+/usr/libexec/netbootdisk	-rwxr-xr-x 	0	0	2997452473	2026-10-31 00:06:50	public.unix-executable	557.60.2	netbootdisk(8)	NULL
+/usr/libexec/networkserviceproxy	-rwxr-xr-x 	0	0	3394269887	2026-10-31 00:06:50	public.unix-executable	NULL	networkserviceproxy(8)	NULL
+/usr/libexec/nexusd	-rwxr-xr-x 	0	0	3186536294	2026-10-31 00:06:50	public.unix-executable	NULL	nexusd(8)	NULL
+/usr/libexec/nfcd	-rwxr-xr-x 	0	0	3574262179	2026-10-31 00:06:50	public.unix-executable	372.4	nfcd(8)	NULL
+/usr/libexec/nlcd	-rwxr-xr-x 	0	0	2509232713	2026-10-31 00:06:50	public.unix-executable	NULL	nlcd(8)	NULL
+/usr/libexec/notification_proxy	-rwxr-xr-x 	0	0	3093573320	2026-10-31 00:06:50	public.unix-executable	NULL	notification_proxy(8)	NULL
+/usr/libexec/nsurlsessiond	-rwxr-xr-x 	0	0	4108447121	2026-10-31 00:06:50	public.unix-executable	3896.300.31	nsurlsessiond(8)	NULL
+/usr/libexec/ntalkd	-rwxr-xr-x 	0	0	3692324511	2026-10-31 00:06:50	public.unix-executable	310		NULL
+/usr/libexec/od_user_homes	-rwxr-xr-x 	0	0	3312952432	2026-10-31 00:06:50	public.unix-executable	NULL	od_user_homes(8)	NULL
+/usr/libexec/odproxyd	-rwxr-xr-x 	0	0	3596711764	2026-10-31 00:06:50	public.unix-executable	33	odproxyd(8)	NULL
+/usr/libexec/online-auth-agent	-rwxr-xr-x 	0	0	1055495924	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/opendirectoryd	-rwxr-xr-x 	0	0	504591448	2026-10-31 00:06:50	public.unix-executable	1003.60.2	opendirectoryd(8)	NULL
+/usr/libexec/osaapplet	-rwxr-xr-x 	0	0	2351453846	2026-10-31 00:06:50	public.unix-executable	NULL	osaapplet(8)	NULL
+/usr/libexec/ospredictiond	-rwxr-xr-x 	0	0	1159523067	2026-10-31 00:06:50	public.unix-executable	1	ospredictiond(1)	NULL
+/usr/libexec/otherbsd	-rwxr-xr-x 	0	0	2745907357	2026-10-31 00:06:50	public.unix-executable	3298.60.14	otherbsd(8)	NULL
+/usr/libexec/path_helper	-rwxr-xr-x 	0	0	2397339840	2026-10-31 00:06:50	public.unix-executable	336.40.1	path_helper(8)	https://github.com/apple-oss-distributions/shell_cmds
+/usr/libexec/pboard	-rwxr-xr-x 	0	0	1817531395	2026-10-31 00:06:50	public.unix-executable	5027.2.4	pboard(8)	NULL
+/usr/libexec/pcapd	-rwxr-xr-x 	0	0	2555973292	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/pcsstatus	-rwxr-xr-x 	0	0	3735511476	2026-10-31 00:06:50	public.unix-executable	1303.60.4	pcsstatus(1)	NULL
+/usr/libexec/peakpowermanagerd	-rwxr-xr-x 	0	0	2832486412	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/perfpowermetricd	-rwxr-xr-x 	0	0	1840624262	2026-10-31 00:06:50	public.unix-executable	3486.60.36	perfpowermetricd(1)	NULL
+/usr/libexec/pfd	-rwxr-xr-x 	0	0	3231694025	2026-10-31 00:06:50	public.unix-executable	NULL	pfd(8)	NULL
+/usr/libexec/pkd	-rwxr-xr-x 	0	0	3146658589	2026-10-31 00:06:50	public.unix-executable	NULL	pkd(8)	NULL
+/usr/libexec/pkreporter	-rwxr-xr-x 	0	0	3281253618	2026-10-31 00:06:50	public.unix-executable	NULL	pkreporter(8)	NULL
+/usr/libexec/pmudiagnose/pmudiagnose	-rwxr-xr-x 	0	0	2266448887	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/anvil	-rwxr-xr-x 	0	0	3930437269	2026-10-31 00:06:50	public.unix-executable	NULL	anvil(8)	NULL
+/usr/libexec/postfix/bind_unix_socket	-rwxr-xr-x 	0	0	1523789574	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/bounce	-rwxr-xr-x 	0	0	2967228575	2026-10-31 00:06:50	public.unix-executable	NULL	bounce(5)	NULL
+/usr/libexec/postfix/cleanup	-rwxr-xr-x 	0	0	4042925610	2026-10-31 00:06:50	public.unix-executable	NULL	cleanup(8)	NULL
+/usr/libexec/postfix/discard	-rwxr-xr-x 	0	0	2429681947	2026-10-31 00:06:50	public.unix-executable	NULL	discard(8)	NULL
+/usr/libexec/postfix/dnsblog	-rwxr-xr-x 	0	0	2964955595	2026-10-31 00:06:50	public.unix-executable	NULL	dnsblog(8)	NULL
+/usr/libexec/postfix/error	-rwxr-xr-x 	0	0	1843741090	2026-10-31 00:06:50	public.unix-executable	NULL	error(8)	NULL
+/usr/libexec/postfix/flush	-rwxr-xr-x 	0	0	2784974997	2026-10-31 00:06:50	public.unix-executable	NULL	flush(8)	NULL
+/usr/libexec/postfix/greylist.pl	-rwxr-xr-x 	0	0	854928943	2026-10-31 00:06:50	public.perl-script	NULL		NULL
+/usr/libexec/postfix/lmtp	-rwxr-xr-x 	0	0	250207428	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/local	-rwxr-xr-x 	0	0	3317048964	2026-10-31 00:06:50	public.unix-executable	NULL	local(8)	NULL
+/usr/libexec/postfix/master	-rwxr-xr-x 	0	0	3712570801	2026-10-31 00:06:50	public.unix-executable	NULL	master(5)	NULL
+/usr/libexec/postfix/mk_postfix_spool.sh	-rwxr-xr-x 	0	0	823249479	2026-10-31 00:06:50	public.shell-script			NULL
+/usr/libexec/postfix/nqmgr	-rwxr-xr-x 	0	0	3572385152	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/oqmgr	-rwxr-xr-x 	0	0	3973042862	2026-10-31 00:06:50	public.unix-executable	NULL	oqmgr(8)	NULL
+/usr/libexec/postfix/pickup	-rwxr-xr-x 	0	0	2150343130	2026-10-31 00:06:50	public.unix-executable	NULL	pickup(8)	NULL
+/usr/libexec/postfix/pipe	-rwxr-xr-x 	0	0	2439732226	2026-10-31 00:06:50	public.unix-executable	NULL	pipe(8)	NULL
+/usr/libexec/postfix/post-install	-rwxr-xr-x 	0	0	1934572346	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/postfix-script	-rwxr-xr-x 	0	0	3855916019	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/postfix-tls-script	-rwxr-xr-x 	0	0	3602160467	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/postfix-wrapper	-rwxr-xr-x 	0	0	40742770	2026-10-31 00:06:50	public.unix-executable	NULL	postfix-wrapper(5)	NULL
+/usr/libexec/postfix/postfixsetup	-rwxr-xr-x 	0	0	3927288640	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/postmulti-script	-rwxr-xr-x 	0	0	3832428328	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/postscreen	-rwxr-xr-x 	0	0	557533516	2026-10-31 00:06:50	public.unix-executable	NULL	postscreen(8)	NULL
+/usr/libexec/postfix/proxymap	-rwxr-xr-x 	0	0	2677820393	2026-10-31 00:06:50	public.unix-executable	NULL	proxymap(8)	NULL
+/usr/libexec/postfix/qmgr	-rwxr-xr-x 	0	0	209666806	2026-10-31 00:06:50	public.unix-executable	NULL	qmgr(8)	NULL
+/usr/libexec/postfix/qmqp-sink	-rwxr-xr-x 	0	0	2396662905	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/qmqp-source	-rwxr-xr-x 	0	0	855361400	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/qmqpd	-rwxr-xr-x 	0	0	288494361	2026-10-31 00:06:50	public.unix-executable	NULL	qmqpd(8)	NULL
+/usr/libexec/postfix/scache	-rwxr-xr-x 	0	0	4178940005	2026-10-31 00:06:50	public.unix-executable	NULL	scache(8)	NULL
+/usr/libexec/postfix/set_credentials.sh	-rwxr-xr-x 	0	0	998256682	2026-10-31 00:06:50	public.shell-script			NULL
+/usr/libexec/postfix/showq	-rwxr-xr-x 	0	0	3513577090	2026-10-31 00:06:50	public.unix-executable	NULL	showq(8)	NULL
+/usr/libexec/postfix/smtp	-rwxr-xr-x 	0	0	3149680511	2026-10-31 00:06:50	public.unix-executable	NULL	smtp(8)	NULL
+/usr/libexec/postfix/smtp-sink	-rwxr-xr-x 	0	0	3857113628	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/smtp-source	-rwxr-xr-x 	0	0	1872185545	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/postfix/smtpd	-rwxr-xr-x 	0	0	2312310262	2026-10-31 00:06:50	public.unix-executable	NULL	smtpd(8)	NULL
+/usr/libexec/postfix/spawn	-rwxr-xr-x 	0	0	594256669	2026-10-31 00:06:50	public.unix-executable	NULL	spawn(8)	NULL
+/usr/libexec/postfix/tlsmgr	-rwxr-xr-x 	0	0	1791046801	2026-10-31 00:06:50	public.unix-executable	NULL	tlsmgr(8)	NULL
+/usr/libexec/postfix/tlsproxy	-rwxr-xr-x 	0	0	429538183	2026-10-31 00:06:50	public.unix-executable	NULL	tlsproxy(8)	NULL
+/usr/libexec/postfix/trivial-rewrite	-rwxr-xr-x 	0	0	1035056656	2026-10-31 00:06:50	public.unix-executable	NULL	trivial-rewrite(8)	NULL
+/usr/libexec/postfix/verify	-rwxr-xr-x 	0	0	2092050217	2026-10-31 00:06:50	public.unix-executable	NULL	verify(8)	NULL
+/usr/libexec/postfix/virtual	-rwxr-xr-x 	0	0	3064694916	2026-10-31 00:06:50	public.unix-executable	NULL	virtual(5)	NULL
+/usr/libexec/powerdatad	-rwxr-xr-x 	0	0	179305618	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/powerexperienced	-rwxr-xr-x 	0	0	1703666046	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/powerlogHelperd	-rwxr-xr-x 	0	0	2146886464	2026-10-31 00:06:50	public.unix-executable	3486.60.36	powerlogHelperd(8)	NULL
+/usr/libexec/prng_seedctl	-rwxr-xr-x 	0	0	1899395130	2026-10-31 00:06:50	public.unix-executable	NULL	prng_seedctl(1)	NULL
+/usr/libexec/proactived	-rwxr-xr-x 	0	0	429178723	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/proactiveeventtrackerd	-rwxr-xr-x 	0	0	3380168562	2026-10-31 00:06:50	public.unix-executable	425	proactiveeventtrackerd(8)	NULL
+/usr/libexec/productutil	-rwxr-xr-x 	0	0	2515019248	2026-10-31 00:06:50	public.unix-executable	883	productutil(8)	NULL
+/usr/libexec/promotedcontentd	-rwxr-xr-x 	0	0	2536782382	2026-10-31 00:06:50	public.unix-executable	1.1		NULL
+/usr/libexec/ptpcamerad	-rwxr-xr-x 	0	0	3511225023	2026-10-31 00:06:50	public.unix-executable	NULL	ptpcamerad(8)	NULL
+/usr/libexec/rapportd	-rwxr-xr-x 	0	0	2298542244	2026-10-31 00:06:50	public.unix-executable	NULL	rapportd(8)	NULL
+/usr/libexec/relatived	-rwxr-xr-x 	0	0	2403989283	2026-10-31 00:06:50	public.unix-executable	1.0	relatived(8)	NULL
+/usr/libexec/remindd	-rwxr-xr-x 	0	0	486452193	2026-10-31 00:06:50	public.unix-executable	NULL	remindd(8)	NULL
+/usr/libexec/remotecompositorclientd	-rwxr-xr-x 	0	0	3153524164	2026-10-31 00:06:50	public.unix-executable	467.0.8		NULL
+/usr/libexec/remotectl	-rwxr-xr-x 	0	0	3697289430	2026-10-31 00:06:50	public.unix-executable	245.60.2		NULL
+/usr/libexec/remoted	-rwxr-xr-x 	0	0	2651806013	2026-10-31 00:06:50	public.unix-executable	245.60.2	remoted(8)	NULL
+/usr/libexec/remotesoftwareupdated	-rwxr-xr-x 	0	0	3825434405	2026-10-31 00:06:50	public.unix-executable	NULL	remotesoftwareupdated(8)	NULL
+/usr/libexec/replayd	-rwxr-xr-x 	0	0	118310974	2026-10-31 00:06:50	public.unix-executable	1	replayd(8)	NULL
+/usr/libexec/reset-ssh-configuration	-rwxr-xr-x 	0	0	3307556447	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/retimerd	-rwxr-xr-x 	0	0	4221539245	2026-10-31 00:06:50	public.unix-executable	NULL	retimerd(8)	NULL
+/usr/libexec/rootless-init	-rwxr-xr-x 	0	0	1356516362	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/rosetta/debugserver	-rwxr-xr-x 	0	0	1106742006	2026-10-31 00:06:50	public.unix-executable	1.0    		NULL
+/usr/libexec/rosetta/oahd	-rwxr-xr-x 	0	0	1000382725	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/rosetta/oahd-helper	-rwxr-xr-x 	0	0	1022725436	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/rosetta/oahd-root-helper	-rwxr-xr-x 	0	0	2543961519	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/rosetta/runtime	-rwxr-xr-x 	0	0	2824407491	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/rosetta/translate_tool	-rwxr-xr-x 	0	0	3839466259	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/routined	-rwxr-xr-x 	0	0	2890030182	2026-10-31 00:06:50	public.unix-executable	NULL	routined(8)	NULL
+/usr/libexec/rpc.rquotad	-rwxr-xr-x 	0	0	3276261862	2026-10-31 00:06:50	public.unix-executable		rpc.rquotad(8)	NULL
+/usr/libexec/rpcsvchost	-rwxr-xr-x 	0	0	2606637751	2026-10-31 00:06:50	public.unix-executable	684.60.1	rpcsvchost(8)	NULL
+/usr/libexec/rtcreportingd	-rwxr-xr-x 	0	0	2037635907	2026-10-31 00:06:50	public.unix-executable	NULL	rtcreportingd(8)	NULL
+/usr/libexec/runningboardd	-rwxr-xr-x 	0	0	1573119643	2026-10-31 00:06:50	public.unix-executable	1084.60.3	runningboardd(8)	NULL
+/usr/libexec/sandboxd	-rwxr-xr-x 	0	0	2774258745	2026-10-31 00:06:50	public.unix-executable	NULL	sandboxd(8)	NULL
+/usr/libexec/scsid	-rwxr-xr-x 	0	0	2365948422	2026-10-31 00:06:50	public.unix-executable	NULL	scsid(8)	NULL
+/usr/libexec/searchpartyd	-rwxr-xr-x 	0	0	1160935689	2026-10-31 00:06:50	public.unix-executable	NULL	searchpartyd(8)	NULL
+/usr/libexec/searchpartyuseragent	-rwxr-xr-x 	0	0	1843879549	2026-10-31 00:06:50	public.unix-executable	NULL	searchpartyuseragent(8)	NULL
+/usr/libexec/secd	-rwxr-xr-x 	0	0	3053951708	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	secd(8)	NULL
+/usr/libexec/secinitd	-rwxr-xr-x 	0	0	3618895687	2026-10-31 00:06:50	public.unix-executable	NULL	secinitd(8)	NULL
+/usr/libexec/security-checksystem	-rwxr-xr-x 	0	0	2541864407	2026-10-31 00:06:50	public.unix-executable	NULL	security-checksystem(8)	NULL
+/usr/libexec/security-sysdiagnose	-rwxr-xr-x 	0	0	2967571763	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	security-sysdiagnose(1)	NULL
+/usr/libexec/security_authtrampoline	-rws--x--x 	0	0	2869195890	2026-10-31 00:06:50	public.unix-executable	55107.0.1	security_authtrampoline(8)	NULL
+/usr/libexec/securityd_system	-rwxr-xr-x 	0	0	3037384465	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	securityd_system(8)	NULL
+/usr/libexec/securityuploadd	-rwxr-xr-x 	0	0	3514366640	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	securityuploadd(8)	NULL
+/usr/libexec/seld	-rwxr-xr-x 	0	0	1652318858	2026-10-31 00:06:50	public.unix-executable	372.4	seld(8)	NULL
+/usr/libexec/sensingpredictd	-rwxr-xr-x 	0	0	3222974540	2026-10-31 00:06:50	public.unix-executable	NULL	sensingpredictd(8)	NULL
+/usr/libexec/seputil	-rwxr-xr-x 	0	0	638714370	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/seserviced	-rwxr-xr-x 	0	0	2743232617	2026-10-31 00:06:50	public.unix-executable	NULL	seserviced(1)	NULL
+/usr/libexec/sftp-server	-rwxr-xr-x 	0	0	1911631298	2026-10-31 00:06:50	public.unix-executable	369.60.3	sftp-server(8)	NULL
+/usr/libexec/sharereportingd	-rwxr-xr-x 	0	0	3108537095	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/sharingd	-rwxr-xr-x 	0	0	3092447562	2026-10-31 00:06:50	public.unix-executable	NULL	sharingd(8)	NULL
+/usr/libexec/signpost_reporter	-rwxr-xr-x 	0	0	3189846744	2026-10-31 00:06:50	public.unix-executable	NULL	signpost_reporter(8)	NULL
+/usr/libexec/siriknowledged	-rwxr-xr-x 	0	0	3974131517	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/siriusergroundingd	-rwxr-xr-x 	0	0	527995333	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/slapconfig-keygen	-rwxr-xr-x 	0	0	42261591	2026-10-31 00:06:50	public.unix-executable	369.60.3		NULL
+/usr/libexec/slapd	-rwxr-xr-x 	0	0	3377964814	2026-10-31 00:06:50	public.unix-executable	NULL	slapd(8)	NULL
+/usr/libexec/smb-migrate-preferences	-rwxr-xr-x 	0	0	195035727	2026-10-31 00:06:50	public.unix-executable	684.60.1		NULL
+/usr/libexec/smb-sync-preferences	-rwxr-xr-x 	0	0	1234815418	2026-10-31 00:06:50	public.unix-executable	684.60.1	smb-sync-preferences(8)	NULL
+/usr/libexec/smcDiagnose	-rwxr-xr-x 	0	0	3869605484	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/smcupdater	-rwxr-xr-x 	0	0	4194888586	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/smd	-rwxr-xr-x 	0	0	1992758459	2026-10-31 00:06:50	public.unix-executable	3298.60.14	smd(8)	NULL
+/usr/libexec/snmpd	-rwxr-xr-x 	0	0	3132199762	2026-10-31 00:06:50	public.unix-executable	NULL	snmpd(8)	NULL
+/usr/libexec/spatialpreviewd	-rwxr-xr-x 	0	0	3578527952	2026-10-31 00:06:50	public.unix-executable	34.40.2.0.1		NULL
+/usr/libexec/spinandd	-rwxr-xr-x 	0	0	187572249	2026-10-31 00:06:50	public.unix-executable	NULL	spinandd(8)	NULL
+/usr/libexec/spindump_agent	-rwxr-xr-x 	0	0	3746662774	2026-10-31 00:06:50	public.unix-executable	454.2	spindump_agent(8)	NULL
+/usr/libexec/sportsd	-rwxr-xr-x 	0	0	1610855672	2026-10-31 00:06:50	public.unix-executable	239		NULL
+/usr/libexec/spotlightknowledged.graph	-rwxr-xr-x 	0	0	4243217692	2026-10-31 00:06:50	public.unix-executable			NULL
+/usr/libexec/spotlightknowledged.importer	-rwxr-xr-x 	0	0	4167315440	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/spotlightknowledged.updater	-rwxr-xr-x 	0	0	2310569660	2026-10-31 00:06:50	public.unix-executable			NULL
+/usr/libexec/srp-mdns-proxy	-rwxr-xr-x 	0	0	4123122183	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/ssh-apple-pkcs11	-rwxr-xr-x 	0	0	542044001	2026-10-31 00:06:50	public.unix-executable	369.60.3		NULL
+/usr/libexec/ssh-keysign	-rwxr-xr-x 	0	0	645001785	2026-10-31 00:06:50	public.unix-executable	369.60.3	ssh-keysign(8)	NULL
+/usr/libexec/ssh-pkcs11-helper	-rwxr-xr-x 	0	0	2789699395	2026-10-31 00:06:50	public.unix-executable	369.60.3	ssh-pkcs11-helper(8)	NULL
+/usr/libexec/ssh-sk-helper	-rwxr-xr-x 	0	0	3780026211	2026-10-31 00:06:50	public.unix-executable	369.60.3	ssh-sk-helper(8)	NULL
+/usr/libexec/sshd-auth	-rwxr-xr-x 	0	0	4093294980	2026-10-31 00:06:50	public.unix-executable	369.60.3		NULL
+/usr/libexec/sshd-keygen-wrapper	-rwxr-xr-x 	0	0	3083899752	2026-10-31 00:06:50	public.unix-executable	369.60.3		NULL
+/usr/libexec/sshd-session	-rwxr-xr-x 	0	0	1623646780	2026-10-31 00:06:50	public.unix-executable	369.60.3		NULL
+/usr/libexec/startupdiskhelper	-rwxr-xr-x 	0	0	1227094644	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/storagekitd	-rwxr-xr-x 	0	0	3304063635	2026-10-31 00:06:50	public.unix-executable	NULL	storagekitd(8)	NULL
+/usr/libexec/studentd	-rwxr-xr-x 	0	0	1049114728	2026-10-31 00:06:50	public.unix-executable	NULL	studentd(8)	NULL
+/usr/libexec/swcd	-rwxr-xr-x 	0	0	2145659265	2026-10-31 00:06:50	public.unix-executable	NULL	swcd(8)	NULL
+/usr/libexec/swift/swift-backtrace	-rwxr-xr-x 	0	0	3090012083	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/swiftuitraced	-rwxr-xr-x 	0	0	4122931696	2026-10-31 00:06:50	public.unix-executable	NULL	swiftuitraced(8)	NULL
+/usr/libexec/swtransparency-sysdiagnose	-rwxr-xr-x 	0	0	2700257179	2026-10-31 00:06:50	public.unix-executable	NULL	swtransparency-sysdiagnose(1)	NULL
+/usr/libexec/swtransparencyd	-rwxr-xr-x 	0	0	3389490744	2026-10-31 00:06:50	public.unix-executable	NULL	swtransparencyd(8)	NULL
+/usr/libexec/symptomsd	-rwxr-xr-x 	0	0	3661010263	2026-10-31 00:06:50	public.unix-executable	2394.60.10	symptomsd(8)	NULL
+/usr/libexec/symptomsd-diag	-rwxr-xr-x 	0	0	621283386	2026-10-31 00:06:50	public.unix-executable	4		NULL
+/usr/libexec/symptomsd-distributed	-rwxr-xr-x 	0	0	794088146	2026-10-31 00:06:50	public.unix-executable	NULL	symptomsd-distributed(8)	NULL
+/usr/libexec/sysdiagnose_helper	-rwxr-xr-x 	0	0	3562581503	2026-10-31 00:06:50	public.unix-executable	1598.60.5	sysdiagnose_helper(8)	NULL
+/usr/libexec/sysdiagnosed	-rwxr-xr-x 	0	0	2340172190	2026-10-31 00:06:50	public.unix-executable	1598.60.5	sysdiagnosed(8)	NULL
+/usr/libexec/sysmond	-rwxr-xr-x 	0	0	2077466591	2026-10-31 00:06:50	public.unix-executable	135	sysmond(8)	NULL
+/usr/libexec/syspolicyd	-rwxr-xr-x 	0	0	1310271351	2026-10-31 00:06:50	public.unix-executable	823.60.4	syspolicyd(8)	NULL
+/usr/libexec/sysstatuscheck	-rwxr-xr-x 	0	0	3771242430	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/systemstats_boot	-rwxr-xr-x 	0	0	1887151500	2026-10-31 00:06:50	public.unix-executable	515.40.2	systemstats_boot(8)	NULL
+/usr/libexec/tailspind	-rwxr-xr-x 	0	0	2845810792	2026-10-31 00:06:50	public.unix-executable	268.1	tailspind(8)	NULL
+/usr/libexec/taskgated	-rwxr-xr-x 	0	0	703786520	2026-10-31 00:06:50	public.unix-executable	55186	taskgated(8)	NULL
+/usr/libexec/taskgated-helper	-rwxr-xr-x 	0	0	3319938757	2026-10-31 00:06:50	public.unix-executable	NULL	taskgated-helper(8)	NULL
+/usr/libexec/teslad	-rwxr-xr-x 	0	0	1961998329	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/testmanagerd	-rwxr-xr-x 	0	0	2451405448	2026-10-31 00:06:50	public.unix-executable	25509.1		NULL
+/usr/libexec/textcomposerd	-rwxr-xr-x 	0	0	3861425609	2026-10-31 00:06:50	public.unix-executable	1	textcomposerd(8)	NULL
+/usr/libexec/textcontextd	-rwxr-xr-x 	0	0	73612331	2026-10-31 00:06:50	public.unix-executable	41.14		NULL
+/usr/libexec/textunderstandingd	-rwxr-xr-x 	0	0	4223416318	2026-10-31 00:06:50	public.unix-executable	195.1	textunderstandingd(8)	NULL
+/usr/libexec/tftpd	-rwxr-xr-x 	0	0	2458961120	2026-10-31 00:06:50	public.unix-executable	310	tftpd(8)	NULL
+/usr/libexec/thermalmonitord	-rwxr-xr-x 	0	0	1354736228	2026-10-31 00:06:50	public.unix-executable	2087.60.5		NULL
+/usr/libexec/timed	-rwxr-xr-x 	0	0	2189423154	2026-10-31 00:06:50	public.unix-executable	340.0.14	timed(8)	NULL
+/usr/libexec/tipsd	-rwxr-xr-x 	0	0	4057703975	2026-10-31 00:06:50	public.unix-executable	866.3.1		NULL
+/usr/libexec/tmp_cleaner	-rwxr-xr-x 	0	0	33643414	2026-10-31 00:06:50	public.unix-executable	NULL	tmp_cleaner(8)	NULL
+/usr/libexec/toolkitd	-rwxr-xr-x 	0	0	3290795908	2026-10-31 00:06:50	public.unix-executable	NULL	toolkitd(1)	NULL
+/usr/libexec/tracd	-rwxr-xr-x 	0	0	4075131707	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/transparency-sysdiagnose	-rwxr-xr-x 	0	0	9831531	2026-10-31 00:06:50	public.unix-executable	NULL	transparency-sysdiagnose(1)	NULL
+/usr/libexec/transparencyStaticKey	-rwxr-xr-x 	0	0	2850833840	2026-10-31 00:06:50	public.unix-executable	NULL	transparencyStaticKey(8)	NULL
+/usr/libexec/transparencyd	-rwxr-xr-x 	0	0	3734539687	2026-10-31 00:06:50	public.unix-executable	NULL	transparencyd(8)	NULL
+/usr/libexec/triald	-rwxr-xr-x 	0	0	1074526967	2026-10-31 00:06:50	public.unix-executable	511.2.2		NULL
+/usr/libexec/triald_system	-rwxr-xr-x 	0	0	3606060848	2026-10-31 00:06:50	public.unix-executable	511.2.2		NULL
+/usr/libexec/trustd	-rwxr-xr-x 	0	0	1728562697	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	trustd(8)	NULL
+/usr/libexec/trustdFileHelper	-rwxr-xr-x 	0	0	2202064896	2026-10-31 00:06:50	public.unix-executable	62460.60.42.501.1	trustdFileHelper(8)	NULL
+/usr/libexec/tvremoted	-rwxr-xr-x 	0	0	1644286531	2026-10-31 00:06:50	public.unix-executable	NULL	tvremoted(8)	NULL
+/usr/libexec/tzd	-rwxr-xr-x 	0	0	4269029144	2026-10-31 00:06:50	public.unix-executable	16		NULL
+/usr/libexec/tzinit	-rwxr-xr-x 	0	0	3136115490	2026-10-31 00:06:50	public.unix-executable	90		NULL
+/usr/libexec/tzlinkd	-rwxr-xr-x 	0	0	4071187549	2026-10-31 00:06:50	public.unix-executable	78		NULL
+/usr/libexec/tznotify	-rwxr-xr-x 	0	0	3381372894	2026-10-31 00:06:50	public.unix-executable	90		NULL
+/usr/libexec/uarpassetmanagerd	-rwxr-xr-x 	0	0	3372645796	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/uarpd	-rwxr-xr-x 	0	0	4091551249	2026-10-31 00:06:50	public.unix-executable	NULL	uarpd(8)	NULL
+/usr/libexec/uarphidd	-rwxr-xr-x 	0	0	702689816	2026-10-31 00:06:50	public.unix-executable	NULL	uarphidd(8)	NULL
+/usr/libexec/uarppersonalizationd	-rwxr-xr-x 	0	0	1443023987	2026-10-31 00:06:50	public.unix-executable	NULL	uarppersonalizationd(8)	NULL
+/usr/libexec/undoServerAppDNSPrefs	-rwxr-xr-x 	0	0	3109739809	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/upsshutdown	-rwxr-xr-x 	0	0	584752282	2026-10-31 00:06:50	public.unix-executable	NULL	upsshutdown(8)	NULL
+/usr/libexec/usbctelemetryd	-rwxr-xr-x 	0	0	3760946243	2026-10-31 00:06:50	public.unix-executable	NULL	usbctelemetryd(8)	NULL
+/usr/libexec/usbcupdater	-rwxr-xr-x 	0	0	592544814	2026-10-31 00:06:50	public.unix-executable	NULL	usbcupdater(8)	NULL
+/usr/libexec/usbnotificationagent	-rwxr-xr-x 	0	0	3786508649	2026-10-31 00:06:50	public.unix-executable	NULL	usbnotificationagent(8)	NULL
+/usr/libexec/usbpowerd	-rwxr-xr-x 	0	0	1232451246	2026-10-31 00:06:50	public.unix-executable	NULL	usbpowerd(8)	NULL
+/usr/libexec/usermanagerd	-rwxr-xr-x 	0	0	3085454052	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/usermanagerhelper	-rwxr-xr-x 	0	0	4104981340	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/videosubscriptionsd	-rwxr-xr-x 	0	0	1979654238	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/wallpaperexportd	-rwxr-xr-x 	0	0	2616485714	2026-10-31 00:06:50	public.unix-executable	313.2.3		NULL
+/usr/libexec/warmd	-rwxr-xr-x 	0	0	3165458762	2026-10-31 00:06:50	public.unix-executable	92		NULL
+/usr/libexec/warmd_agent	-rwxr-xr-x 	0	0	3646942701	2026-10-31 00:06:50	public.unix-executable	350	warmd_agent(8)	NULL
+/usr/libexec/watchdogd	-rwxr-xr-x 	0	0	7985259	2026-10-31 00:06:50	public.unix-executable	NULL	watchdogd(8)	NULL
+/usr/libexec/wfs/webdavsharing_mapper	-rwxr-xr-x 	0	0	2703610060	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/wfs/webdavsharing_virtual_root	-rwxr-xr-x 	0	0	487136200	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/wifiFirmwareLoader	-rwxr-xr-x 	0	0	189728020	2026-10-31 00:06:50	public.unix-executable	NULL	wifiFirmwareLoader(8)	NULL
+/usr/libexec/wifianalyticsd	-rwxr-xr-x 	0	0	830394200	2026-10-31 00:06:50	public.unix-executable	1		NULL
+/usr/libexec/wifip2pd	-rwxr-xr-x 	0	0	4045610956	2026-10-31 00:06:50	public.unix-executable	NULL	wifip2pd(8)	NULL
+/usr/libexec/wifivelocityd	-rwxr-xr-x 	0	0	122007590	2026-10-31 00:06:50	public.unix-executable	NULL	wifivelocityd(8)	NULL
+/usr/libexec/wspd	-rwxr-xr-x 	0	0	28570603	2026-10-31 00:06:50	public.unix-executable	684.60.1	wspd(8)	NULL
+/usr/libexec/x11-select	-rwxr-xr-x 	0	0	2911986733	2026-10-31 00:06:50	public.unix-executable	NULL		NULL
+/usr/libexec/xartstorageremoted	-rwxr-xr-x 	0	0	3688899933	2026-10-31 00:06:50	public.unix-executable	NULL	xartstorageremoted(8)	NULL
+/usr/libexec/xpcproxy	-rwxr-xr-x 	0	0	2809074062	2026-10-31 00:06:50	public.unix-executable	3298.60.14	xpcproxy(8)	NULL
+/usr/libexec/xpcroleaccountd	-rwxr-xr-x 	0	0	4222667961	2026-10-31 00:06:50	public.unix-executable	3298.60.14		NULL
+/usr/libexec/xprotectd	-rwxr-xr-x 	0	0	2554231739	2026-10-31 00:06:50	public.unix-executable	NULL	xprotectd(8)	NULL
+/usr/libexec/xscertd	-rwxr-xr-x 	0	0	984691447	2026-10-31 00:06:50	public.unix-executable	NULL	xscertd(8)	NULL
+/usr/libexec/xscertd-helper	-rwxr-xr-x 	0	0	799792794	2026-10-31 00:06:50	public.unix-executable	NULL	xscertd-helper(8)	NULL
