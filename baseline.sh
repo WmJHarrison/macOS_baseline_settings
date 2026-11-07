@@ -512,7 +512,7 @@ done < "${certTemp}"
 sheet="tcc_status";
 /bin/echo "Transparency, Consent, and Control" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\n' "Service" "Description" "macOS Support" "Interface" >> ${baselineFiles}_${sheet}.csv;
-for service in $(/Volumes/Baseline/strings /System/Library/PrivateFrameworks/TCC.framework/Support/tccd | /usr/bin/grep -iEo "^kTCCService.*" | /usr/bin/sed 's/kTCCService//' | /usr/bin/grep -v "All" | /usr/bin/sort -u | /usr/bin/tr "\012" "\040"); do
+for service in $(/Volumes/Source/strings /System/Library/PrivateFrameworks/TCC.framework/Support/tccd | /usr/bin/grep -iEo "^kTCCService.*" | /usr/bin/sed 's/kTCCService//' | /usr/bin/grep -v "All" | /usr/bin/sort -u | /usr/bin/tr "\012" "\040"); do
 	declare -a applicationBundleIDs=("${(f)$(/usr/bin/tccutil list -s ${service} 2>/dev/null | /usr/bin/sort)}");
 	if [ "${#applicationBundleIDs[@]}"-gt 1 ]; then
 		/bin/echo "Applications granted ${service}" >> ${baselineFiles}_${sheet}.csv;
@@ -526,50 +526,50 @@ done
 sheet="bin";
 /bin/echo "/bin" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "filepath" "mode" "fileowner" "filegroup" "cksum" "installdate" "type" "version" "manpage" "source" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db "SELECT * FROM executables WHERE filepath LIKE '/bin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011"  >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db "SELECT * FROM executables WHERE filepath LIKE '/bin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011"  >> ${baselineFiles}_${sheet}.csv;
 
 sheet="sbin";
 /bin/echo "/sbin" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "filepath" "mode" "fileowner" "filegroup" "cksum" "installdate" "type" "version" "manpage" "source" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db "SELECT * FROM executables WHERE filepath LIKE '/sbin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db "SELECT * FROM executables WHERE filepath LIKE '/sbin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 sheet="usrbin";
 /bin/echo "/usr/bin" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "filepath" "mode" "fileowner" "filegroup" "cksum" "installdate" "type" "version" "manpage" "source" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db "SELECT * FROM executables WHERE filepath LIKE '/usr/bin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db "SELECT * FROM executables WHERE filepath LIKE '/usr/bin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 sheet="usrsbin";
 /bin/echo "/usr/sbin" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "filepath" "mode" "fileowner" "filegroup" "cksum" "installdate" "type" "version" "manpage" "source" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db "SELECT * FROM executables WHERE filepath LIKE '/usr/sbin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db "SELECT * FROM executables WHERE filepath LIKE '/usr/sbin%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 sheet="usrlibexec";
 /bin/echo "/usr/libexec" >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "filepath" "mode" "fileowner" "filegroup" "cksum" "installdate" "type" "version" "manpage" "source" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db "SELECT * FROM executables WHERE filepath LIKE '/usr/libexec%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db "SELECT * FROM executables WHERE filepath LIKE '/usr/libexec%' ORDER BY filepath;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 # Authorization Services
 sheet="authorizationservices";
 /bin/echo "Authorization Services"  >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' "type" "name" "allow-root" "authenticate-user" "class" "comment" "created" "default-button" "default-prompt" "entitled" "entitled-group" "extract-password" "group" "identifier" "k-of-n" "mechanisms" "modified" "password-only" "require-apple-signed" "requirement" "rule" "session-owner" "shared" "timeout" "tries" "version" "vpn-entitled-group" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db "SELECT type, name, [allow-root], [authenticate-user], class, comment, created, [default-button], [default-prompt], entitled, [entitled-group], [extract-password], [group], identifier, [k-of-n], mechanisms, modified, [password-only], [require-apple-signed], requirement, rule, [session-owner], shared, timeout, tries, version, [vpn-entitled-group]  FROM authorization ORDER BY type, name;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db "SELECT type, name, [allow-root], [authenticate-user], class, comment, created, [default-button], [default-prompt], entitled, [entitled-group], [extract-password], [group], identifier, [k-of-n], mechanisms, modified, [password-only], [require-apple-signed], requirement, rule, [session-owner], shared, timeout, tries, version, [vpn-entitled-group]  FROM authorization ORDER BY type, name;" | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 # Application Firewall
 sheet="alf";
 /bin/echo "Application Firewall"  >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\n' "Application" "Alias" "BundleIdentifier" "State" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db 'SELECT * FROM alf' | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db 'SELECT * FROM alf' | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 # Critical Files
 sheet="critical";
 /bin/echo "Critical Files"  >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\n' "Path" "Permissions" "Owner" "Group" "Hash" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db 'SELECT * FROM criticalfiles' | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db 'SELECT * FROM criticalfiles' | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 # Set User ID on Execute
 sheet="suid";
 /bin/echo "Set User ID on Execute"  >> ${baselineFiles}_${sheet}.csv;
 /usr/bin/printf '%s\t%s\t%s\t%s\t%s\n' "File" "Hash" "Owner" "Description" >> ${baselineFiles}_${sheet}.csv;
-/usr/bin/sqlite3 /Volumes/Baseline/security.db 'SELECT * FROM suid' | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
+/usr/bin/sqlite3 /Volumes/Source/security.db 'SELECT * FROM suid' | /usr/bin/tr "\174" "\011" >> ${baselineFiles}_${sheet}.csv;
 
 exit 0;

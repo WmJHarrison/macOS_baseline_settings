@@ -1,12 +1,13 @@
 #!/bin/sh
 
 bom_from_dmg() {
-	installerVolumePath=$(/usr/bin/hdiutil attach "${installImage}" | /usr/bin/awk -F "  +" '/Apple_HFS/ { print $3 }' | /usr/bin/xargs);
-	installerVolume=$(/bin/echo "${installerVolumePath}" | /usr/bin/awk -F "/" '{ print $NF }');
-	installerDevice=$(/usr/sbin/diskutil list | /usr/bin/awk -v volname="${installerVolume:0:23}" '$0 ~ volname { print "/dev/"$NF }');
-	sharedSupportVolumePath=$(/usr/bin/find "/Volumes/${installerVolume}" -type f -iname 'SharedSupport.dmg' -exec /usr/bin/hdiutil attach {} \; | /usr/bin/awk -F "  +" '/Apple_HFS/ { print $3 }' | /usr/bin/xargs);
-	sharedSupportVolume=$(/bin/echo "${sharedSupportVolumePath}" | /usr/bin/awk -F "/" '{ print $NF }');
-	sharedSupportDevice=$(/usr/sbin/diskutil list | /usr/bin/awk -v volname="${sharedSupportVolume:0:23}" '$0 ~ volname { print "/dev/"$NF }');
+	installerVolumeInfo=$(/usr/sbin/diskutil image attach "${installImage}");
+	installerDevice=$(/bin/echo "${installerVolumeInfo}" | /usr/bin/awk '{ print $1 }');
+	installerVolumePath=$(/bin/echo "${installerVolumeInfo}" | /usr/bin/awk -F '[[:space:]][[:space:]]+' '{ print $NF }');
+	installerAppPath=$(/usr/bin/find "${installerVolumePath}" -type d -iname '*.app');
+	sharedSupportVolumeInfo=$(/usr/sbin/diskutil image attach "${installerAppPath}/Contents/SharedSupport/SharedSupport.dmg" | /usr/bin/grep "Apple_HFS");
+	sharedSupportVolumePath$(/bin/echo "${sharedSupportVolumeInfo}" | /usr/bin/awk -F "Apple_HFS  +" '{ print $NF }' | /usr/bin/xargs);
+	sharedSupportDevice=$(/bin/echo "${sharedSupportVolumeInfo}" | /usr/bin/awk '{ print $1 }');
 	assetDataArchive=$(/usr/bin/find "${sharedSupportVolumePath}" -type f -iname '*.zip' | /usr/bin/grep -v 'MacUpdateBrain');
 	assetDataDir=$(/usr/bin/basename -s .zip "${assetDataArchive}");
 	/bin/mkdir "${assetDataDir}";
@@ -15,9 +16,9 @@ bom_from_dmg() {
 	/usr/bin/defaults read "$PWD/${assetDataDir}/AssetData/boot/BuildManifest.plist" SupportedProductTypes SupportedProductTypes | /usr/bin/awk -F "\042" '{ print $2 }' >> /Volumes/Source/SupportedModels;
 	/bin/rm -rf "${assetDataDir}";
 	/usr/sbin/diskutil unmount force "${sharedSupportVolumePath}";
-	/usr/bin/hdiutil detach "${sharedSupportDevice}";
+	/usr/sbin/diskutil unmountDisk "${sharedSupportDevice}";
 	/usr/sbin/diskutil unmount force "${installerVolumePath}";
-	/usr/bin/hdiutil detach "${installerDevice}";
+	/usr/sbin/diskutil unmountDisk "${installerDevice}";
 }
 
 bom_from_ipsw() {
@@ -34,7 +35,7 @@ bom_from_ipsw() {
 		buildManifestPropertyList=$(/usr/bin/find . -depth 1 -name 'BuildManifest.plist');
 		/usr/bin/defaults read "$PWD/${buildManifestPropertyList}" SupportedProductTypes | /usr/bin/awk -F "\042" '{ print $2 }' >> /Volumes/Source/SupportedModels;
 		/usr/sbin/diskutil unmount force /Volumes/Macintosh\ HD\ 1;
-		/usr/bin/hdiutil detach "${systemImageDevice}";
+		/usr/sbin/diskutil unmountDisk "${systemImageDevice}";
 		popd
 		/bin/rm -rf InstallComponents;
 	else
@@ -47,9 +48,9 @@ bom_from_package() {
 	installerPath=$(/usr/sbin/pkgutil --payload-files "${installImage}" | /usr/bin/grep -E '.app$' | /usr/bin/cut -c 2-);
 	/usr/sbin/installer -target / -pkg "${installImage}";
 	if [ $? -eq 0 ]; then
-		sharedSupportVolumePath=$(/usr/bin/hdiutil attach -noverify "${installerPath}/Contents/SharedSupport/SharedSupport.dmg" | /usr/bin/awk -F "  +" '/Apple_HFS/ { print $3 }' | /usr/bin/xargs);
-		sharedSupportVolume=$(/bin/echo "${sharedSupportVolumePath}" | /usr/bin/awk -F "/" '{ print $NF }');
-		sharedSupportDevice=$(/usr/sbin/diskutil list | /usr/bin/awk -v volname="${sharedSupportVolume:0:23}" '$0 ~ volname { print "/dev/"$NF }');
+		sharedSupportVolumeInfo=$(/usr/sbin/diskutil image attach "${installerPath}/Contents/SharedSupport/SharedSupport.dmg" | /usr/bin/grep "Apple_HFS");
+		sharedSupportVolumePath$(/bin/echo "${sharedSupportVolumeInfo}" | /usr/bin/awk -F "Apple_HFS  +" '{ print $NF }' | /usr/bin/xargs)
+		sharedSupportDevice=$(/bin/echo "${sharedSupportVolumeInfo}" | /usr/bin/awk '{ print $1 }')
 		assetDataArchive=$(/usr/bin/find "${sharedSupportVolumePath}" -type f -iname '*.zip' | /usr/bin/grep -v 'MacUpdateBrain');
 		assetDataDir=$(/usr/bin/basename -s .zip "${assetDataArchive}");
 		/bin/mkdir "${assetDataDir}";
@@ -58,7 +59,7 @@ bom_from_package() {
 		/usr/bin/defaults read "$PWD/${assetDataDir}/AssetData/boot/BuildManifest.plist" SupportedProductTypes SupportedProductTypes | /usr/bin/awk -F "\042" '{ print $2 }' >> /Volumes/Source/SupportedModels;
 		/bin/rm -rf "${assetDataDir}";
 		/usr/sbin/diskutil unmount force "${sharedSupportVolumePath}";
-		/usr/bin/hdiutil detach "${sharedSupportDevice}";
+		/usr/sbin/diskutil unmountDisk "${sharedSupportDevice}";
 		/bin/rm -rf "${installerPath}";
 	fi
 }
@@ -75,10 +76,10 @@ fi
 
 # Create Source Image
 # Make 500 MB disk image
-/usr/bin/hdiutil create -type UDIF -size 500m -layout GPTSPUD -fs HFS+J -volname Source -uid 0 -gid 0 -mode 1777 Source.dmg;
+/usr/sbin/diskutil image create blank --format UDSB --size 500m --volumeName Source -fs APFS Source.dmg;
 if [ $? -eq 0 ]; then
-	/usr/bin/hdiutil attach -owners on Source.dmg;
-	sourceDevice=$(/usr/sbin/diskutil list | /usr/bin/awk '/Source/ { print "/dev/"$NF }');
+	sourceDevice=$(/usr/sbin/diskutil image attach Source.dmg | /usr/bin/awk '/Source/ { print $1 }');
+	/usr/sbin/diskutil enableOwnership "${sourceDevice}";
 	/usr/bin/touch /Volumes/Source/.com.apple.timemachine.donotpresent; # Don't prompt to use as Time Machine backup
 	/usr/bin/touch /Volumes/Source/.metadata_never_index; # Disable Spotlight indexing
 	/usr/sbin/chown root:wheel /Volumes/Source/.*;
@@ -91,9 +92,10 @@ if [ $? -eq 0 ]; then
 	/bin/cp /Library/Developer/CommandLineTools/usr/bin/GetFileInfo /Volumes/Source/GetFileInfo;
 	# Copy script
 	/bin/cp "${workingDirectory}/macOSDeepInspection.sh" /Volumes/Source/macOSDeepInspection.sh;
-	
+	/bin/cp "${workingDirectory}/baseline.sh" /Volumes/Source/baseline.sh;
+
 	# Copy Reference Database
-	/bin/cp "${workingDirectory}/reference_data.db /Volumes/Source/reference_data.db;
+	/bin/cp "${workingDirectory}/reference_data.db" /Volumes/Source/reference_data.db;
 	
 	# Copy Bom file
 	case $installerType in
@@ -113,7 +115,7 @@ if [ $? -eq 0 ]; then
 
 	# Dismount disk image
 	/usr/sbin/diskutil unmount force /Volumes/Source;
-	/usr/bin/hdiutil detach "${sourceDevice}";
+	/usr/sbin/diskutil unmountDisk "${sourceDevice}";
 else
 	exit 1;
 fi
